@@ -161,61 +161,92 @@
 	</elem>
 	<elem id="23" glyph='V' name="ванадий" pos="6,3" color="blue" formula='1d&3'>
         <nuc mass='49' formula='2*s*2+3*p*2+1*d*3:1*s*2+3*p*2+1*d*4' zaryad="25" raspad='бета-плюс'></nuc>
-        <nuc mass='50' formula='3*s*1+3*p*2+1*d*3:2*s*1+3*p*2+1*d*3' zaryad="26" raspad='бета-плюс'></nuc>
-        <nuc mass='50' formula='2*s*1+3*p*2+1*d*3:2*s*1+3*p*3+1*d*4' zaryad="24" raspad='бета-минус'></nuc>
+        <nuc mass='50' formula='3*s*1+3*p*2+1*d*3:2*s*1+3*p*2+1*d*3' zaryad="26" raspad='бета-плюс' prefix="(1)"></nuc>
+        <nuc mass='50' formula='2*s*1+3*p*2+1*d*3:2*s*1+3*p*3+1*d*4' zaryad="24" raspad='бета-минус' prefix="(2)"></nuc>
         <nuc mass='51' formula='2*s*2+3*p*2+1*d*3:2*s*2+3*p*2+1*d*4' zaryad="25" raspad='стабильный'></nuc>
         <nuc mass='52' formula='2*s*2+3*p*2+1*d*3:2*s*2+3*p*3+1*d*4' zaryad="25" raspad='бета-минус'></nuc>
-	    
-	    
 	</elem>
 	<elem id="24" glyph='Cr' name="хром" pos="7,3" color="blue" formula='1d&4'>
-                <nuc mass='50' formula='2*s*1+3*p*2+1*d*4:2*s*1+3*p*2+1*d*4' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='52' formula='2*s*2+3*p*2+1*d*4:2*s*2+3*p*2+1*d*4' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='53' formula='2*s*2+3*p*2+1*d*4:2*s*2+3*p*3+1*d*4' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='54' formula='3*s*1+3*p*2+1*d*4:3*s*1+3*p*2+1*d*4' zaryad="0" raspad='стабильный'></nuc>
+        <nuc mass='49' formula='2*s*1+3*p*2+1*d*4:1*s*1+3*p*2+1*d*4' zaryad="25" raspad='бета-плюс'></nuc>
+        <nuc mass='50' formula='2*s*1+3*p*2+1*d*4:2*s*1+3*p*2+1*d*4' zaryad="25" raspad='стабильный'></nuc>
+        <nuc mass='51' formula='2*s*2+3*p*2+1*d*4:2*s*1+3*p*2+1*d*4' zaryad="26" raspad='бета-плюс'></nuc>
+        <nuc mass='52' formula='2*s*2+3*p*2+1*d*4:2*s*2+3*p*2+1*d*4' zaryad="26" raspad='стабильный'></nuc>
+        <nuc mass='53' formula='2*s*2+3*p*2+1*d*4:2*s*2+3*p*3+1*d*4' zaryad="26" raspad='стабильный'></nuc>
+        <nuc mass='54' formula='3*s*1+3*p*2+1*d*4:3*s*1+3*p*2+1*d*4' zaryad="27" raspad='стабильный'></nuc>
+        <nuc mass='55' formula='2*s*2+3*p*2+1*d*4:2*s*2+3*p*3+1*d*6' zaryad="26" raspad='бета-минус'></nuc>
 	</elem>
 	<elem id="25" glyph='Mn' name="марганец" pos="8,3" color="blue" formula='1d&5'>
-	        <nuc mass='55' formula='2*s*2+3*p*2+1*d*5:2*s*2+3*p*2+1*d*6' zaryad="0" raspad='стабильный'></nuc>
+	    <nuc mass='54' formula='3*s*1+3*p*2+1*d*5:2*s*1+3*p*2+1*d*5' zaryad="28" raspad='бета-плюс' prefix="(1)"></nuc>
+	    <nuc mass='55' formula='2*s*2+3*p*2+1*d*5:2*s*2+3*p*2+1*d*6' zaryad="27" raspad='стабильный'></nuc>
+	    <nuc mass='56' formula='2*s*2+3*p*2+1*d*5:2*s*2+3*p*3+1*d*6' zaryad="27" raspad='бета-минус'></nuc>
 	</elem>
 	<elem id="26" glyph='Fe' name="железо" pos="9,3" color="blue" formula='1d&6'>
-                <nuc mass='54' formula='2*s*1+3*p*2+1*d*6:2*s*1+3*p*2+1*d*6' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='56' formula='2*s*2+3*p*2+1*d*6:2*s*2+3*p*2+1*d*6' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='57' formula='2*s*2+3*p*2+1*d*6:2*s*2+3*p*3+1*d*6' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='58' formula='3*s*1+3*p*2+1*d*6:3*s*1+3*p*2+1*d*6' zaryad="0" raspad='стабильный'></nuc>
+        <nuc mass='53' formula='2*s*1+3*p*2+1*d*6:1*s*2+3*p*2+1*d*6' zaryad="27" raspad='бета-плюс'></nuc>
+        <nuc mass='54' formula='2*s*1+3*p*2+1*d*6:2*s*1+3*p*2+1*d*6' zaryad="27" raspad='стабильный'></nuc>
+        <nuc mass='55' formula='2*s*2+3*p*2+1*d*6:2*s*1+3*p*2+1*d*6' zaryad="28" raspad='бета-плюс'></nuc>
+        <nuc mass='56' formula='2*s*2+3*p*2+1*d*6:2*s*2+3*p*2+1*d*6' zaryad="28" raspad='стабильный'></nuc>
+        <nuc mass='57' formula='2*s*2+3*p*2+1*d*6:2*s*2+3*p*3+1*d*6' zaryad="28" raspad='стабильный'></nuc>
+        <nuc mass='58' formula='3*s*1+3*p*2+1*d*6:3*s*1+3*p*2+1*d*6' zaryad="29" raspad='стабильный'></nuc>
+        <nuc mass='59' formula='2*s*2+3*p*2+1*d*6:2*s*2+3*p*3+1*d*8' zaryad="28" raspad='бета-минус'></nuc>
+	    
 	</elem>
 	<elem id="27" glyph='Co' name="кобальт" pos="10,3" color="blue" formula='1d&7'>
-	        <nuc mass='59' formula='2*s*2+3*p*2+1*d*7:2*s*2+3*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	    <nuc mass='58' formula='3*s*1+3*p*2+1*d*7:2*s*1+3*p*2+1*d*7' zaryad="30" raspad='бета-плюс'></nuc>
+	    <nuc mass='59' formula='2*s*2+3*p*2+1*d*7:2*s*2+3*p*2+1*d*8' zaryad="29" raspad='стабильный'></nuc>
+	    <nuc mass='58' formula='2*s*1+3*p*2+1*d*7:2*s*1+3*p*3+1*d*8' zaryad="28" raspad='бета-минус'></nuc>
 	</elem>
 	<elem id="28" glyph='Ni' name="никель" pos="11,3" color="blue" formula='1d&8'>
-                <nuc mass='58' formula='2*s*1+3*p*2+1*d*8:2*s*1+3*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='60' formula='2*s*2+3*p*2+1*d*8:2*s*2+3*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='61' formula='2*s*2+3*p*2+1*d*8:2*s*2+3*p*3+1*d*8' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='62' formula='3*s*1+3*p*2+1*d*8:3*s*1+3*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+        <nuc mass='57' formula='2*s*1+3*p*2+1*d*8:1*s*2+3*p*2+1*d*8' zaryad="29" raspad='бета-плюс'></nuc>
+        <nuc mass='58' formula='2*s*1+3*p*2+1*d*8:2*s*1+3*p*2+1*d*8' zaryad="29" raspad='стабильный'></nuc>
+        <nuc mass='59' formula='2*s*2+3*p*2+1*d*8:2*s*1+3*p*2+1*d*8' zaryad="30" raspad='бета-плюс'></nuc>
+        <nuc mass='60' formula='2*s*2+3*p*2+1*d*8:2*s*2+3*p*2+1*d*8' zaryad="30" raspad='стабильный'></nuc>
+        <nuc mass='61' formula='2*s*2+3*p*2+1*d*8:2*s*2+3*p*3+1*d*8' zaryad="30" raspad='стабильный'></nuc>
+        <nuc mass='62' formula='3*s*1+3*p*2+1*d*8:3*s*1+3*p*2+1*d*8' zaryad="31" raspad='стабильный'></nuc>
+        <nuc mass='63' formula='2*s*2+3*p*2+1*d*8:2*s*2+3*p*3+4*p*2+1*d*8' zaryad="30" raspad='бета-минус'></nuc>
+        <nuc mass='64' formula='3*s*2+3*p*2+1*d*8:3*s*2+3*p*2+1*d*8' zaryad="32" raspad='стабильный'></nuc>
+        <nuc mass='65' formula='3*s*1+3*p*2+1*d*8:3*s*1+3*p*3+4*p*2+1*d*8' zaryad="31" raspad='бета-минус'></nuc>
 	</elem>
 	<elem id="29" glyph='Cu' name="медь" pos="2,4" color="yellow" formula='4p&1'>
-	        <nuc mass='63' formula='2*s*2+3*p*2*4*p*1+1*d*8:2*s*2+3*p*2*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='65' formula='3*s*1+3*p*2*4*p*1+1*d*8:3*s*1+3*p*2*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	    <nuc mass='62' formula='3*s*1+3*p*2+4*p*1+1*d*8:2*s*1+3*p*2+4*p*1+1*d*8' zaryad="32" raspad='бета-плюс'></nuc>
+	    <nuc mass='63' formula='2*s*2+3*p*2+4*p*1+1*d*8:2*s*2+3*p*2+4*p*2+1*d*8' zaryad="31" raspad='стабильный'></nuc>
+	    <nuc mass='64' formula='3*s*2+3*p*2+4*p*1+1*d*8:2*s*2+3*p*2+4*p*1+1*d*8' zaryad="33" raspad='бета-плюс' prefix="(1)"></nuc>
+	    <nuc mass='64' formula='2*s*2+3*p*2+4*p*1+1*d*8:2*s*2+3*p*3+4*p*2+1*d*8' zaryad="31" raspad='бета-минус' prefix="(2)"></nuc>
+	    <nuc mass='65' formula='3*s*1+3*p*2+4*p*1+1*d*8:3*s*1+3*p*2+4*p*2+1*d*8' zaryad="32" raspad='стабильный'></nuc>
+	    <nuc mass='66' formula='3*s*1+3*p*2+4*p*1+1*d*8:3*s*1+3*p*3+4*p*2+1*d*8' zaryad="32" raspad='бета-минус'></nuc>
+	    
 	</elem>
 	<elem id="30" glyph='Zn' name="цинк" pos="3,4" color="yellow" formula='4p&2'>
-	        <nuc mass='64' formula='2*s*2+3*p*2*4*p*2+1*d*8:2*s*2+3*p*2*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='66' formula='3*s*1+3*p*2*4*p*2+1*d*8:3*s*1+3*p*2*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='67' formula='3*s*1+3*p*2*4*p*2+1*d*8:3*s*1+3*p*3*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='68' formula='3*s*2+3*p*2*4*p*2+1*d*8:3*s*2+3*p*2*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='70' formula='4*s*1+3*p*2*4*p*2+1*d*8:4*s*1+3*p*2*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+		<nuc mass='63' formula='2*s*2+3*p*2+4*p*2+1*d*8:2*s*1+3*p*2+4*p*2+1*d*8' zaryad="32" raspad='бета-плюс'></nuc>
+		<nuc mass='64' formula='2*s*2+3*p*2+4*p*2+1*d*8:2*s*2+3*p*2+4*p*2+1*d*8' zaryad="32" raspad='стабильный'></nuc>
+		<nuc mass='65' formula='3*s*1+3*p*2+4*p*2+1*d*8:2*s*2+3*p*2+4*p*2+1*d*8' zaryad="33" raspad='бета-плюс'></nuc>
+		<nuc mass='66' formula='3*s*1+3*p*2+4*p*2+1*d*8:3*s*1+3*p*2+4*p*2+1*d*8' zaryad="33" raspad='стабильный'></nuc>
+		<nuc mass='67' formula='3*s*1+3*p*2+4*p*2+1*d*8:3*s*1+3*p*3+4*p*2+1*d*8' zaryad="33" raspad='стабильный'></nuc>
+		<nuc mass='68' formula='3*s*2+3*p*2+4*p*2+1*d*8:3*s*2+3*p*2+4*p*2+1*d*8' zaryad="34" raspad='стабильный'></nuc>
+		<nuc mass='69' formula='3*s*1+3*p*2+4*p*2+1*d*8:3*s*1+3*p*5+4*p*2+1*d*8' zaryad="33" raspad='бета-минус'></nuc>
+		<nuc mass='70' formula='4*s*1+3*p*2+4*p*2+1*d*8:4*s*1+3*p*2+4*p*2+1*d*8' zaryad="35" raspad='стабильный'></nuc>
+		<nuc mass='71' formula='3*s*2+3*p*2+4*p*2+1*d*8:3*s*2+3*p*5+4*p*2+1*d*8' zaryad="35" raspad='бета-минус'></nuc>
 	</elem>
 	<elem id="31" glyph='Ga' name="галлий" pos="4,4" color="yellow" formula='3p&3'>
-	        <nuc mass='69' formula='3*s*1+3*p*3*4*p*2+1*d*8:3*s*1+3*p*4*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='71' formula='3*s*2+3*p*3*4*p*2+1*d*8:3*s*2+3*p*4*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+		<nuc mass='68' formula='3*s*2+3*p*3+4*p*2+1*d*8:2*s*2+3*p*3+4*p*2+1*d*8' zaryad="35" raspad='бета-плюс'></nuc>
+		<nuc mass='69' formula='3*s*1+3*p*3+4*p*2+1*d*8:3*s*1+3*p*4+4*p*2+1*d*8' zaryad="34" raspad='стабильный'></nuc>
+		<nuc mass='70' formula='3*s*1+3*p*3+4*p*2+1*d*8:3*s*1+3*p*5+4*p*2+1*d*8' zaryad="34" raspad='бета-минус' prefix="(1)"></nuc>
+		<nuc mass='70' formula='4*s*1+3*p*3+4*p*2+1*d*8:3*s*1+3*p*3+4*p*2+1*d*8' zaryad="36" raspad='бета-плюс' prefix="(2)"></nuc>
+		<nuc mass='71' formula='3*s*2+3*p*3+4*p*2+1*d*8:3*s*2+3*p*4+4*p*2+1*d*8' zaryad="35" raspad='стабильный'></nuc>
+		<nuc mass='72' formula='3*s*2+3*p*3+4*p*2+1*d*8:3*s*2+3*p*5+4*p*2+1*d*8' zaryad="35" raspad='бета-минус'></nuc>
 	</elem>
 	<elem id="32" glyph='Ge' name="германий" pos="5,4" color="yellow" formula='3p&4'>
-	        <nuc mass='70' formula='3*s*1+3*p*4*4*p*2+1*d*8:3*s*1+3*p*4*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='72' formula='3*s*2+3*p*4*4*p*2+1*d*8:3*s*2+3*p*4*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='73' formula='3*s*2+3*p*4*4*p*2+1*d*8:3*s*2+3*p*5*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='74' formula='4*s*1+3*p*4*4*p*2+1*d*8:4*s*1+3*p*4*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
-	        <nuc mass='76' formula='4*s*2+3*p*4*4*p*2+1*d*8:4*s*2+3*p*4*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	    <nuc mass='69' formula='3*s*1+3*p*4+4*p*2+1*d*8:2*s*2+3*p*4+4*p*2+1*d*8' zaryad="35" raspad='бета-плюс'></nuc>
+	    <nuc mass='70' formula='3*s*1+3*p*4+4*p*2+1*d*8:3*s*1+3*p*4+4*p*2+1*d*8' zaryad="35" raspad='стабильный'></nuc>
+	    <nuc mass='71' formula='3*s*2+3*p*4+4*p*2+1*d*8:3*s*1+3*p*4+4*p*2+1*d*8' zaryad="36" raspad='бета-плюс'></nuc>
+	    <nuc mass='72' formula='3*s*2+3*p*4+4*p*2+1*d*8:3*s*2+3*p*4+4*p*2+1*d*8' zaryad="36" raspad='стабильный'></nuc>
+	    <nuc mass='73' formula='3*s*2+3*p*4+4*p*2+1*d*8:3*s*2+3*p*5+4*p*2+1*d*8' zaryad="36" raspad='стабильный'></nuc>
+	    <nuc mass='74' formula='4*s*1+3*p*4+4*p*2+1*d*8:4*s*1+3*p*4+4*p*2+1*d*8' zaryad="37" raspad='стабильный'></nuc>
+	    <nuc mass='75' formula='3*s*2+3*p*4+4*p*2+1*d*8:3*s*2+3*p*7+4*p*2+1*d*8' zaryad="36" raspad='бета-минус'></nuc>
+	    <nuc mass='76' formula='4*s*2+3*p*4+4*p*2+1*d*8:4*s*2+3*p*4+4*p*2+1*d*8' zaryad="38" raspad='стабильный'></nuc>
+	    <nuc mass='77' formula='4*s*1+3*p*4+4*p*2+1*d*8:4*s*1+3*p*7+4*p*2+1*d*8' zaryad="37" raspad='бета-минус'></nuc>
 	</elem>
 	<elem id="33" glyph='As' name="мышьяк" pos="6,4" color="yellow" formula='3p&5'>
-	        <nuc mass='75' formula='3*s*2+3*p*5*4*p*2+1*d*8:3*s*2+3*p*6*4*p*2+1*d*8' pPosition='exception1'/>
+		<nuc mass='75' formula='' pPosition='exception1'/>
 	</elem>
 	<elem id="34" glyph='Se' name="селен" pos="7,4" color="yellow" formula='3p&6'>
 	        <nuc mass='74' formula='3*s*1+3*p*6*4*p*2+1*d*8:3*s*1+3*p*6*4*p*2+1*d*8' pPosition='exception2'/>

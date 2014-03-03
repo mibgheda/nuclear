@@ -8,7 +8,7 @@ package
 	import flash.xml.XMLNode;
 	import gs.*
 	import gs.easing.*
-	
+	import flash.geom.Rectangle;
 	/**
 	 * ...
 	 * @author mibgheda
@@ -28,6 +28,7 @@ package
 	private var oldY:Number
 	private var oldW:Number
 	private var oldH:Number
+	private var columns:int = 6;
 	
 	public function PopupWindow():void {
 		
@@ -60,20 +61,7 @@ package
 		count = 0
 		row = 0
 		
-		//уводим в ноль
 		
-		alpha = 0
-		
-		oldX = x
-		oldY = y
-		oldW = width
-		oldH = height
-		
-		x  = Main.stage.stageWidth / 2
-		y  = Main.stage.stageHeight /2
-		
-		width  = 1
-		height = 1
 		
 		
 		//настраиваем элемент	
@@ -96,8 +84,19 @@ package
 			PopUp(pop).sup.f.text = ""
 			PopUp(pop).sup.f_sup.text = ""
 		}
-		//выкатываем нуклиды
 		
+		/*if (data.nuc.length() < 10){
+			columns = 4;
+		} else {
+			columns = 6;
+		}*/
+		if (data.nuc.length() < 6) {
+			columns = 4;
+		} else {
+			columns = Math.floor(data.nuc.length() / 2)
+		}
+		
+		//выкатываем нуклиды
 		for each (var nuc:XML in data.nuc) {
 			pi = new PopUpItem(nuc, data)
 			
@@ -105,15 +104,33 @@ package
 			pi.x = row * 150
 			
 			count++
-			if (count > 4) {
+			
+			if (count > columns) {
 				count = 0
 				row++
 			}
 			container.addChild(pi)
 		}
 		
-		//показываем окно
-		//TweenFilterLite.to(PopUp(pop), 0.6, {alpha:1} );
+		PopUp(pop).bg.scale9Grid = new Rectangle(60, 60, 100, 100);
+		PopUp(pop).bg.height = Math.max(200, container.height + 80)
+		
+		
+		//уводим в ноль
+		
+		alpha = 0
+		
+		oldX = x
+		oldY = y
+		oldW = width
+		oldH = height
+		
+		x  = Main.stage.stageWidth / 2
+		y  = Main.stage.stageHeight /2
+		
+		width  = 1
+		height = 1
+		
 		show()
 	
 	}

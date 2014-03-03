@@ -38,6 +38,10 @@ package
 			Nuc(nuc).gly.elem_id.text = data.@zaryad
 			Nuc(nuc).gly.elem_name.text = parentdata.@glyph
 			Nuc(nuc).gly.elem_weight.text = data.@mass
+			if (data.@prefix != ''){
+				Nuc(nuc).gly.pref.text = data.@prefix
+			}
+			
 			
 			Nuc(nuc).gly.elem_weight.x = 23 + Nuc(nuc).gly.elem_name.textWidth;
 			/*
