@@ -1,0 +1,646 @@
+﻿<data>
+	<elem id="1" glyph='H' name="водород" pos="0,0" color="red" formula=''>
+	  <nuc mass='1' formula='1*s*1*:null'  zaryad="1" raspad='стабильный'></nuc>
+	  <nuc mass='2' formula='1*s*1:revert' zaryad="1" raspad='стабильный'></nuc>
+	  <nuc mass='3' formula='1*s*1:revert' zaryad="1" raspad='бета-минус'></nuc>
+	</elem>
+	<elem id="2" glyph='He' name="гелий" pos="0,1" color="red" formula=''>
+		<nuc mass='3' formula='1*s*2:null+1*s*1' zaryad="2" raspad='стабильный'></nuc>
+		<nuc mass='4' formula='1*s*2:null+1*p*2' zaryad="2" raspad='стабильный'></nuc>
+		<nuc mass='5' formula='1*s*2:1*s*2+1*p*1' zaryad="2" raspad='n+альфа'></nuc>
+	</elem>
+	<elem id="3" glyph='Li' name="литий" pos="2,1" color="yellow" formula='1p&1'>
+		<nuc mass='5' formula='1*s*2+1*p*1:1*s*1+1*p*1' zaryad="3" raspad='p+альфа'></nuc>
+		<nuc mass='6' formula='1*s*2+1*p*1:1*s*2+1*p*1' zaryad="3" raspad='стабильный'></nuc>
+		<nuc mass='7' formula='1*s*2+1*p*1:1*s*2+1*p*2' zaryad="3" raspad='стабильный'></nuc>
+		<nuc mass='8' formula='1*s*2+1*p*1:1*s*2+1*p*3' zaryad="3" raspad='бета-минус + 2 альфа'></nuc>
+
+	</elem>
+	<elem id="4" glyph='Be' name="бериллий" pos="3,1" color="yellow" formula='1p&2'>
+		<nuc mass='8'  formula='1*s*2+1*p*2:1*s*2+1*p*2' zaryad="4" raspad='2 альфа'></nuc>
+		<nuc mass='9'  formula='1*s*2+1*p*2:1*s*2+1*p*3' zaryad="4" raspad='стабильный'></nuc>
+		<nuc mass='10' formula='1*s*2+1*p*2:1*s*2+1*p*4' zaryad="4" raspad='бета-минус" '></nuc>
+	</elem>
+	<elem id="5" glyph='B' name="бор" pos="4,1" color="yellow" formula='1p&3'>
+		<nuc mass='9'  formula='1*s*2+2*s*2+1*p*2:1*s*2+1*p*2'	zaryad="5" raspad='p, альфа'></nuc>
+		<nuc mass='10' formula='1*s*2+1*p*3:1*s*2+1*p*3'		zaryad="5" raspad='стабильный'></nuc>
+		<nuc mass='11' formula='1*s*2+1*p*3:1*s*2+1*p*4'		zaryad="5" raspad='стабильный'></nuc>
+		<nuc mass='12' formula='1*s*2+1*p*3:1*s*2+1*p*5'		zaryad="5" raspad='бета-минус'></nuc>
+	</elem>
+	<elem id="6" glyph='C' name="углерод" pos="5,1" color="yellow" formula='1p&4'>
+		<nuc mass='11' formula='1*s*2+1*p*4:1*s*1+1*p*4' zaryad="6" raspad='бета-плюс'></nuc>
+		<nuc mass='12' formula='1*s*2+1*p*4:1*s*2+1*p*4' zaryad="6" raspad='стабильный'></nuc>
+		<nuc mass='13' formula='1*s*2+1*p*4:1*s*2+1*p*5' zaryad="6" raspad='стабильный'></nuc>
+		<nuc mass='14' formula='1*s*2+1*p*4:1*s*2+1*p*6' zaryad="6" raspad='бета-минус'></nuc>
+		
+	</elem>
+	<elem id="7" glyph='N' name="азот" pos="6,1" color="yellow" formula='1p&5'>
+		<nuc mass='13' formula='1*s*2+1*p*5:1*s*1+1*p*5' zaryad="7" raspad='бета-плюс'></nuc>
+		<nuc mass='14' formula='1*s*2+1*p*5:1*s*2+1*p*6' zaryad="7" raspad='стабильный'></nuc>
+		<nuc mass='15' formula='1*s*2+1*p*5:1*s*2+1*p*7' zaryad="7" raspad='стабильный'></nuc>
+		<nuc mass='16' formula='1*s*2+1*p*5:1*s*2+1*p*8' zaryad="7" raspad='бета-минус'></nuc>
+		
+	</elem>
+	<elem id="8" glyph='O' name="кислород" pos="7,1" color="yellow" formula='1p&6'>
+		<nuc mass='15' formula='1*s*2+1*p*6:1*s*1+1*p*6' zaryad="8" raspad='бета-плюс'></nuc>
+		<nuc mass='16' formula='1*s*2+1*p*6:1*s*2+1*p*6' zaryad="8" raspad='стабильный'></nuc>
+		<nuc mass='17' formula='1*s*2+1*p*6:1*s*2+1*p*7' zaryad="8" raspad='стабильный'></nuc>
+		<nuc mass='18' formula='2*s*1+1*p*6:2*s*1+1*p*6' zaryad="9" raspad='стабильный'></nuc>
+		<nuc mass='19' formula='1*s*2+1*p*6:1*s*2+2*p*1' zaryad="8" raspad='бета-минус'></nuc>
+	</elem>
+	<elem id="9" glyph='F' name="фтор" pos="8,1" color="yellow" formula='1p&7'>
+		<nuc mass='18' formula='2*s*1+1*p*7:1*s*2+1*p*7'	zaryad="10" raspad='бета-плюс'></nuc>
+		<nuc mass='19' formula='1*s*2+1*p*7:1*s*2+1*p*8'	zaryad="9" raspad='стабильный'></nuc>
+		<nuc mass='20' formula='1*s*2+1*p*7:1*s*2+2*p*1'	zaryad="9" raspad='бета-минус'></nuc>
+	</elem>
+	<elem id="10" glyph='Ne' name="неон" pos="12,1" color="yellow" formula='1p&8'>
+		<nuc mass='19' formula='1*s*2+1*p*8:1*s*1+1*p*8' zaryad="10" raspad='бета-плюс'></nuc>
+		<nuc mass='20' formula='1*s*2+1*p*8:1*s*2+1*p*8' zaryad="10" raspad='стабильный'></nuc>
+		<nuc mass='21' formula='1*s*2+1*p*8:1*s*2+2*p*1' zaryad="10" raspad='стабильный'></nuc>
+		<nuc mass='22' formula='2*s*1+1*p*8:2*s*1+1*p*8' zaryad="11" raspad='стабильный'></nuc>
+		<nuc mass='23' formula='1*s*2+1*p*8:1*s*2+2*p*3' zaryad="10" raspad='бета-минус'></nuc>
+		
+		
+	</elem>
+	<elem id="11" glyph='Na' name="натрий" pos="2,2" color="yellow" formula='2p&1'>
+		<nuc mass='22' formula='2*s*1+2*p*1:1*s*1+2*p*1' zaryad="12" raspad='бета-плюс'></nuc>
+		<nuc mass='23' formula='1*s*2+2*p*1:1*s*2+2*p*2' zaryad="11" raspad='стабильный'></nuc>
+		<nuc mass='24' formula='1*s*2+2*p*1:1*s*2+2*p*3' zaryad="11" raspad='бета-минус'></nuc>
+	</elem>
+	<elem id="12" glyph='Mg' name="магний" pos="3,2" color="yellow" formula='2p&2'>
+		<nuc mass='23' formula='1*s*2+2*p*2:1*s*1+2*p*2'				zaryad="12" raspad='бета-плюс'></nuc>
+		<nuc mass='24' formula='1*s*2+2*p*2:1*s*2+2*p*2'				zaryad="12" raspad='стабильный'></nuc>
+		<nuc mass='25' formula='1*s*2+2*p*2:1*s*2+2*p*3' 				zaryad="12" raspad='стабильный'></nuc>
+		<nuc mass='26' formula='2*s*1+2*p*2:2*s*1+2*p*2'				zaryad="13" raspad='стабильный'></nuc>
+		<nuc mass='27' formula='1*s*2+2*p*2:1*s*2+2*p*5' 				zaryad="12" raspad='бета-минус'></nuc>
+		
+	</elem>
+	<elem id="13" glyph='Al' name="алюминий" pos="4,2" color="yellow" formula='2p&3'>
+		<nuc mass='26' formula='2*s*1+2*p*3:1*s*1+2*p*3' zaryad="14" raspad='бета-плюс'></nuc>
+		<nuc mass='27' formula='1*s*2+2*p*3:1*s*2+2*p*4' zaryad="13" raspad='стабильный'></nuc>
+		<nuc mass='28' formula='1*s*2+2*p*3:1*s*2+2*p*5' zaryad="13" raspad='бета-минус'></nuc>
+	</elem>
+	<elem id="14" glyph='Si' name="кремний" pos="5,2" color="yellow" formula='2p&4'>
+		<nuc mass='27' formula='1*s*2+2*p*4:1*s*1+2*p*4'	zaryad="14" raspad='бета-плюс'></nuc>
+		<nuc mass='28' formula='1*s*2+2*p*4:1*s*2+2*p*4'	zaryad="14" raspad='стабильный'></nuc>
+		<nuc mass='29' formula='1*s*2+2*p*4:1*s*2+2*p*5' 	zaryad="14" raspad='стабильный'></nuc>
+		<nuc mass='30' formula='2*s*1+2*p*4:2*s*1+2*p*4'	zaryad="15" raspad='стабильный'></nuc>
+		<nuc mass='31' formula='1*s*2+2*p*4:1*s*2+2*p*7'	zaryad="14" raspad='бета-минус'></nuc>
+		
+	</elem>
+	<elem id="15" glyph='P' name="фосфор" pos="6,2" color="yellow" formula='2p&5'>
+		<nuc mass='30' formula='2*s*1+2*p*5:1*s*1+2*p*5' zaryad="16" raspad='бета-плюс'></nuc>
+		<nuc mass='31' formula='1*s*2+2*p*5:1*s*2+2*p*6' zaryad="15" raspad='стабильный'></nuc>
+		<nuc mass='32' formula='1*s*2+2*p*5:1*s*2+2*p*7' zaryad="15" raspad='бета-минус'></nuc>
+	</elem>
+	<elem id="16" glyph='S' name="сера" pos="7,2" color="yellow" formula='2p&6'>
+		<nuc mass='31' formula='1*s*2+2*p*6:1*s*1+2*p*6'		zaryad="16" raspad='бета-плюс'></nuc>
+		<nuc mass='32' formula='1*s*2+2*p*6:1*s*2+2*p*6'		zaryad="16" raspad='стабильный'></nuc>
+		<nuc mass='33' formula='1*s*2+2*p*6:1*s*2+2*p*7'		zaryad="16" raspad='стабильный'></nuc>
+		<nuc mass='34' formula='2*s*1+2*p*6:2*s*1+2*p*6'		zaryad="17" raspad='стабильный'></nuc>
+		<nuc mass='35' formula='1*s*2+2*p*6:1*s*2+3*p*1'		zaryad="16" raspad='бета-минус'></nuc>
+		<nuc mass='36' formula='2*s*2+2*p*6:2*s*2+2*p*6'		zaryad="18" raspad='стабильный'></nuc>
+		<nuc mass='37' formula='2*s*1+2*p*6:2*s*1+3*p*1'		zaryad="17" raspad='бета-минус'></nuc>
+		
+	</elem>
+	<elem id="17" glyph='Cl' name="хлор" pos="8,2" color="yellow" formula='2p&7'>
+		<nuc mass='34' formula='2*s*1+2*p*7:1*s*1+2*p*7' zaryad="18" raspad='бета-плюс'></nuc>
+		<nuc mass='35' formula='1*s*2+2*p*7:1*s*2+2*p*8' zaryad="17" raspad='стабильный'></nuc>
+		<nuc mass='36' formula='1*s*2+2*p*7:1*s*2+3*p*1' zaryad="17" raspad='бета-минус' prefix="(1)"></nuc>
+		<nuc mass='36' formula='2*s*2+2*p*7:1*s*2+2*p*7' zaryad="19" raspad='бета-плюс' prefix="(2)"></nuc>
+		<nuc mass='37' formula='2*s*1+2*p*7:2*s*1+2*p*8' zaryad="18" raspad='стабильный'></nuc>
+		<nuc mass='38' formula='2*s*1+2*p*7:2*s*1+3*p*1' zaryad="18" raspad='бета-минус'></nuc>
+	</elem>
+	
+	<elem id="18" glyph='Ar' name="аргон" pos="12,2" color="yellow" formula='2p&8'>
+		<nuc mass='35' formula='1*s*2+2*p*8:1*s*1+2*p*8' zaryad="18" raspad='бета-плюс'></nuc>
+		<nuc mass='36' formula='1*s*2+2*p*8:1*s*2+2*p*8' zaryad="18" raspad='стабильный'></nuc>
+		<nuc mass='37' formula='2*s*1+2*p*8:1*s*2+2*p*8' zaryad="19" raspad='бета-плюс'></nuc>
+		<nuc mass='38' formula='2*s*1+2*p*8:2*s*1+2*p*8' zaryad="19" raspad='стабильный'></nuc>
+		<nuc mass='39' formula='1*s*2+2*p*8:1*s*2+3*p*3' zaryad="18" raspad='бета-минус'></nuc>
+		<nuc mass='40' formula='2*s*2+2*p*8:2*s*2+2*p*8' zaryad="20" raspad='стабильный'></nuc>
+		<nuc mass='41' formula='2*s*1+2*p*8:2*s*1+3*p*3' zaryad="19" raspad='бета-минус'></nuc>
+	</elem>
+	<elem id="19" glyph='K' name="калий" pos="2,3" color="yellow" formula='3p&1'>
+		<nuc mass='38' formula='2*s*1+3*p*1:1*s*1+3*p*1' zaryad="20" raspad='бета-плюс'></nuc>
+		<nuc mass='39' formula='1*s*2+3*p*1:1*s*2+3*p*2' zaryad="19" raspad='стабильный'></nuc>
+		<nuc mass='40' formula='1*s*2+3*p*1:1*s*2+3*p*3' zaryad="19" raspad='бета-минус' prefix="(1)"></nuc>
+		<nuc mass='40' formula='2*s*2+3*p*1:1*s*2+3*p*1' zaryad="21" raspad='бета-плюс' prefix="(2)"></nuc>
+		<nuc mass='41' formula='2*s*1+3*p*1:2*s*1+3*p*2' zaryad="20" raspad='стабильный'></nuc>
+		<nuc mass='42' formula='2*s*1+3*p*1:2*s*1+3*p*1' zaryad="20" raspad='бета-минус'></nuc>
+		
+	</elem>
+	<elem id="20" glyph='Ca' name="кальций" pos="3,3" color="yellow" formula='3p&2'>
+		<nuc mass='39' formula='1*s*2+3*p*2:1*s*1+3*p*2' zaryad="20" raspad='бета-плюс'></nuc>
+		<nuc mass='40' formula='1*s*2+3*p*2:1*s*2+3*p*2' zaryad="20" raspad='стабильный'></nuc>
+		<nuc mass='41' formula='2*s*1+3*p*2:1*s*2+3*p*2' zaryad="21" raspad='бета-плюс'></nuc>
+		<nuc mass='42' formula='2*s*1+3*p*2:2*s*1+3*p*2' zaryad="21" raspad='стабильный'></nuc>
+		<nuc mass='43' formula='2*s*1+3*p*2:2*s*1+3*p*3' zaryad="21" raspad='стабильный'></nuc>
+		<nuc mass='44' formula='2*s*2+3*p*2:2*s*2+3*p*2' zaryad="22" raspad='стабильный'></nuc>
+		<nuc mass='45' formula='2*s*1+3*p*2:2*s*1+3*p*3+1*d*2' zaryad="21" raspad='бета-минус'></nuc>
+		<nuc mass='46' formula='3*s*1+3*p*2:3*s*1+3*p*2' zaryad="23" raspad='стабильный'></nuc>
+		<nuc mass='47' formula='2*s*2+3*p*2:2*s*2+3*p*3+1*d*2' zaryad="22" raspad='бета-минус'></nuc>
+		<nuc mass='48' formula='3*s*2+3*p*2:3*s*2+3*p*2' zaryad="24" raspad='стабильный'></nuc>
+		<nuc mass='49' formula='3*s*1+3*p*2:3*s*1+3*p*3+1*d*2' zaryad="23" raspad='бета-минус'></nuc>
+	</elem>
+	<elem id="21" glyph='Sc' name="скандий" pos="4,3" color="blue" formula='1d&1'>
+		<nuc mass='44' formula='2*s*2+3*p*2+1*d*1:1*s*2+3*p*2+1*d*1' zaryad="23" raspad='бета-плюс'></nuc>
+		<nuc mass='45' formula='2*s*1+3*p*2+1*d*1:2*s*1+3*p*2+1*d*2' zaryad="22" raspad='стабильный'></nuc>
+		<nuc mass='46' formula='2*s*1+3*p*2+1*d*1:2*s*1+3*p*3+1*d*2' zaryad="22" raspad='бета-минус'></nuc>
+	</elem>
+	<elem id="22" glyph='Ti' name="титан" pos="5,3" color="blue" formula='1d&2'>
+		<nuc mass='45' formula='2*s*1+3*p*2+1*d*2:null' zaryad="23" raspad='бета-плюс'></nuc>
+		<nuc mass='46' formula='2*s*1+3*p*2+1*d*2:2*s*1+3*p*2+1*d*2' zaryad="23" raspad='стабильный'></nuc>
+		<nuc mass='47' formula='2*s*1+3*p*2+1*d*2:2*s*1+3*p*3+1*d*2' zaryad="23" raspad='стабильный'></nuc>
+		<nuc mass='48' formula='2*s*2+3*p*2+1*d*2:2*s*2+3*p*2+1*d*2' zaryad="24" raspad='стабильный'></nuc>
+		<nuc mass='49' formula='2*s*2+3*p*2+1*d*2:2*s*2+3*p*3+1*d*2' zaryad="24" raspad='стабильный'></nuc>
+		<nuc mass='50' formula='3*s*1+3*p*2+1*d*2:3*s*1+3*p*2+1*d*2' zaryad="25" raspad='стабильный'></nuc>
+		<nuc mass='51' formula='2*s*2+3*p*2+1*d*2:3*s*1+3*p*3+1*d*4' zaryad="24" raspad='бета-минус'></nuc>
+		
+		
+	</elem>
+	<elem id="23" glyph='V' name="ванадий" pos="6,3" color="blue" formula='1d&3'>
+        <nuc mass='49' formula='2*s*2+3*p*2+1*d*3:1*s*2+3*p*2+1*d*4' zaryad="25" raspad='бета-плюс'></nuc>
+        <nuc mass='50' formula='3*s*1+3*p*2+1*d*3:2*s*1+3*p*2+1*d*3' zaryad="26" raspad='бета-плюс'></nuc>
+        <nuc mass='50' formula='2*s*1+3*p*2+1*d*3:2*s*1+3*p*3+1*d*4' zaryad="24" raspad='бета-минус'></nuc>
+        <nuc mass='51' formula='2*s*2+3*p*2+1*d*3:2*s*2+3*p*2+1*d*4' zaryad="25" raspad='стабильный'></nuc>
+        <nuc mass='52' formula='2*s*2+3*p*2+1*d*3:2*s*2+3*p*3+1*d*4' zaryad="25" raspad='бета-минус'></nuc>
+	    
+	    
+	</elem>
+	<elem id="24" glyph='Cr' name="хром" pos="7,3" color="blue" formula='1d&4'>
+                <nuc mass='50' formula='2*s*1+3*p*2+1*d*4:2*s*1+3*p*2+1*d*4' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='52' formula='2*s*2+3*p*2+1*d*4:2*s*2+3*p*2+1*d*4' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='53' formula='2*s*2+3*p*2+1*d*4:2*s*2+3*p*3+1*d*4' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='54' formula='3*s*1+3*p*2+1*d*4:3*s*1+3*p*2+1*d*4' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="25" glyph='Mn' name="марганец" pos="8,3" color="blue" formula='1d&5'>
+	        <nuc mass='55' formula='2*s*2+3*p*2+1*d*5:2*s*2+3*p*2+1*d*6' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="26" glyph='Fe' name="железо" pos="9,3" color="blue" formula='1d&6'>
+                <nuc mass='54' formula='2*s*1+3*p*2+1*d*6:2*s*1+3*p*2+1*d*6' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='56' formula='2*s*2+3*p*2+1*d*6:2*s*2+3*p*2+1*d*6' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='57' formula='2*s*2+3*p*2+1*d*6:2*s*2+3*p*3+1*d*6' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='58' formula='3*s*1+3*p*2+1*d*6:3*s*1+3*p*2+1*d*6' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="27" glyph='Co' name="кобальт" pos="10,3" color="blue" formula='1d&7'>
+	        <nuc mass='59' formula='2*s*2+3*p*2+1*d*7:2*s*2+3*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="28" glyph='Ni' name="никель" pos="11,3" color="blue" formula='1d&8'>
+                <nuc mass='58' formula='2*s*1+3*p*2+1*d*8:2*s*1+3*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='60' formula='2*s*2+3*p*2+1*d*8:2*s*2+3*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='61' formula='2*s*2+3*p*2+1*d*8:2*s*2+3*p*3+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='62' formula='3*s*1+3*p*2+1*d*8:3*s*1+3*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="29" glyph='Cu' name="медь" pos="2,4" color="yellow" formula='4p&1'>
+	        <nuc mass='63' formula='2*s*2+3*p*2*4*p*1+1*d*8:2*s*2+3*p*2*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='65' formula='3*s*1+3*p*2*4*p*1+1*d*8:3*s*1+3*p*2*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="30" glyph='Zn' name="цинк" pos="3,4" color="yellow" formula='4p&2'>
+	        <nuc mass='64' formula='2*s*2+3*p*2*4*p*2+1*d*8:2*s*2+3*p*2*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='66' formula='3*s*1+3*p*2*4*p*2+1*d*8:3*s*1+3*p*2*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='67' formula='3*s*1+3*p*2*4*p*2+1*d*8:3*s*1+3*p*3*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='68' formula='3*s*2+3*p*2*4*p*2+1*d*8:3*s*2+3*p*2*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='70' formula='4*s*1+3*p*2*4*p*2+1*d*8:4*s*1+3*p*2*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="31" glyph='Ga' name="галлий" pos="4,4" color="yellow" formula='3p&3'>
+	        <nuc mass='69' formula='3*s*1+3*p*3*4*p*2+1*d*8:3*s*1+3*p*4*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='71' formula='3*s*2+3*p*3*4*p*2+1*d*8:3*s*2+3*p*4*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="32" glyph='Ge' name="германий" pos="5,4" color="yellow" formula='3p&4'>
+	        <nuc mass='70' formula='3*s*1+3*p*4*4*p*2+1*d*8:3*s*1+3*p*4*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='72' formula='3*s*2+3*p*4*4*p*2+1*d*8:3*s*2+3*p*4*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='73' formula='3*s*2+3*p*4*4*p*2+1*d*8:3*s*2+3*p*5*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='74' formula='4*s*1+3*p*4*4*p*2+1*d*8:4*s*1+3*p*4*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='76' formula='4*s*2+3*p*4*4*p*2+1*d*8:4*s*2+3*p*4*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="33" glyph='As' name="мышьяк" pos="6,4" color="yellow" formula='3p&5'>
+	        <nuc mass='75' formula='3*s*2+3*p*5*4*p*2+1*d*8:3*s*2+3*p*6*4*p*2+1*d*8' pPosition='exception1'/>
+	</elem>
+	<elem id="34" glyph='Se' name="селен" pos="7,4" color="yellow" formula='3p&6'>
+	        <nuc mass='74' formula='3*s*1+3*p*6*4*p*2+1*d*8:3*s*1+3*p*6*4*p*2+1*d*8' pPosition='exception2'/>
+	        <nuc mass='76' formula='3*s*2+3*p*6*4*p*2+1*d*8:3*s*2+3*p*6*4*p*2+1*d*8' pPosition='exception2'/>
+	        <nuc mass='77' formula='3*s*2+3*p*6*4*p*2+1*d*8:3*s*2+3*p*7*4*p*2+1*d*8' pPosition='exception2'/>
+	        <nuc mass='78' formula='4*s*1+3*p*6*4*p*2+1*d*8:4*s*1+3*p*6*4*p*2+1*d*8' pPosition='exception2'/>
+	        <nuc mass='80' formula='4*s*2+3*p*6*4*p*2+1*d*8:4*s*2+3*p*6*4*p*2+1*d*8' pPosition='exception2'/>
+	        <nuc mass='82' formula='5*s*1+3*p*6*4*p*2+1*d*8:5*s*1+3*p*6*4*p*2+1*d*8' pPosition='exception2'/>
+	</elem>
+	<elem id="35" glyph='Br' name="бром" pos="8,4" color="yellow" formula='3p&7'>
+	        <nuc mass='79' formula='3*s*2+3*p*7*4*p*2+1*d*8:3*s*2+3*p*8*4*p*2+1*d*8' pPosition='exception2'/>
+	        <nuc mass='81' formula='4*s*1+3*p*7*4*p*2+1*d*8:4*s*1+3*p*8*4*p*2+1*d*8' pPosition='exception2'/>
+	</elem>
+	<elem id="36" glyph='Kr' name="криптон" pos="12,4" color="yellow" formula='3p&8'>
+	        <nuc mass='78' formula='3*s*1+3*p*8*4*p*2+1*d*8:3*s*1+3*p*8*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='80' formula='3*s*2+3*p*8*4*p*2+1*d*8:3*s*2+3*p*8*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='82' formula='4*s*1+3*p*8*4*p*2+1*d*8:4*s*1+3*p*8*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='83' formula='4*s*1+3*p*8*4*p*2+1*d*8:4*s*1+3*p*8*4*p*3+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='84' formula='4*s*2+3*p*8*4*p*2+1*d*8:4*s*2+3*p*8*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='86' formula='5*s*1+3*p*8*4*p*2+1*d*8:5*s*1+3*p*8*4*p*2+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="37" glyph='Rb' name="рубидий" pos="2,5" color="yellow" formula='4p&3'>
+	        <nuc mass='85' formula='4*s*1+4*p*3+1*d*8:4*s*1+4*p*4+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='87' formula='4*s*2+4*p*3+1*d*8:4*s*2+4*p*4+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="38" glyph='Sr' name="стронций" pos="3,5" color="yellow" formula='4p&4'>
+	        <nuc mass='84' formula='3*s*2+4*p*4+1*d*8:3*s*2+4*p*4+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='86' formula='4*s*1+4*p*4+1*d*8:4*s*1+4*p*4+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='87' formula='4*s*1+4*p*4+1*d*8:4*s*1+4*p*5+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	        <nuc mass='88' formula='4*s*2+4*p*4+1*d*8:4*s*2+4*p*4+1*d*8' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="39" glyph='Y' name="иттрий" pos="4,5" color="blue" formula='1d&9'>
+	        <nuc mass='89' formula='4*s*1+4*p*4+1*d*9:4*s*1+4*p*4+1*d*10' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="40" glyph='Zr' name="цирконий" pos="5,5" color="blue" formula='1d&10'>
+		<nuc mass='90' formula='4*s*1+4*p*4+1*d*10:4*s*1+4*p*4+1*d*10'/>
+		<nuc mass='91' formula='4*s*1+4*p*4+1*d*10:4*s*1+4*p*5+1*d*10'/>
+		<nuc mass='92' formula='4*s*2+4*p*4+1*d*10:4*s*2+4*p*4+1*d*10'/>
+		<nuc mass='94' formula='5*s*1+4*p*4+1*d*10:5*s*1+4*p*4+1*d*10'/>
+		<nuc mass='96' formula='5*s*2+4*p*4+1*d*10:5*s*2+4*p*4+1*d*10'/>
+	</elem>
+	<elem id="41" glyph='Nb' name="ниобий" pos="6,5" color="blue" formula='1d&11'>
+		<nuc mass='93' formula='4*s*1+4*p*4+1*d*11:4*s*1+4*p*4+1*d*12'/>
+	</elem>
+	<elem id="42" glyph='Mo' name="молибден" pos="7,5" color="blue" formula='1d&12'>
+		<nuc mass='92' formula='3*s*2+4*p*4+1*d*12:3*s*2+4*p*4+1*d*12'/>
+		<nuc mass='94' formula='4*s*1+4*p*4+1*d*12:4*s*1+4*p*4+1*d*12'/>
+		<nuc mass='95' formula='4*s*1+4*p*4+1*d*12:4*s*1+4*p*5+1*d*12'/>
+		<nuc mass='96' formula='4*s*2+4*p*4+1*d*12:4*s*2+4*p*4+1*d*12'/>
+		<nuc mass='97' formula='4*s*2+4*p*4+1*d*12:4*s*2+4*p*5+1*d*12'/>
+		<nuc mass='98' formula='5*s*1+4*p*4+1*d*12:5*s*1+4*p*4+1*d*12'/>
+		<nuc mass='100' formula='5*s*2+4*p*4+1*d*12:5*s*2+4*p*4+1*d*12'/>	
+        </elem>
+	<elem id="43" glyph='Tc' name="технеций" pos="8,5" color="blue" formula='1d&13'>
+		<nuc mass='97' formula='4*s*2+4*p*4+1*d*13:3*s*2+4*p*4+1*d*14'radioactive='beta+'/>
+		<nuc mass='99' formula='4*s*1+4*p*4+1*d*13:4*s*2+4*p*6+1*d*14'radioactive='beta-'/>
+	</elem>
+	<elem id="44" glyph='Ru' name="рутений" pos="9,5" color="blue" formula='1d&14'>
+		<nuc mass='96' formula='3*s*2+4*p*4+1*d*14:3*s*2+4*p*4+1*d*14'/>
+		<nuc mass='98' formula='4*s*1+4*p*4+1*d*14:4*s*1+4*p*4+1*d*14'/>
+		<nuc mass='99' formula='4*s*1+4*p*4+1*d*14:4*s*1+4*p*5+1*d*14'/>
+		<nuc mass='100' formula='4*s*2+4*p*4+1*d*14:4*s*2+4*p*4+1*d*14'/>
+		<nuc mass='101' formula='4*s*2+4*p*4+1*d*14:4*s*2+4*p*5+1*d*14'/>
+		<nuc mass='102' formula='5*s*1+4*p*4+1*d*14:5*s*1+4*p*4+1*d*14'/>
+		<nuc mass='104' formula='5*s*2+4*p*4+1*d*14:5*s*2+4*p*4+1*d*14'/>
+	</elem>
+	<elem id="45" glyph='Rh' name="родий" pos="10,5" color="blue" formula='1d&15'>
+		<nuc mass='103' formula='4*s*2+4*p*4+1*d*15:4*s*2+4*p*4+1*d*16'/>
+	</elem>
+	<elem id="46" glyph='Pd' name="палладий" pos="11,5" color="blue" formula='1d&16'>
+		<nuc mass='102' formula='4*s*1+4*p*4+1*d*16:4*s*1+4*p*4+1*d*16'/>
+		<nuc mass='104' formula='4*s*2+4*p*4+1*d*16:4*s*2+4*p*4+1*d*16'/>
+		<nuc mass='105' formula='4*s*2+4*p*4+1*d*16:4*s*2+4*p*5+1*d*16'/>
+		<nuc mass='106' formula='5*s*1+4*p*4+1*d*16:5*s*1+4*p*4+1*d*16'/>
+		<nuc mass='108' formula='5*s*2+4*p*4+1*d*16:5*s*2+4*p*4+1*d*16'/>
+		<nuc mass='110' formula='6*s*1+4*p*4+1*d*16:6*s*1+4*p*4+1*d*16'/>
+	</elem>
+	<elem id="47" glyph='Ag' name="серебро" pos="2,6" color="yellow" formula='5p&1'>
+		<nuc mass='107' formula='4*s*2+4*p*4*5*p*1+1*d*16:4*s*2+4*p*4*5*p*2+1*d*16'/>
+		<nuc mass='109' formula='5*s*1+4*p*4*5*p*1+1*d*16:5*s*1+4*p*4*5*p*2+1*d*16'/>
+	</elem>
+	<elem id="48" glyph='Cd' name="кадмий" pos="3,6" color="yellow" formula='5p&2'>
+		<nuc mass='106' formula='4*s*1+4*p*4*5*p*2+1*d*16:4*s*1+4*p*4*5*p*2+1*d*16'/>
+		<nuc mass='108' formula='4*s*2+4*p*4*5*p*2+1*d*16:4*s*2+4*p*4*5*p*2+1*d*16'/>
+		<nuc mass='110' formula='5*s*1+4*p*4*5*p*2+1*d*16:5*s*1+4*p*4*5*p*2+1*d*16'/>
+		<nuc mass='111' formula='5*s*1+4*p*4*5*p*2+1*d*16:5*s*1+4*p*5*5*p*2+1*d*16'/>
+		<nuc mass='112' formula='5*s*2+4*p*4*5*p*2+1*d*16:5*s*2+4*p*4*5*p*2+1*d*16'/>
+		<nuc mass='113' formula='5*s*2+4*p*4*5*p*2+1*d*16:5*s*2+4*p*5*5*p*2+1*d*16'/>
+		<nuc mass='114' formula='6*s*1+4*p*4*5*p*2+1*d*16:6*s*1+4*p*4*5*p*2+1*d*16'/>
+		<nuc mass='116' formula='6*s*2+4*p*4*5*p*2+1*d*16:6*s*2+4*p*4*5*p*2+1*d*16'/>
+	</elem>
+	<elem id="49" glyph='In' name="индий" pos="4,6" color="yellow" formula='5p&3'>
+		<nuc mass='113' formula='5*s*1+4*p*4*5*p*3+1*d*16:5*s*1+4*p*4*5*p*4+1*d*16'/>
+		<nuc mass='115' formula='5*s*2+4*p*4*5*p*3+1*d*16:5*s*2+4*p*4*5*p*4+1*d*16'/>
+	</elem>
+	<elem id="50" glyph='Sn' name="олово" pos="5,6" color="yellow" formula='5p&4'>
+		<nuc mass='112' formula='4*s*2+4*p*4*5*p*4+1*d*16:4*s*2+4*p*4*5*p*4+1*d*16'/>
+		<nuc mass='114' formula='5*s*1+4*p*4*5*p*4+1*d*16:5*s*1+4*p*4*5*p*4+1*d*16'/>
+		<nuc mass='115' formula='5*s*1+4*p*4*5*p*4+1*d*16:5*s*1+4*p*5*5*p*4+1*d*16'/>
+		<nuc mass='116' formula='5*s*2+4*p*4*5*p*4+1*d*16:5*s*2+4*p*4*5*p*4+1*d*16'/>
+		<nuc mass='117' formula='5*s*2+4*p*4*5*p*4+1*d*16:5*s*2+4*p*5*5*p*4+1*d*16'/>
+		<nuc mass='118' formula='6*s*1+4*p*4*5*p*4+1*d*16:6*s*1+4*p*4*5*p*4+1*d*16'/>
+		<nuc mass='119' formula='6*s*1+4*p*4*5*p*4+1*d*16:6*s*1+4*p*5*5*p*4+1*d*16'/>
+		<nuc mass='120' formula='6*s*2+4*p*4*5*p*4+1*d*16:6*s*2+4*p*4*5*p*4+1*d*16'/>
+		<nuc mass='122' formula='7*s*1+4*p*4*5*p*4+1*d*16:7*s*1+4*p*4*5*p*4+1*d*16'/>
+		<nuc mass='124' formula='7*s*2+4*p*4*5*p*4+1*d*16:7*s*2+4*p*4*5*p*4+1*d*16'/>
+	</elem>
+	<elem id="51" glyph='Sb' name="сурьма" pos="6,6" color="yellow" formula='4p&5'>
+		<nuc mass='121' formula='6*s*1+4*p*5*5*p*4+1*d*16:6*s*1+4*p*6*5*p*4+1*d*16'/>
+		<nuc mass='123' formula='6*s*2+4*p*5*5*p*4+1*d*16:6*s*2+4*p*6*5*p*4+1*d*16'/>
+	</elem>
+	<elem id="52" glyph='Te' name="теллур" pos="7,6" color="yellow" formula='4p&6'>
+		<nuc mass='120' formula='5*s*2+4*p*6*5*p*4+1*d*16:5*s*2+4*p*6*5*p*4+1*d*16'/>
+		<nuc mass='122' formula='6*s*1+4*p*6*5*p*4+1*d*16:6*s*1+4*p*6*5*p*4+1*d*16'/>
+		<nuc mass='123' formula='6*s*1+4*p*6*5*p*4+1*d*16:6*s*1+4*p*7*5*p*4+1*d*16'/>
+		<nuc mass='124' formula='6*s*2+4*p*6*5*p*4+1*d*16:6*s*2+4*p*6*5*p*4+1*d*16'/>
+		<nuc mass='125' formula='6*s*2+4*p*6*5*p*4+1*d*16:6*s*2+4*p*7*5*p*4+1*d*16'/>
+		<nuc mass='126' formula='7*s*1+4*p*6*5*p*4+1*d*16:7*s*1+4*p*6*5*p*4+1*d*16'/>
+		<nuc mass='128' formula='7*s*2+4*p*6*5*p*4+1*d*16:7*s*2+4*p*6*5*p*4+1*d*16'/>
+		<nuc mass='130' formula='8*s*1+4*p*6*5*p*4+1*d*16:8*s*1+4*p*6*5*p*4+1*d*16'/>
+	</elem>
+	<elem id="53" glyph='I' name="йод" pos="8,6" color="yellow" formula='4p&7'>
+		<nuc mass='127' formula='6*s*2+4*p*7*5*p*4+1*d*16:6*s*2+4*p*8*5*p*4+1*d*16'/>
+	</elem>
+	<elem id="54" glyph='Xe' name="ксенон" pos="12,6" color="yellow" formula='4p&8'>
+		<nuc mass='124' formula='5*s*2+4*p*8*5*p*4+1*d*16:5*s*2+4*p*8*5*p*4+1*d*16'/>
+		<nuc mass='126' formula='6*s*1+4*p*8*5*p*4+1*d*16:6*s*1+4*p*8*5*p*4+1*d*16'/>
+		<nuc mass='128' formula='6*s*2+4*p*8*5*p*4+1*d*16:6*s*2+4*p*8*5*p*4+1*d*16'/>
+		<nuc mass='129' formula='6*s*2+4*p*8*5*p*4+1*d*16:6*s*2+4*p*8*5*p*5+1*d*16'/>
+		<nuc mass='130' formula='7*s*1+4*p*8*5*p*4+1*d*16:7*s*1+4*p*8*5*p*4+1*d*16'/>
+		<nuc mass='131' formula='7*s*1+4*p*8*5*p*4+1*d*16:7*s*1+4*p*8*5*p*5+1*d*16'/>
+		<nuc mass='132' formula='7*s*2+4*p*8*5*p*4+1*d*16:7*s*2+4*p*8*5*p*4+1*d*16'/>
+		<nuc mass='134' formula='8*s*1+4*p*8*5*p*4+1*d*16:8*s*1+4*p*8*5*p*4+1*d*16'/>		
+		<nuc mass='136' formula='8*s*2+4*p*8*5*p*4+1*d*16:8*s*2+4*p*8*5*p*4+1*d*16'/>	
+	</elem>
+	<elem id="55" glyph='Cs' name="цезий" pos="2,7" color="yellow" formula='6p&1'>
+		<nuc mass='133' formula='7*s*1+5*p*4*6*p*1+1*d*16:7*s*1+5*p*4*6*p*2+1*d*16'/>
+	</elem>
+	<elem id="56" glyph='Ba' name="барий" pos="3,7" color="yellow" formula='6p&2'>
+		<nuc mass='130' formula='6*s*1+5*p*4*6*p*2+1*d*16:6*s*1+5*p*4*6*p*2+1*d*16'/>
+		<nuc mass='132' formula='6*s*2+5*p*4*6*p*2+1*d*16:6*s*2+5*p*4*6*p*2+1*d*16'/>
+		<nuc mass='134' formula='7*s*1+5*p*4*6*p*2+1*d*16:7*s*1+5*p*4*6*p*2+1*d*16'/>
+		<nuc mass='135' formula='7*s*1+5*p*4*6*p*2+1*d*16:7*s*1+5*p*5*6*p*2+1*d*16'/>
+		<nuc mass='136' formula='7*s*2+5*p*4*6*p*2+1*d*16:7*s*2+5*p*4*6*p*2+1*d*16'/>
+		<nuc mass='137' formula='7*s*2+5*p*4*6*p*2+1*d*16:7*s*2+5*p*5*6*p*2+1*d*16'/>
+		<nuc mass='138' formula='8*s*1+5*p*4*6*p*2+1*d*16:8*s*1+5*p*4*6*p*2+1*d*16'/>
+	</elem>
+	<elem id="57" glyph='La' name="лантан" pos="4,7" color="yellow" formula='5p&5'>
+		<nuc mass='138' formula='8*s*1+5*p*5*6*p*2+1*d*16:7*s*1+5*p*5*6*p*2+1*d*16'radioactive='beta+'/>
+		<nuc mass='138' formula='7*s*2+5*p*5*6*p*2+1*d*16:7*s*2+5*p*5*6*p*2+1*d*16'/>
+		<nuc mass='138' formula='7*s*1+5*p*5*6*p*2+1*d*16:7*s*1+5*p*7*6*p*2+1*d*16'radioactive='beta-'/>
+		<nuc mass='139' formula='7*s*2+5*p*5*6*p*2+1*d*16:7*s*2+5*p*6*6*p*2+1*d*16'/>
+	</elem>
+	<elem id="58" glyph='Ce' name="церий" pos="5,7" color="yellow" formula='5p&6'>
+		<nuc mass='136' formula='6*s*2+5*p*6*6*p*2+1*d*16:6*s*2+5*p*6*6*p*2+1*d*16'/>
+		<nuc mass='138' formula='7*s*1+5*p*6*6*p*2+1*d*16:7*s*1+5*p*6*6*p*2+1*d*16'/>
+		<nuc mass='140' formula='7*s*2+5*p*6*6*p*2+1*d*16:7*s*2+5*p*6*6*p*2+1*d*16'/>
+		<nuc mass='142' formula='8*s*1+5*p*6*6*p*2+1*d*16:8*s*1+5*p*6*6*p*2+1*d*16'/>
+	</elem>
+	<elem id="59" glyph='Pr' name="празеодим" pos="6,7" color="blue" formula='2d&1'>
+		<nuc mass='141' formula='7*s*1+5*p*6*6*p*2+2*d*1:7*s*1+5*p*6*6*p*2+2*d*2' dPosition='exception'/>
+	</elem>
+	<elem id="60" glyph='Nd' name="неодим" pos="7,7" color="blue" formula='2d&2'>
+		<nuc mass='142' formula='7*s*1+5*p*6*6*p*2+2*d*2:7*s*1+5*p*6*6*p*2+2*d*2' dPosition='exception'/>
+		<nuc mass='143' formula='7*s*1+5*p*6*6*p*2+2*d*2:7*s*1+5*p*7*6*p*2+2*d*2' dPosition='exception'/>
+		<nuc mass='144' formula='7*s*2+5*p*6*6*p*2+2*d*2:7*s*2+5*p*6*6*p*2+2*d*2' dPosition='exception'/>
+		<nuc mass='145' formula='7*s*2+5*p*6*6*p*2+2*d*2:7*s*2+5*p*7*6*p*2+2*d*2' dPosition='exception'/>
+		<nuc mass='146' formula='8*s*1+5*p*6*6*p*2+2*d*2:8*s*1+5*p*6*6*p*2+2*d*2' dPosition='exception'/>
+		<nuc mass='148' formula='8*s*2+5*p*6*6*p*2+2*d*2:8*s*2+5*p*6*6*p*2+2*d*2' dPosition='exception'/>
+		<nuc mass='150' formula='9*s*1+5*p*6*6*p*2+2*d*2:9*s*1+5*p*6*6*p*2+2*d*2' dPosition='exception'/>
+	</elem>
+	<elem id="61" glyph='Pm' name="прометий" pos="8,7" color="blue" formula='2d&3'>
+		<nuc mass='145' formula='7*s*2+5*p*6*6*p*2+2*d*3:7*s*1+5*p*6*6*p*2+2*d*4'radioactive='beta+' dPosition='exception'/>
+		<nuc mass='147' formula='7*s*1+5*p*6*6*p*2+2*d*3:7*s*1+5*p*7*6*p*2+2*d*4'radioactive='beta-' dPosition='exception'/>
+	</elem>
+	<elem id="62" glyph='Sm' name="самарий" pos="9,7" color="blue" formula='2d&4'>
+		<nuc mass='144' formula='6*s*2+5*p*6*6*p*2+2*d*4:6*s*2+5*p*6*6*p*2+2*d*4' dPosition='exception'/>
+		<nuc mass='146' formula='6*s*1+5*p*6*6*p*2+2*d*4:5*s*2+5*p*8*6*p*3+2*d*4'radioactive='alpha' dPosition='exception'/>
+		<nuc mass='147' formula='7*s*1+5*p*6*6*p*2+2*d*4:7*s*1+5*p*7*6*p*2+2*d*4' dPosition='exception'/>
+		<nuc mass='148' formula='7*s*2+5*p*6*6*p*2+2*d*4:7*s*2+5*p*6*6*p*2+2*d*4' dPosition='exception'/>
+		<nuc mass='149' formula='7*s*2+5*p*6*6*p*2+2*d*4:7*s*2+5*p*7*6*p*2+2*d*4' dPosition='exception'/>
+		<nuc mass='150' formula='8*s*1+5*p*6*6*p*2+2*d*4:8*s*1+5*p*6*6*p*2+2*d*4' dPosition='exception'/>
+		<nuc mass='152' formula='8*s*2+5*p*6*6*p*2+2*d*4:8*s*2+5*p*6*6*p*2+2*d*4' dPosition='exception'/>
+		<nuc mass='154' formula='9*s*1+5*p*6*6*p*2+2*d*4:9*s*1+5*p*6*6*p*2+2*d*4' dPosition='exception'/>
+	</elem>
+	<elem id="63" glyph='Eu' name="европий" pos="4,8" color="yellow" formula='5p&7'>
+		<nuc mass='151' formula='7*s*2+5*p*7*6*p*2+2*d*4:7*s*2+5*p*8*6*p*2+2*d*4' dPosition='exception'/>
+		<nuc mass='153' formula='8*s*1+5*p*7*6*p*2+2*d*4:8*s*1+5*p*8*6*p*2+2*d*4' dPosition='exception'/>
+	</elem>
+	<elem id="64" glyph='Gd' name="гадолиний" pos="5,8" color="yellow" formula='5p&8'>
+		<nuc mass='152' formula='7*s*2+5*p*8*6*p*2+2*d*4:7*s*2+5*p*8*6*p*2+2*d*4' dPosition='exception'/>
+		<nuc mass='154' formula='8*s*1+5*p*8*6*p*2+2*d*4:8*s*1+5*p*8*6*p*2+2*d*4' dPosition='exception'/>
+		<nuc mass='155' formula='8*s*1+5*p*8*6*p*2+2*d*4:8*s*1+5*p*8*6*p*3+2*d*4' dPosition='exception'/>
+		<nuc mass='156' formula='8*s*2+5*p*8*6*p*2+2*d*4:8*s*2+5*p*8*6*p*2+2*d*4' dPosition='exception'/>
+		<nuc mass='157' formula='8*s*2+5*p*8*6*p*2+2*d*4:8*s*2+5*p*8*6*p*3+2*d*4' dPosition='exception'/>
+		<nuc mass='158' formula='9*s*1+5*p*8*6*p*2+2*d*4:9*s*1+5*p*8*6*p*2+2*d*4' dPosition='exception'/>
+		<nuc mass='160' formula='9*s*2+5*p*8*6*p*2+2*d*4:9*s*2+5*p*8*6*p*2+2*d*4' dPosition='exception'/>
+	</elem>
+	<elem id="65" glyph='Tb' name="тербий" pos="6,8" color="blue" formula='2d&5'>
+		<nuc mass='159' formula='8*s*2+6*p*2+2*d*5:8*s*2+6*p*2+2*d*6'/>
+	</elem>
+	<elem id="66" glyph='Dy' name="диспрозий" pos="7,8" color="blue" formula='2d&6'>
+		<nuc mass='156' formula='7*s*2+6*p*2+2*d*6:7*s*2+6*p*2+2*d*6'/>
+		<nuc mass='158' formula='8*s*1+6*p*2+2*d*6:8*s*1+6*p*2+2*d*6'/>
+		<nuc mass='160' formula='8*s*2+6*p*2+2*d*6:8*s*2+6*p*2+2*d*6'/>
+		<nuc mass='161' formula='8*s*2+6*p*2+2*d*6:8*s*2+6*p*3+2*d*6'/>
+		<nuc mass='162' formula='9*s*1+6*p*2+2*d*6:9*s*1+6*p*2+2*d*6'/>
+		<nuc mass='163' formula='9*s*1+6*p*2+2*d*6:9*s*1+6*p*3+2*d*6'/>
+		<nuc mass='164' formula='9*s*2+6*p*2+2*d*6:9*s*2+6*p*2+2*d*6'/>
+	</elem>
+	<elem id="67" glyph='Ho' name="гольмий" pos="8,8" color="blue" formula='2d&7'>
+		<nuc mass='165' formula='9*s*1+6*p*2+2*d*7:9*s*1+6*p*2+2*d*8'/>
+	</elem>
+	<elem id="68" glyph='Er' name="эрбий" pos="9,8" color="blue" formula='2d&8'>
+		<nuc mass='162' formula='8*s*1+6*p*2+2*d*8:8*s*1+6*p*2+2*d*8'/>
+		<nuc mass='164' formula='8*s*2+6*p*2+2*d*8:8*s*2+6*p*2+2*d*8'/>
+		<nuc mass='166' formula='9*s*1+6*p*2+2*d*8:9*s*1+6*p*2+2*d*8'/>
+		<nuc mass='167' formula='9*s*1+6*p*2+2*d*8:9*s*1+6*p*3+2*d*8'/>
+		<nuc mass='168' formula='9*s*2+6*p*2+2*d*8:9*s*2+6*p*2+2*d*8'/>
+		<nuc mass='170' formula='10*s*1+6*p*2+2*d*8:10*s*1+6*p*2+2*d*8'/>
+	</elem>
+	<elem id="69" glyph='Tm' name="тулий" pos="2,9" color="yellow" formula='6p&3'>
+		<nuc mass='169' formula='9*s*1+6*p*3+2*d*8:9*s*1+6*p*4+2*d*8' />
+	</elem>
+	<elem id="70" glyph='Yb' name="иттербий" pos="3,9" color="yellow" formula='6p&4'>
+		<nuc mass='168' formula='8*s*2+6*p*4+2*d*8:8*s*2+6*p*4+2*d*8'/>
+		<nuc mass='170' formula='9*s*1+6*p*4+2*d*8:9*s*1+6*p*4+2*d*8'/>
+		<nuc mass='171' formula='9*s*1+6*p*4+2*d*8:9*s*1+6*p*5+2*d*8'/>
+		<nuc mass='172' formula='9*s*2+6*p*4+2*d*8:9*s*2+6*p*4+2*d*8'/>
+		<nuc mass='173' formula='9*s*2+6*p*4+2*d*8:9*s*2+6*p*5+2*d*8'/>
+		<nuc mass='174' formula='10*s*1+6*p*4+2*d*8:10*s*1+6*p*4+2*d*8'/>
+		<nuc mass='176' formula='10*s*2+6*p*4+2*d*8:10*s*2+6*p*4+2*d*8'/>
+	</elem>
+	<elem id="71" glyph='Lu' name="лютеций" pos="4,9" color="blue" formula='2d&9'>
+		<nuc mass='175' formula='9*s*2+6*p*4+2*d*9:9*s*2+6*p*4+2*d*10'/>
+		<nuc mass='176' formula='9*s*2+6*p*4+2*d*9:9*s*2+6*p*5+2*d*10'radioactive='beta-'/>
+	</elem>
+	<elem id="72" glyph='Hf' name="гафний" pos="5,9" color="blue" formula='2d&10'>
+		<nuc mass='174' formula='8*s*1+6*p*4+2*d*10:8*s*1+6*p*8+2*d*10'radioactive='alpha'/>
+		<nuc mass='174' formula='9*s*1+6*p*4+2*d*10:9*s*1+6*p*4+2*d*10'/>
+		<nuc mass='176' formula='9*s*2+6*p*4+2*d*10:9*s*2+6*p*4+2*d*10'/>
+		<nuc mass='177' formula='9*s*2+6*p*4+2*d*10:9*s*2+6*p*5+2*d*10'/>
+		<nuc mass='178' formula='10*s*1+6*p*4+2*d*10:10*s*1+6*p*4+2*d*10'/>
+		<nuc mass='179' formula='10*s*1+6*p*4+2*d*10:10*s*1+6*p*5+2*d*10'/>
+		<nuc mass='180' formula='10*s*2+6*p*4+2*d*10:10*s*2+6*p*4+2*d*10'/>
+
+	</elem>
+	<elem id="73" glyph='Ta' name="тантал" pos="6,9" color="blue" formula='2d&11'>
+		<nuc mass='179' formula='10*s*1+6*p*4+2*d*11:10*s*1+6*p*2+2*d*12'/>
+	</elem>
+	<elem id="74" glyph='W' name="вольфрам" pos="7,9" color="blue" formula='2d&12'>
+                <nuc mass='180' formula='9*s*2+6*p*4+2*d*12:9*s*2+6*p*4+2*d*12'/>
+		<nuc mass='182' formula='10*s*1+6*p*4+2*d*12:10*s*1+6*p*4+2*d*12'/>
+		<nuc mass='183' formula='10*s*1+6*p*4+2*d*12:10*s*1+6*p*5+2*d*12'/>
+		<nuc mass='184' formula='10*s*2+6*p*4+2*d*12:10*s*2+6*p*4+2*d*12'/>
+		<nuc mass='186' formula='11*s*1+6*p*4+2*d*12:11*s*1+6*p*4+2*d*12'/>
+	</elem>
+	<elem id="75" glyph='Re' name="рений" pos="8,9" color="blue" formula='2d&13'>
+		<nuc mass='185' formula='10*s*1+6*p*4+2*d*13:10*s*1+6*p*4+2*d*14' dPosition='exception'/>
+		<nuc mass='187' formula='10*s*1+6*p*4+2*d*13:10*s*1+6*p*6+2*d*14'radioactive='beta-' dPosition='exception'/>
+	</elem>
+	<elem id="76" glyph='Os' name="осмий" pos="9,9" color="blue" formula='2d&14'>
+                <nuc mass='184' formula='9*s*2+6*p*4+2*d*14:9*s*2+6*p*4+2*d*14' />
+		<nuc mass='186' formula='9*s*2+6*p*4+2*d*14:9*s*2+6*p*6+2*d*14'radioactive='alpha' />
+		<nuc mass='186' formula='10*s*1+6*p*4+2*d*14:10*s*1+6*p*4+2*d*14' />
+		<nuc mass='188' formula='10*s*2+6*p*4+2*d*14:10*s*2+6*p*4+2*d*14' />
+		<nuc mass='189' formula='10*s*2+6*p*4+2*d*14:10*s*2+6*p*5+2*d*14' />
+		<nuc mass='190' formula='11*s*1+6*p*4+2*d*14:11*s*1+6*p*4+2*d*14' />
+		<nuc mass='192' formula='11*s*2+6*p*4+2*d*14:11*s*2+6*p*4+2*d*14' />
+	</elem>
+	<elem id="77" glyph='Ir' name="иридий" pos="10,9" color="blue" formula='2d&15'>
+		<nuc mass='191' formula='10*s*2+6*p*4+2*d*15:10*s*2+6*p*4+2*d*16' />
+		<nuc mass='193' formula='11*s*1+6*p*4+2*d*15:11*s*1+6*p*4+2*d*16' />
+	</elem>
+	<elem id="78" glyph='Pt' name="платина" pos="11,9" color="blue" formula='2d&16'>
+		<nuc mass='190' formula='10*s*1+6*p*4+2*d*16:10*s*1+6*p*4+2*d*16' />
+		<nuc mass='192' formula='10*s*2+6*p*4+2*d*16:10*s*2+6*p*4+2*d*16' />
+		<nuc mass='194' formula='11*s*1+6*p*4+2*d*16:11*s*1+6*p*4+2*d*16' />
+		<nuc mass='195' formula='11*s*1+6*p*4+2*d*16:11*s*1+6*p*5+2*d*16' />
+		<nuc mass='196' formula='11*s*2+6*p*4+2*d*16:11*s*2+6*p*4+2*d*16' />
+		<nuc mass='198' formula='12*s*1+6*p*4+2*d*16:12*s*1+6*p*4+2*d*16' />
+	</elem>
+	<elem id="79" glyph='Au' name="золото" pos="2,10" color="yellow" formula='7p&1'>
+		<nuc mass='197' formula='11*s*1+6*p*4*7*p*1+2*d*16:11*s*1+6*p*4*7*p*2+2*d*16' />
+	</elem>
+	<elem id="80" glyph='Hg' name="ртуть" pos="3,10" color="yellow" formula='7p&2'>
+		<nuc mass='196' formula='10*s*2+6*p*4*7*p*2+2*d*16:10*s*2+6*p*4*7*p*2+2*d*16' />
+		<nuc mass='198' formula='11*s*1+6*p*4*7*p*2+2*d*16:11*s*1+6*p*4*7*p*2+2*d*16' />
+		<nuc mass='199' formula='11*s*1+6*p*4*7*p*2+2*d*16:11*s*1+6*p*5*7*p*2+2*d*16' />
+		<nuc mass='200' formula='11*s*2+6*p*4*7*p*2+2*d*16:11*s*2+6*p*4*7*p*2+2*d*16' />
+		<nuc mass='201' formula='11*s*2+6*p*4*7*p*2+2*d*16:11*s*2+6*p*5*7*p*2+2*d*16' />
+		<nuc mass='202' formula='12*s*1+6*p*4*7*p*2+2*d*16:12*s*1+6*p*4*7*p*2+2*d*16' />
+		<nuc mass='204' formula='12*s*2+6*p*4*7*p*2+2*d*16:12*s*2+6*p*4*7*p*2+2*d*16' />
+	</elem>
+	<elem id="81" glyph='Tl' name="таллий" pos="4,10" color="yellow" formula='7p&3'>
+		<nuc mass='203' formula='11*s*2+6*p*4*7*p*3+2*d*16:11*s*2+6*p*4*7*p*4+2*d*16' />
+		<nuc mass='205' formula='12*s*1+6*p*4*7*p*3+2*d*16:12*s*1+6*p*4*7*p*4+2*d*16' />
+	</elem>
+	<elem id="82" glyph='Pb' name="свинец" pos="5,10" color="yellow" formula='7p&4'>
+		<nuc mass='204' formula='11*s*2+6*p*4*7*p*4+2*d*16:11*s*2+6*p*4*7*p*4+2*d*16' />
+		<nuc mass='206' formula='12*s*1+6*p*4*7*p*4+2*d*16:12*s*1+6*p*4*7*p*4+2*d*16' />
+		<nuc mass='207' formula='12*s*1+6*p*4*7*p*4+2*d*16:12*s*1+6*p*5*7*p*4+2*d*16' />
+		<nuc mass='208' formula='12*s*2+6*p*4*7*p*4+2*d*16:12*s*2+6*p*4*7*p*4+2*d*16' />
+	</elem>
+	<elem id="83" glyph='Bi' name="висмут" pos="6,10" color="yellow" formula='6p&5'>
+		<nuc mass='209' formula='12*s*1+6*p*5*7*p*4+2*d*16:12*s*1+6*p*6*7*p*4+2*d*16' dPosition='exception'/>
+	</elem>
+	<elem id="84" glyph='Po' name="полоний" pos="7,10" color="yellow" formula='6p&6'>
+		<nuc mass='208' formula='11*s*1+6*p*6*7*p*4+2*d*16:11*s*1+6*p*8*7*p*4+2*d*16' radioactive='alpha' dPosition='exception'/>
+		<nuc mass='209' formula='11*s*1+6*p*6*7*p*4+2*d*16:11*s*1+6*p*8*7*p*5+2*d*16' radioactive='alpha' dPosition='exception'/>
+		<nuc mass='210' formula='11*s*2+6*p*6*7*p*4+2*d*16:11*s*2+6*p*8*7*p*4+2*d*16' radioactive='alpha' dPosition='exception'/>
+	</elem>
+	<elem id="85" glyph='At' name="астат" pos="8,10" color="yellow" formula='6p&7'>
+		<nuc mass='211' formula='11*s*1+6*p*7*7*p*4+2*d*16:11*s*1+6*p*8*7*p*6+2*d*16'radioactive='alpha' dPosition='exception'/>
+		<nuc mass='211' formula='12*s*1+6*p*7*7*p*4+2*d*16:11*s*1+6*p*8*7*p*6+2*d*16'radioactive='beta+' dPosition='exception'/>
+	</elem>
+	<elem id="86" glyph='Rn' name="радон" pos="12,10" color="yellow" formula='6p&8'>
+		<nuc mass='222' formula='13*s*1+6*p*8*7*p*4+2*d*16:13*s*1+6*p*8*7*p*8+2*d*16'radioactive='alpha' dPosition='exception'/>
+	</elem>
+	<elem id="87" glyph='Fr' name="франций" pos="2,11" color="yellow" formula='8p&1'>
+		<nuc mass='223' formula='13*s*1+7*p*4*8*p*1+2*d*16:13*s*1+7*p*5*8*p*2+2*d*16'radioactive='beta-' dPosition='exception'/>
+	</elem>
+	<elem id="88" glyph='Ra' name="радий" pos="3,11" color="yellow" formula='8p&2'>
+		<nuc mass='226' formula='13*s*2+7*p*4*8*p*2+2*d*16:13*s*2+7*p*6*8*p*2+2*d*16'radioactive='alpha' dPosition='exception'/>
+	</elem>
+	<elem id="89" glyph='Ac' name="актиний" pos="4,11" color="blue" formula='3d&1'>
+		<nuc mass='227' formula='13*s*1+7*p*4*8*p*2+3*d*1:13*s*1+7*p*6*8*p*2+3*d*2' radioactive='alpha,beta-' dPosition='exception'/>
+	</elem>
+	<elem id="90" glyph='Th' name="торий" pos="5,11" color="blue" formula='3d&2'>
+		<nuc mass='229' formula='13*s*1+7*p*4*8*p*2+3*d*2:12*s*2+7*p*6*8*p*2+3*d*2'radioactive='alpha' dPosition='exception'/>
+		<nuc mass='230' formula='13*s*2+7*p*4*8*p*2+3*d*2:13*s*2+7*p*6*8*p*2+3*d*2'radioactive='alpha' dPosition='exception'/>
+		<nuc mass='232' formula='14*s*1+7*p*4*8*p*2+3*d*2:14*s*1+7*p*6*8*p*2+3*d*2'radioactive='alpha' dPosition='exception'/>
+	</elem>
+	<elem id="91" glyph='Pa' name="протактиний" pos="6,11" color="blue" formula='3d&3'>
+		<nuc mass='231' formula='13*s*1+7*p*4*8*p*2+3*d*3:13*s*1+7*p*6*8*p*2+3*d*4'radioactive='alpha' dPosition='exception'/>
+	</elem>
+	<elem id="92" glyph='U' name="уран" pos="7,11" color="blue" formula='3d&4'>
+		<nuc mass='234' formula='13*s*1+7*p*4*8*p*2+3*d*4:13*s*1+7*p*6*8*p*2+3*d*4'radioactive='alpha' dPosition='exception'/>
+		<nuc mass='235' formula='13*s*1+7*p*4*8*p*2+3*d*4:13*s*1+7*p*8*8*p*3+3*d*4'radioactive='alpha' dPosition='exception'/>
+		<nuc mass='236' formula='13*s*2+7*p*4*8*p*2+3*d*4:13*s*2+7*p*8*8*p*2+3*d*4'radioactive='alpha' dPosition='exception'/>
+		<nuc mass='238' formula='14*s*1+7*p*4*8*p*2+3*d*4:14*s*1+7*p*8*8*p*2+3*d*4'radioactive='alpha' dPosition='exception'/>
+	</elem>
+	<elem id="93" glyph='Np' name="нептуний" pos="8,11" color="blue" formula='3d&5'>
+		<nuc mass='236' formula='13*s*2+7*p*4*8*p*2+3*d*5:13*s*2+7*p*5*8*p*2+3*d*6'radioactive='beta-'/>
+		<nuc mass='236' formula='14*s*2+7*p*4*8*p*2+3*d*5:13*s*2+7*p*5*8*p*2+3*d*6'radioactive='beta+'/>
+		<nuc mass='237' formula='13*s*1+7*p*4*8*p*2+3*d*5:13*s*1+7*p*8*8*p*2+3*d*6'radioactive='alpha' />
+	</elem>
+	<elem id="94" glyph='Pu' name="плутоний" pos="9,11" color="blue" formula='3d&6'>
+		<nuc mass='239' formula='13*s*1+7*p*4*8*p*2+3*d*6:13*s*1+7*p*8*8*p*3+3*d*6'radioactive='alpha'/>
+		<nuc mass='240' formula='13*s*2+7*p*4*8*p*2+3*d*6:13*s*2+7*p*8*8*p*2+3*d*6'radioactive='alpha'/>
+		<nuc mass='242' formula='14*s*1+7*p*4*8*p*2+3*d*6:14*s*1+7*p*8*8*p*2+3*d*6'radioactive='alpha'/>
+		<nuc mass='244' formula='14*s*2+7*p*4*8*p*2+3*d*6:14*s*2+7*p*8*8*p*2+3*d*6'radioactive='alpha'/>
+	</elem>
+	<elem id="95" glyph='Am' name="америций" pos="10,11" color="blue" formula='3d&7'>
+		<nuc mass='243' formula='13*s*2+7*p*4*8*p*2+3*d*7:13*s*2+7*p*8*8*p*2+3*d*8'radioactive='alpha'/>
+	</elem>
+	<elem id="96" glyph='Cm' name="кюрий" pos="11,11" color="blue" formula='3d&8'>
+	  <nuc mass='247' formula='14*s*1+7*p*4*8*p*2+3*d*8:14*s*1+7*p*8*8*p*3+3*d*8'radioactive='alpha' zaryad="0" raspad='стабильный'></nuc>
+	  <nuc mass='248' formula='14*s*2+7*p*4*8*p*2+3*d*8:14*s*2+7*p*8*8*p*2+3*d*8'radioactive='alpha' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="97" glyph='Bk' name="берклий" pos="2,12" color="yellow" formula='8p&3'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="98" glyph='Cf' name="калифорний" pos="3,12" color="yellow" formula='8p&4'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>	
+	<elem id="99" glyph='Es' name="эйнштейний" pos="4,12" color="yellow" formula='7p&5'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="100" glyph='Fm' name="фермий" pos="5,12" color="yellow" formula='7p&6'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="101" glyph='Md' name="менделевий" pos="6,12" color="blue" formula='3d&9'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="102" glyph='No' name="нобелий" pos="7,12" color="blue" formula='3d&10'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="103" glyph='Lr' name="лоуренсий" pos="8,12" color="blue" formula='3d&11'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="104" glyph='Rf' name="резерфордий" pos="9,12" color="blue" formula='3d&12'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="105" glyph='Db' name="дубний" pos="4,13" color="yellow" formula='7p&7'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="106" glyph='Sg' name="сиборгий" pos="5,13" color="yellow" formula='7p&8'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="107" glyph='Bh' name="борий" pos="6,13" color="blue" formula='3d&13'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="108" glyph='Hs' name="хасий" pos="7,13" color="blue" formula='3d&14'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="109" glyph='Mt' name="мейтнерий" pos="8,13" color="blue" formula='3d&15'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="110" glyph='Ds' name="дармстадтий" pos="9,13" color="blue" formula='3d&16'>
+	  <nuc mass='' formula='' zaryad="0" raspad='стабильный'></nuc>
+	</elem>
+	<elem id="111" glyph='Rg' name="роентгений" pos="2,14" color="yellow" formula='9p&1'>
+	
+	</elem>
+	<elem id="112" glyph='Uub' name="" pos="3,14" color="yellow" formula='9p&2'>
+
+	</elem>
+	<elem id="113" glyph='Uut' name="" pos="4,14" color="yellow" formula='9p&3'>
+
+	</elem>
+	<elem id="114" glyph='Uuq' name="" pos="5,14" color="yellow" formula='9p&4'>
+
+	</elem>
+	<elem id="115" glyph='Uup' name="" pos="6,14" color="yellow" formula='8p&5'>
+
+	</elem>
+	<elem id="116" glyph='Uuh' name="" pos="7,14" color="yellow" formula='8p&6'>
+
+	</elem>
+	<elem id="117" glyph='Uus' name="" pos="8,14" color="yellow" formula='8p&7'>
+
+	</elem>
+	<elem id="118" glyph='Uuo' name="" pos="12,14" color="yellow" formula='8p&8'>
+
+	</elem>
+
+</data>
