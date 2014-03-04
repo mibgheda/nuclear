@@ -1,0 +1,17 @@
+html, body{ height: 100%; margin-right: auto;
+margin-left: auto;   margin: 0; padding: 0; overflow: hidden; border: 2px black;}
+body { background: #BFDA79 ; font: 86% Tahoma, Arial, "Helvetica Neue", sans-serif; float:center; text-align:left;   }
+h1,h2,h3 {text-align:center;  }
+.nuclear 
+{
+	width: 80%;
+	height: 100%;
+	margin-right:15px;
+	float:left;	
+}
+
+.nuclink
+{
+	width: 17%;
+	float:left;
+}

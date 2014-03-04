@@ -1,0 +1,1484 @@
+<nuc mass=''  formula='﻿     Сводная таблица нуклонной конфигурации основных групп известных нуклидов' zaryad='' raspad='' ></nuc>
+2He3
+<nuc mass='3'  formula='1*s*2:1*s*1+       или 1*p*1' zaryad='2' raspad='стаб' ></nuc>
+2He4
+<nuc mass='4'  formula='1*s*2:1*s*2+       или 1*p*2' zaryad='2' raspad='стаб' ></nuc>
+2He5
+<nuc mass='5'  formula='1*s*2:1*s*2+1*p*1+  или 1*p*3' zaryad='2' raspad='n + альфа' ></nuc>
+3Li5
+<nuc mass='5'  formula='1*s*2+1*p*1:1*s*1+1*p*1' zaryad='3' raspad='p + альфа' ></nuc>
+3Li6
+<nuc mass='6'  formula='1*s*2+1*p*1:1*s*2+1*p*1' zaryad='3' raspad='стаб' ></nuc>
+3Li7
+<nuc mass='7'  formula='1*s*2+1*p*1:1*s*2+1*p*2' zaryad='3' raspad='стаб' ></nuc>
+3Li8
+<nuc mass='8'  formula='1*s*2+1*p*1:1*s*2+1*p*3' zaryad='3' raspad='ß— + 2 альфа' ></nuc>
+4Be8
+<nuc mass='8'  formula='1*s*2+1*p*2:1*s*2+1*p*2' zaryad='4' raspad='2 альфа' ></nuc>
+4Be9
+<nuc mass='9'  formula='1*s*2+1*p*2:1*s*2+1*p*3' zaryad='4' raspad='стаб' ></nuc>
+4Be10
+<nuc mass='10'  formula='1*s*2+1*p*2:1*s*2+1*p*4' zaryad='4' raspad='ß—' ></nuc>
+5B9
+<nuc mass='9'  formula='1*s*2+2*s*1+1*p*2:1*s*2+1*p*2' zaryad='5' raspad='p, альфа' ></nuc>
+5B10
+<nuc mass='10'  formula='1*s*2+1*p*3:1*s*2+1*p*3' zaryad='5' raspad='стаб' ></nuc>
+5B11
+<nuc mass='11'  formula='1*s*2+1*p*3:1*s*2+1*p*4' zaryad='5' raspad='стаб' ></nuc>
+5B12
+<nuc mass='12'  formula='1*s*2+1*p*3:1*s*2+1*p*5' zaryad='5' raspad='ß—' ></nuc>
+6C11
+<nuc mass='11'  formula='1*s*2+1*p*4:1*s*1+1*p*4' zaryad='6' raspad='ß┼' ></nuc>
+6C12
+<nuc mass='12'  formula='1*s*2+1*p*4:1*s*2+1*p*4' zaryad='6' raspad='стаб' ></nuc>
+6C13
+<nuc mass='13'  formula='1*s*2+1*p*4:1*s*2+1*p*5' zaryad='6' raspad='стаб' ></nuc>
+6C14
+<nuc mass='14'  formula='1*s*2+1*p*4:1*s*2+1*p*6' zaryad='6' raspad='ß—' ></nuc>
+7N13
+<nuc mass='13'  formula='1*s*2+1*p*5:1*s*1+1*p*5' zaryad='7' raspad='ß┼' ></nuc>
+7N14
+<nuc mass='14'  formula='1*s*2+1*p*5:1*s*2+1*p*5' zaryad='7' raspad='стаб' ></nuc>
+7N15
+<nuc mass='15'  formula='1*s*2+1*p*5:1*s*2+1*p*6' zaryad='7' raspad='стаб' ></nuc>
+7N16
+<nuc mass='16'  formula='1*s*2+1*p*5:1*s*2+1*p*7' zaryad='7' raspad='ß—' ></nuc>
+8O15
+<nuc mass='15'  formula='1*s*2+1*p*6:1*s*1+1*p*6' zaryad='8' raspad='ß┼' ></nuc>
+8O16
+<nuc mass='16'  formula='1*s*2+1*p*6:1*s*2+1*p*6' zaryad='8' raspad='стаб' ></nuc>
+8O17
+<nuc mass='17'  formula='1*s*2+1*p*6:1*s*2+1*p*7' zaryad='8' raspad='стаб' ></nuc>
+9O18
+<nuc mass='18'  formula='1*s*2+2*s*1+1*p*6:1*s*2+2*s*1+1*p*6' zaryad='9' raspad='стаб' ></nuc>
+8O19
+<nuc mass='19'  formula='1*s*2+1*p*6:1*s*2+1*p*8+2*p*1' zaryad='8' raspad='ß—' ></nuc>
+10F18
+<nuc mass='18'  formula='1*s*2+2*s*1+1*p*7:1*s*1+1*p*7' zaryad='10' raspad='ß┼' ></nuc>
+9F19
+<nuc mass='19'  formula='1*s*2+1*p*7:1*s*2+1*p*8' zaryad='9' raspad='стаб' ></nuc>
+9F20
+<nuc mass='20'  formula='1*s*2+1*p*7:1*s*2+1*p*8+2*p*1' zaryad='9' raspad='ß—' ></nuc>
+10Ne19
+<nuc mass='19'  formula='1*s*2+1*p*8:1*s*1+1*p*8' zaryad='10' raspad='ß┼' ></nuc>
+10Ne20
+<nuc mass='20'  formula='1*s*2+1*p*8:1*s*2+1*p*8' zaryad='10' raspad='стаб' ></nuc>
+10Ne21
+<nuc mass='21'  formula='1*s*2+1*p*8:1*s*2+1*p*8+2*p*1' zaryad='10' raspad='стаб' ></nuc>
+11Ne22
+<nuc mass='22'  formula='1*s*2+2*s*1+1*p*8:1*s*2+2*s*1+1*p*8' zaryad='11' raspad='стаб' ></nuc>
+10Ne23
+<nuc mass='23'  formula='1*s*2+1*p*8:1*s*2+1*p*8+2*p*3' zaryad='10' raspad='ß—' ></nuc>
+12Na22
+<nuc mass='22'  formula='1*s*2+2*s*1+1*p*8+2*p*1:1*s*1+1*p*8+2*p*1' zaryad='12' raspad='ß┼' ></nuc>
+11Na23
+<nuc mass='23'  formula='1*s*2+1*p*8+2*p*1:1*s*2+1*p*8+2*p*2' zaryad='11' raspad='стаб' ></nuc>
+11Na24
+<nuc mass='24'  formula='1*s*2+1*p*8+2*p*1:1*s*2+1*p*8+2*p*3' zaryad='11' raspad='ß—' ></nuc>
+12Mg23
+<nuc mass='23'  formula='1*s*2+1*p*8+2*p*2:1*s*1+1*p*8+2*p*2' zaryad='12' raspad='ß┼' ></nuc>
+12Mg24
+<nuc mass='24'  formula='1*s*2+1*p*8+2*p*2:1*s*2+1*p*8+2*p*2' zaryad='12' raspad='стаб' ></nuc>
+12Mg25
+<nuc mass='25'  formula='1*s*2+1*p*8+2*p*2:1*s*2+1*p*8+2*p*3' zaryad='12' raspad='стаб' ></nuc>
+13Mg26
+<nuc mass='26'  formula='1*s*2+2*s*1+1*p*8+2*p*2:1*s*2+2*s*1+1*p*8+2*p*2' zaryad='13' raspad='стаб' ></nuc>
+12Mg27
+<nuc mass='27'  formula='1*s*2+1*p*8+2*p*2:1*s*2+1*p*8+2*p*5' zaryad='12' raspad='ß—' ></nuc>
+14Al26
+<nuc mass='26'  formula='1*s*2+2*s*1+1*p*8+2*p*3:1*s*1+1*p*8+2*p*3' zaryad='14' raspad='ß┼' ></nuc>
+13Al27
+<nuc mass='27'  formula='1*s*2+1*p*8+2*p*3:1*s*2+1*p*8+2*p*4' zaryad='13' raspad='стаб' ></nuc>
+13Al28
+<nuc mass='28'  formula='1*s*2+1*p*8+2*p*3:1*s*2+1*p*8+2*p*5' zaryad='13' raspad='ß—' ></nuc>
+14Si27
+<nuc mass='27'  formula='1*s*2+1*p*8+2*p*4:1*s*1+1*p*8+2*p*4' zaryad='14' raspad='ß┼' ></nuc>
+14Si28
+<nuc mass='28'  formula='1*s*2+1*p*8+2*p*4:1*s*2+1*p*8+2*p*4' zaryad='14' raspad='стаб' ></nuc>
+14Si29
+<nuc mass='29'  formula='1*s*2+1*p*8+2*p*4:1*s*2+1*p*8+2*p*5' zaryad='14' raspad='стаб' ></nuc>
+15Si30
+<nuc mass='30'  formula='1*s*2+2*s*1+1*p*8+2*p*4:1*s*2+2*s*1+1*p*8+2*p*4' zaryad='15' raspad='стаб' ></nuc>
+14Si31
+<nuc mass='31'  formula='1*s*2+1*p*8+2*p*4:1*s*2+1*p*8+2*p*7' zaryad='14' raspad='ß—' ></nuc>
+16P30
+<nuc mass='30'  formula='1*s*2+2*s*1+1*p*8+2*p*5:1*s*1+1*p*8+2*p*5' zaryad='16' raspad='ß┼' ></nuc>
+15P31
+<nuc mass='31'  formula='1*s*2+1*p*8+2*p*5:1*s*2+1*p*8+2*p*6' zaryad='15' raspad='стаб' ></nuc>
+15P32
+<nuc mass='32'  formula='1*s*2+1*p*8+2*p*5:1*s*2+1*p*8+2*p*7' zaryad='15' raspad='ß—' ></nuc>
+16S31
+<nuc mass='31'  formula='1*s*2+1*p*8+2*p*6:1*s*1+1*p*8+2*p*6' zaryad='16' raspad='ß┼' ></nuc>
+16S32
+<nuc mass='32'  formula='1*s*2+1*p*8+2*p*6:1*s*2+1*p*8+2*p*6' zaryad='16' raspad='стаб' ></nuc>
+16S33
+<nuc mass='33'  formula='1*s*2+1*p*8+2*p*6:1*s*2+1*p*8+2*p*7' zaryad='16' raspad='стаб' ></nuc>
+17S34
+<nuc mass='34'  formula='1*s*2+2*s*1+1*p*8+2*p*6:1*s*2+2*s*1+1*p*8+2*p*6' zaryad='17' raspad='стаб' ></nuc>
+16S35
+<nuc mass='35'  formula='1*s*2+1*p*8+2*p*6:1*s*2+1*p*8+2*p*8+3*p*1' zaryad='16' raspad='ß—' ></nuc>
+18S36
+<nuc mass='36'  formula='1*s*2+2*s*2+1*p*8+2*p*6:1*s*2+2*s*2+1*p*8+2*p*6' zaryad='18' raspad='стаб' ></nuc>
+17S37
+<nuc mass='37'  formula='1*s*2+2*s*1+1*p*8+2*p*6:1*s*2+2*s*1+1*p*8+2*p*8+3*p*1' zaryad='17' raspad='ß—' ></nuc>
+18Cl34
+<nuc mass='34'  formula='1*s*2+2*s*1+1*p*8+2*p*7:1*s*1+1*p*8+2*p*7' zaryad='18' raspad='ß┼' ></nuc>
+17Cl35
+<nuc mass='35'  formula='1*s*2+1*p*8+2*p*7:1*s*2+1*p*8+2*p*8' zaryad='17' raspad='стаб' ></nuc>
+17Cl36 (1)
+<nuc mass='36'  formula='1*s*2+1*p*8+2*p*7:1*s*2+1*p*8+2*p*8+3*p*1' zaryad='17' raspad='ß—' prefix='(1)'></nuc>
+19Cl36 (2)
+<nuc mass='36'  formula='1*s*2+2*s*2+1*p*8+2*p*7:1*s*2+1*p*8+2*p*7' zaryad='19' raspad='ß┼' prefix='(2)'></nuc>
+18Cl37
+<nuc mass='37'  formula='1*s*2+2*s*1+1*p*8+2*p*7:1*s*2+2*s*1+1*p*8+2*p*8' zaryad='18' raspad='стаб' ></nuc>
+18Cl38
+<nuc mass='38'  formula='1*s*2+2*s*1+1*p*8+2*p*7:1*s*2+2*s*1+1*p*8+2*p*8+3*p*1' zaryad='18' raspad='ß—' ></nuc>
+18Ar35
+<nuc mass='35'  formula='1*s*2+1*p*8+2*p*8:1*s*1+1*p*8+2*p*8' zaryad='18' raspad='ß┼' ></nuc>
+18Ar36
+<nuc mass='36'  formula='1*s*2+1*p*8+2*p*8:1*s*2+1*p*8+2*p*8' zaryad='18' raspad='стаб' ></nuc>
+19Ar37
+<nuc mass='37'  formula='1*s*2+2*s*1+1*p*8+2*p*8:1*s*2+1*p*8+2*p*8' zaryad='19' raspad='ß┼' ></nuc>
+19Ar38
+<nuc mass='38'  formula='1*s*2+2*s*1+1*p*8+2*p*8:1*s*2+2*s*1+1*p*8+2*p*8' zaryad='19' raspad='стаб' ></nuc>
+18Ar39
+<nuc mass='39'  formula='1*s*2+1*p*8+2*p*8:1*s*2+1*p*8+2*p*8+3*p*3' zaryad='18' raspad='ß—' ></nuc>
+20Ar40
+<nuc mass='40'  formula='1*s*2+2*s*2+1*p*8+2*p*8:1*s*2+2*s*2+1*p*8+2*p*8' zaryad='20' raspad='стаб' ></nuc>
+19Ar41
+<nuc mass='41'  formula='1*s*2+2*s*1+1*p*8+2*p*8:1*s*2+2*s*1+1*p*8+2*p*8+3*p*3' zaryad='19' raspad='ß—' ></nuc>
+20K38
+<nuc mass='38'  formula='1*s*2+2*s*1+1*p*8+2*p*8+3*p*1:1*s*1+1*p*8+2*p*8+3*p*1' zaryad='20' raspad='ß┼' ></nuc>
+19K39
+<nuc mass='39'  formula='1*s*2+1*p*8+2*p*8+3*p*1:1*s*2+1*p*8+2*p*8+3*p*2' zaryad='19' raspad='стаб' ></nuc>
+19K40 (1)
+<nuc mass='40'  formula='1*s*2+1*p*8+2*p*8+3*p*1:1*s*2+1*p*8+2*p*8+3*p*3' zaryad='19' raspad='ß—' prefix='(1)'></nuc>
+21K40 (2)
+<nuc mass='40'  formula='1*s*2+2*s*2+1*p*8+2*p*8+3*p*1:1*s*2+1*p*8+2*p*8+3*p*1' zaryad='21' raspad='ß┼' prefix='(2)'></nuc>
+20K41
+<nuc mass='41'  formula='1*s*2+2*s*1+1*p*8+2*p*8+3*p*1:1*s*2+2*s*1+1*p*8+2*p*8+3*p*2' zaryad='20' raspad='стаб' ></nuc>
+20K42
+<nuc mass='42'  formula='1*s*2+2*s*1+1*p*8+2*p*8+3*p*1:1*s*2+2*s*1+1*p*8+2*p*8+3*p*1' zaryad='20' raspad='ß—' ></nuc>
+20Ca39
+<nuc mass='39'  formula='1*s*2+1*p*8+2*p*8+3*p*2:1*s*1+1*p*8+2*p*8+3*p*2' zaryad='20' raspad='ß┼' ></nuc>
+20Ca40
+<nuc mass='40'  formula='1*s*2+1*p*8+2*p*8+3*p*2:1*s*2+1*p*8+2*p*8+3*p*2' zaryad='20' raspad='стаб' ></nuc>
+21Ca41
+<nuc mass='41'  formula='1*s*2+2*s*1+1*p*8+2*p*8+3*p*2:1*s*2+1*p*8+2*p*8+3*p*2' zaryad='21' raspad='ß┼' ></nuc>
+21Ca42
+<nuc mass='42'  formula='1*s*2+2*s*1+1*p*8+2*p*8+3*p*2:1*s*2+2*s*1+1*p*8+2*p*8+3*p*2' zaryad='21' raspad='стаб' ></nuc>
+21Ca43
+<nuc mass='43'  formula='1*s*2+2*s*1+1*p*8+2*p*8+3*p*2:1*s*2+2*s*1+1*p*8+2*p*8+3*p*3' zaryad='21' raspad='стаб' ></nuc>
+22Ca44
+<nuc mass='44'  formula='1*s*2+2*s*2+1*p*8+2*p*8+3*p*2:1*s*2+2*s*2+1*p*8+2*p*8+3*p*2' zaryad='22' raspad='стаб' ></nuc>
+21Ca45
+<nuc mass='45'  formula='1*s*2+2*s*1+1*p*8+2*p*8+3*p*2:1*s*2+2*s*1+1*p*8+2*p*8+3*p*3+1*d*2' zaryad='21' raspad='ß—' ></nuc>
+23Ca46
+<nuc mass='46'  formula='3*s*1+3*p*2:3*s*1+3*p*2' zaryad='23' raspad='стаб' ></nuc>
+22Ca47
+<nuc mass='47'  formula='1*s*2+2*s*2+1*p*8+2*p*8+3*p*2:1*s*2+2*s*2+1*p*8+2*p*8+3*p*3+1*d*2' zaryad='22' raspad='ß—' ></nuc>
+24Ca48
+<nuc mass='48'  formula='3*s*2+3*p*2:3*s*2+3*p*2' zaryad='24' raspad='стаб' ></nuc>
+23Ca49
+<nuc mass='49'  formula='3*s*1+3*p*2:3*s*1+3*p*3+1*d*2' zaryad='23' raspad='ß—' ></nuc>
+23Sc44
+<nuc mass='44'  formula='2*s*2+3*p*2+1*d*1:1*s*2+3*p*2+1*d*1' zaryad='23' raspad='ß┼' ></nuc>
+22Sc45
+<nuc mass='45'  formula='2*s*1+3*p*2+1*d*1:2*s*1+3*p*2+1*d*2' zaryad='22' raspad='стаб' ></nuc>
+22Sc46
+<nuc mass='46'  formula='2*s*1+3*p*2+1*d*1:2*s*1+3*p*3+1*d*2' zaryad='22' raspad='ß—' ></nuc>
+23Ti45
+<nuc mass='45'  formula='2*s*1+3*p*2+1*d*2' zaryad='23' raspad='ß┼' ></nuc>
+23Ti46
+<nuc mass='46'  formula='2*s*1+3*p*2+1*d*2:2*s*1+3*p*2+1*d*2' zaryad='23' raspad='стаб' ></nuc>
+23Ti47
+<nuc mass='47'  formula='2*s*1+3*p*2+1*d*2:2*s*1+3*p*3+1*d*2' zaryad='23' raspad='стаб' ></nuc>
+24Ti48
+<nuc mass='48'  formula='2*s*2+3*p*2+1*d*2:2*s*2+3*p*2+1*d*2' zaryad='24' raspad='стаб' ></nuc>
+24Ti49
+<nuc mass='49'  formula='2*s*2+3*p*2+1*d*2:2*s*2+3*p*3+1*d*2' zaryad='24' raspad='стаб' ></nuc>
+25Ti50
+<nuc mass='50'  formula='3*s*1+3*p*2+1*d*2:3*s*1+3*p*2+1*d*2' zaryad='25' raspad='стаб' ></nuc>
+24Ti51
+<nuc mass='51'  formula='2*s*2+3*p*2+1*d*2:3*s*1+3*p*3+1*d*4' zaryad='24' raspad='ß—' ></nuc>
+25V49
+<nuc mass='49'  formula='2*s*2+3*p*2+1*d*3:1*s*2+3*p*2+1*d*4' zaryad='25' raspad='ß┼' ></nuc>
+26V50 (1)
+<nuc mass='50'  formula='3*s*1+3*p*2+1*d*3:2*s*1+3*p*2+1*d*3' zaryad='26' raspad='ß┼' prefix='(1)'></nuc>
+24V50 (2)
+<nuc mass='50'  formula='2*s*1+3*p*2+1*d*3:2*s*1+3*p*3+1*d*4' zaryad='24' raspad='ß—' prefix='(2)'></nuc>
+25V51
+<nuc mass='51'  formula='2*s*2+3*p*2+1*d*3:2*s*2+3*p*2+1*d*4' zaryad='25' raspad='стаб' ></nuc>
+25V52
+<nuc mass='52'  formula='2*s*2+3*p*2+1*d*3:2*s*2+3*p*3+1*d*4' zaryad='25' raspad='ß—' ></nuc>
+25Cr49
+<nuc mass='49'  formula='2*s*1+3*p*2+1*d*4:1*s*1+3*p*2+1*d*4' zaryad='25' raspad='ß┼' ></nuc>
+25Cr50
+<nuc mass='50'  formula='2*s*1+3*p*2+1*d*4:2*s*1+3*p*2+1*d*4' zaryad='25' raspad='стаб' ></nuc>
+26Cr51
+<nuc mass='51'  formula='2*s*2+3*p*2+1*d*4:2*s*1+3*p*2+1*d*4' zaryad='26' raspad='ß┼' ></nuc>
+26Cr52
+<nuc mass='52'  formula='2*s*2+3*p*2+1*d*4:2*s*2+3*p*2+1*d*4' zaryad='26' raspad='стаб' ></nuc>
+26Cr53
+<nuc mass='53'  formula='2*s*2+3*p*2+1*d*4:2*s*2+3*p*3+1*d*4' zaryad='26' raspad='стаб' ></nuc>
+27Cr54
+<nuc mass='54'  formula='3*s*1+3*p*2+1*d*4:3*s*1+3*p*2+1*d*4' zaryad='27' raspad='стаб' ></nuc>
+26Cr55
+<nuc mass='55'  formula='2*s*2+3*p*2+1*d*4:2*s*2+3*p*3+1*d*6' zaryad='26' raspad='ß—' ></nuc>
+28Mn54 (1)
+<nuc mass='54'  formula='3*s*1+3*p*2+1*d*5:2*s*1+3*p*2+1*d*5' zaryad='28' raspad='ß┼' prefix='(1)'></nuc>
+27Mn55
+<nuc mass='55'  formula='2*s*2+3*p*2+1*d*5:2*s*2+3*p*2+1*d*6' zaryad='27' raspad='стаб' ></nuc>
+27Mn56
+<nuc mass='56'  formula='2*s*2+3*p*2+1*d*5:2*s*2+3*p*3+1*d*6' zaryad='27' raspad='ß—' ></nuc>
+27Fe53
+<nuc mass='53'  formula='2*s*1+3*p*2+1*d*6:1*s*2+3*p*2+1*d*6' zaryad='27' raspad='ß┼' ></nuc>
+27Fe54
+<nuc mass='54'  formula='2*s*1+3*p*2+1*d*6:2*s*1+3*p*2+1*d*6' zaryad='27' raspad='стаб' ></nuc>
+28Fe55
+<nuc mass='55'  formula='2*s*2+3*p*2+1*d*6:2*s*1+3*p*2+1*d*6' zaryad='28' raspad='ß┼' ></nuc>
+28Fe56
+<nuc mass='56'  formula='2*s*2+3*p*2+1*d*6:2*s*2+3*p*2+1*d*6' zaryad='28' raspad='стаб' ></nuc>
+28Fe57
+<nuc mass='57'  formula='2*s*2+3*p*2+1*d*6:2*s*2+3*p*3+1*d*6' zaryad='28' raspad='стаб' ></nuc>
+29Fe58
+<nuc mass='58'  formula='3*s*1+3*p*2+1*d*6:3*s*1+3*p*2+1*d*6' zaryad='29' raspad='стаб' ></nuc>
+28Fe59
+<nuc mass='59'  formula='2*s*2+3*p*2+1*d*6:2*s*2+3*p*3+1*d*8' zaryad='28' raspad='ß—' ></nuc>
+30Co58
+<nuc mass='58'  formula='3*s*1+3*p*2+1*d*7:2*s*1+3*p*2+1*d*7' zaryad='30' raspad='ß┼' ></nuc>
+29Co59
+<nuc mass='59'  formula='2*s*2+3*p*2+1*d*7:2*s*2+3*p*2+1*d*8' zaryad='29' raspad='стаб' ></nuc>
+28Co58
+<nuc mass='58'  formula='2*s*1+3*p*2+1*d*7:2*s*1+3*p*3+1*d*8' zaryad='28' raspad='ß—' ></nuc>
+29Ni57
+<nuc mass='57'  formula='2*s*1+3*p*2+1*d*8:1*s*2+3*p*2+1*d*8' zaryad='29' raspad='ß┼' ></nuc>
+29Ni58
+<nuc mass='58'  formula='2*s*1+3*p*2+1*d*8:2*s*1+3*p*2+1*d*8' zaryad='29' raspad='стаб' ></nuc>
+30Ni59
+<nuc mass='59'  formula='2*s*2+3*p*2+1*d*8:2*s*1+3*p*2+1*d*8' zaryad='30' raspad='ß┼' ></nuc>
+30Ni60
+<nuc mass='60'  formula='2*s*2+3*p*2+1*d*8:2*s*2+3*p*2+1*d*8' zaryad='30' raspad='стаб' ></nuc>
+30Ni61
+<nuc mass='61'  formula='2*s*2+3*p*2+1*d*8:2*s*2+3*p*3+1*d*8' zaryad='30' raspad='стаб' ></nuc>
+31Ni62
+<nuc mass='62'  formula='3*s*1+3*p*2+1*d*8:3*s*1+3*p*2+1*d*8' zaryad='31' raspad='стаб' ></nuc>
+30Ni63
+<nuc mass='63'  formula='2*s*2+3*p*2+1*d*8:2*s*2+3*p*3+4*p*2+1*d*8' zaryad='30' raspad='ß—' ></nuc>
+32Ni64
+<nuc mass='64'  formula='3*s*2+3*p*2+1*d*8:3*s*2+3*p*2+1*d*8' zaryad='32' raspad='стаб' ></nuc>
+31Ni65
+<nuc mass='65'  formula='3*s*1+3*p*2+1*d*8:3*s*1+3*p*3+4*p*2+1*d*8' zaryad='31' raspad='ß—' ></nuc>
+32Cu62
+<nuc mass='62'  formula='3*s*1+3*p*2+4*p*1+1*d*8:2*s*1+3*p*2+4*p*1+1*d*8' zaryad='32' raspad='ß┼' ></nuc>
+31Cu63
+<nuc mass='63'  formula='2*s*2+3*p*2+4*p*1+1*d*8:2*s*2+3*p*2+4*p*2+1*d*8' zaryad='31' raspad='стаб' ></nuc>
+33Cu64 (1)
+<nuc mass='64'  formula='3*s*2+3*p*2+4*p*1+1*d*8:2*s*2+3*p*2+4*p*1+1*d*8' zaryad='33' raspad='ß┼' prefix='(1)'></nuc>
+31Cu64 (2)
+<nuc mass='64'  formula='2*s*2+3*p*2+4*p*1+1*d*8:2*s*2+3*p*3+4*p*2+1*d*8' zaryad='31' raspad='ß—' prefix='(2)'></nuc>
+32Cu65
+<nuc mass='65'  formula='3*s*1+3*p*2+4*p*1+1*d*8:3*s*1+3*p*2+4*p*2+1*d*8' zaryad='32' raspad='стаб' ></nuc>
+32Cu66
+<nuc mass='66'  formula='3*s*1+3*p*2+4*p*1+1*d*8:3*s*1+3*p*3+4*p*2+1*d*8' zaryad='32' raspad='ß—' ></nuc>
+32Zn63
+<nuc mass='63'  formula='2*s*2+3*p*2+4*p*2+1*d*8:2*s*1+3*p*2+4*p*2+1*d*8' zaryad='32' raspad='ß┼' ></nuc>
+32Zn64
+<nuc mass='64'  formula='2*s*2+3*p*2+4*p*2+1*d*8:2*s*2+3*p*2+4*p*2+1*d*8' zaryad='32' raspad='стаб' ></nuc>
+33Zn65
+<nuc mass='65'  formula='3*s*1+3*p*2+4*p*2+1*d*8:2*s*2+3*p*2+4*p*2+1*d*8' zaryad='33' raspad='ß┼' ></nuc>
+33Zn66
+<nuc mass='66'  formula='3*s*1+3*p*2+4*p*2+1*d*8:3*s*1+3*p*2+4*p*2+1*d*8' zaryad='33' raspad='стаб' ></nuc>
+33Zn67
+<nuc mass='67'  formula='3*s*1+3*p*2+4*p*2+1*d*8:3*s*1+3*p*3+4*p*2+1*d*8' zaryad='33' raspad='стаб' ></nuc>
+34Zn68
+<nuc mass='68'  formula='3*s*2+3*p*2+4*p*2+1*d*8:3*s*2+3*p*2+4*p*2+1*d*8' zaryad='34' raspad='стаб' ></nuc>
+33Zn69
+<nuc mass='69'  formula='3*s*1+3*p*2+4*p*2+1*d*8:3*s*1+3*p*5+4*p*2+1*d*8' zaryad='33' raspad='ß—' ></nuc>
+35Zn70
+<nuc mass='70'  formula='4*s*1+3*p*2+4*p*2+1*d*8:4*s*1+3*p*2+4*p*2+1*d*8' zaryad='35' raspad='стаб' ></nuc>
+34Zn71
+<nuc mass='71'  formula='3*s*2+3*p*2+4*p*2+1*d*8:3*s*2+3*p*5+4*p*2+1*d*8' zaryad='34' raspad='ß—' ></nuc>
+35Ga68
+<nuc mass='68'  formula='3*s*2+3*p*3+4*p*2+1*d*8:2*s*2+3*p*3+4*p*2+1*d*8' zaryad='35' raspad='ß┼' ></nuc>
+34Ga69
+<nuc mass='69'  formula='3*s*1+3*p*3+4*p*2+1*d*8:3*s*1+3*p*4+4*p*2+1*d*8' zaryad='34' raspad='стаб' ></nuc>
+34Ga70 (1)
+<nuc mass='70'  formula='3*s*1+3*p*3+4*p*2+1*d*8:3*s*1+3*p*5+4*p*2+1*d*8' zaryad='34' raspad='ß—' prefix='(1)'></nuc>
+36Ga70 (2)
+<nuc mass='70'  formula='4*s*1+3*p*3+4*p*2+1*d*8:3*s*1+3*p*3+4*p*2+1*d*8' zaryad='36' raspad='ß┼' prefix='(2)'></nuc>
+35Ga71
+<nuc mass='71'  formula='3*s*2+3*p*3+4*p*2+1*d*8:3*s*2+3*p*4+4*p*2+1*d*8' zaryad='35' raspad='стаб' ></nuc>
+35Ga72
+<nuc mass='72'  formula='3*s*2+3*p*3+4*p*2+1*d*8:3*s*2+3*p*5+4*p*2+1*d*8' zaryad='35' raspad='ß—' ></nuc>
+35Ge69
+<nuc mass='69'  formula='3*s*1+3*p*4+4*p*2+1*d*8:2*s*2+3*p*4+4*p*2+1*d*8' zaryad='35' raspad='ß┼' ></nuc>
+35Ge70
+<nuc mass='70'  formula='3*s*1+3*p*4+4*p*2+1*d*8:3*s*1+3*p*4+4*p*2+1*d*8' zaryad='35' raspad='стаб' ></nuc>
+36Ge71
+<nuc mass='71'  formula='3*s*2+3*p*4+4*p*2+1*d*8:3*s*1+3*p*4+4*p*2+1*d*8' zaryad='36' raspad='ß┼' ></nuc>
+36Ge72
+<nuc mass='72'  formula='3*s*2+3*p*4+4*p*2+1*d*8:3*s*2+3*p*4+4*p*2+1*d*8' zaryad='36' raspad='стаб' ></nuc>
+36Ge73
+<nuc mass='73'  formula='3*s*2+3*p*4+4*p*2+1*d*8:3*s*2+3*p*5+4*p*2+1*d*8' zaryad='36' raspad='стаб' ></nuc>
+37Ge74
+<nuc mass='74'  formula='4*s*1+3*p*4+4*p*2+1*d*8:4*s*1+3*p*4+4*p*2+1*d*8' zaryad='37' raspad='стаб' ></nuc>
+36Ge75
+<nuc mass='75'  formula='3*s*2+3*p*4+4*p*2+1*d*8:3*s*2+3*p*7+4*p*2+1*d*8' zaryad='36' raspad='ß—' ></nuc>
+38Ge76
+<nuc mass='76'  formula='4*s*2+3*p*4+4*p*2+1*d*8:4*s*2+3*p*4+4*p*2+1*d*8' zaryad='38' raspad='стаб' ></nuc>
+37Ge77
+<nuc mass='77'  formula='4*s*1+3*p*4+4*p*2+1*d*8:4*s*1+3*p*7+4*p*2+1*d*8' zaryad='37' raspad='ß—' ></nuc>
+37As73
+<nuc mass='73'  formula='3*s*2+3*p*5+4*p*2+1*d*8:3*s*1+3*p*5+4*p*2+1*d*8' zaryad='37' raspad='ß┼' ></nuc>
+38As74 (1)
+<nuc mass='74'  formula='4*s*1+3*p*5+4*p*2+1*d*8:3*s*1+3*p*5+4*p*2+1*d*8' zaryad='38' raspad='ß┼' prefix='(1)'></nuc>
+36As74 (2)
+<nuc mass='74'  formula='3*s*1+3*p*5+4*p*2+1*d*8:3*s*1+3*p*7+4*p*2+1*d*8' zaryad='36' raspad='ß—' prefix='(2)'></nuc>
+37As75
+<nuc mass='75'  formula='3*s*2+3*p*5+4*p*2+1*d*8:3*s*2+3*p*6+4*p*2+1*d*8' zaryad='37' raspad='стаб' ></nuc>
+37As76
+<nuc mass='76'  formula='3*s*2+3*p*5+4*p*2+1*d*8:3*s*2+3*p*7+4*p*2+1*d*8' zaryad='37' raspad='ß—' ></nuc>
+37Se73
+<nuc mass='73'  formula='3*s*1+3*p*6+4*p*2+1*d*8:2*s*2+3*p*6+4*p*2+1*d*8' zaryad='37' raspad='ß┼' ></nuc>
+37Se74
+<nuc mass='74'  formula='3*s*1+3*p*6+4*p*2+1*d*8:3*s*1+3*p*6+4*p*2+1*d*8' zaryad='37' raspad='стаб' ></nuc>
+38Se75
+<nuc mass='75'  formula='3*s*2+3*p*6+4*p*2+1*d*8:3*s*1+3*p*6+4*p*2+1*d*8' zaryad='38' raspad='ß┼' ></nuc>
+38Se76
+<nuc mass='76'  formula='3*s*2+3*p*6+4*p*2+1*d*8:3*s*2+3*p*6+4*p*2+1*d*8' zaryad='38' raspad='стаб' ></nuc>
+38Se77
+<nuc mass='77'  formula='3*s*2+3*p*6+4*p*2+1*d*8:3*s*2+3*p*7+4*p*2+1*d*8' zaryad='38' raspad='стаб' ></nuc>
+39Se78
+<nuc mass='78'  formula='4*s*1+3*p*6+4*p*2+1*d*8:4*s*1+3*p*6+4*p*2+1*d*8' zaryad='39' raspad='стаб' ></nuc>
+38Se79
+<nuc mass='79'  formula='3*s*2+3*p*6+4*p*2+1*d*8:3*s*2+3*p*8+4*p*3+1*d*8' zaryad='38' raspad='ß—' ></nuc>
+40Se80
+<nuc mass='80'  formula='4*s*2+3*p*6+4*p*2+1*d*8:4*s*2+3*p*6+4*p*2+1*d*8' zaryad='40' raspad='стаб' ></nuc>
+39Se81
+<nuc mass='81'  formula='4*s*1+3*p*6+4*p*2+1*d*8:4*s*1+3*p*8+4*p*3+1*d*8' zaryad='39' raspad='ß—' ></nuc>
+41Se82
+<nuc mass='82'  formula='5*s*1+3*p*6+4*p*2+1*d*8:5*s*1+3*p*6+4*p*2+1*d*8' zaryad='41' raspad='стаб' ></nuc>
+40Se83
+<nuc mass='83'  formula='4*s*2+3*p*6+4*p*2+1*d*8:4*s*2+3*p*8+4*p*3+1*d*8' zaryad='40' raspad='ß—' ></nuc>
+40Br78
+<nuc mass='78'  formula='4*s*1+3*p*7+4*p*2+1*d*8:3*s*1+3*p*7+4*p*2+1*d*8' zaryad='40' raspad='ß┼' ></nuc>
+39Br79
+<nuc mass='79'  formula='3*s*2+3*p*7+4*p*2+1*d*8:3*s*2+3*p*8+4*p*2+1*d*8' zaryad='39' raspad='стаб' ></nuc>
+39Br80 (1)
+<nuc mass='80'  formula='3*s*2+3*p*7+4*p*2+1*d*8:3*s*2+3*p*8+4*p*3+1*d*8' zaryad='39' raspad='ß—' prefix='(1)'></nuc>
+41Br80 (2)
+<nuc mass='80'  formula='4*s*2+3*p*7+4*p*2+1*d*8:3*s*2+3*p*7+4*p*2+1*d*8' zaryad='41' raspad='ß┼' prefix='(2)'></nuc>
+40Br81
+<nuc mass='81'  formula='4*s*1+3*p*7+4*p*2+1*d*8:4*s*1+3*p*8+4*p*2+1*d*8' zaryad='40' raspad='стаб' ></nuc>
+40Br82
+<nuc mass='82'  formula='4*s*1+3*p*7+4*p*2+1*d*8:4*s*1+3*p*8+4*p*3+1*d*8' zaryad='40' raspad='ß—' ></nuc>
+39Kr77
+<nuc mass='77'  formula='3*s*1+4*p*2+1*d*8:2*s*2+4*p*2+1*d*8' zaryad='39' raspad='ß┼' ></nuc>
+39Kr78
+<nuc mass='78'  formula='3*s*1+4*p*2+1*d*8:3*s*1+4*p*2+1*d*8' zaryad='39' raspad='стаб' ></nuc>
+40Kr79
+<nuc mass='79'  formula='3*s*2+4*p*2+1*d*8:3*s*1+4*p*2+1*d*8' zaryad='40' raspad='ß┼' ></nuc>
+40Kr80
+<nuc mass='80'  formula='3*s*2+4*p*2+1*d*8:3*s*2+4*p*2+1*d*8' zaryad='40' raspad='стаб' ></nuc>
+41Kr81
+<nuc mass='81'  formula='4*s*1+4*p*2+1*d*8:3*s*2+4*p*2+1*d*8' zaryad='41' raspad='ß┼' ></nuc>
+41Kr82
+<nuc mass='82'  formula='4*s*1+4*p*2+1*d*8:4*s*1+4*p*2+1*d*8' zaryad='41' raspad='стаб' ></nuc>
+41Kr83
+<nuc mass='83'  formula='4*s*1+4*p*2+1*d*8:4*s*1+4*p*3+1*d*8' zaryad='41' raspad='стаб' ></nuc>
+42Kr84
+<nuc mass='84'  formula='4*s*2+4*p*2+1*d*8:4*s*2+4*p*2+1*d*8' zaryad='42' raspad='стаб' ></nuc>
+41Kr85
+<nuc mass='85'  formula='4*s*1+4*p*2+1*d*8:4*s*1+4*p*5+1*d*8' zaryad='41' raspad='ß—' ></nuc>
+43Kr86
+<nuc mass='86'  formula='5*s*1+4*p*2+1*d*8:5*s*1+4*p*2+1*d*8' zaryad='43' raspad='стаб' ></nuc>
+42Kr87
+<nuc mass='87'  formula='4*s*2+4*p*2+1*d*8:4*s*2+4*p*5+1*d*8' zaryad='42' raspad='ß—' ></nuc>
+42Rb83
+<nuc mass='83'  formula='4*s*1+4*p*3+1*d*8:3*s*2+4*p*3+1*d*8' zaryad='42' raspad='ß┼' ></nuc>
+43Rb84
+<nuc mass='84'  formula='4*s*2+4*p*3+1*d*8:3*s*2+4*p*3+1*d*8' zaryad='43' raspad='ß┼' ></nuc>
+41Rb84
+<nuc mass='84'  formula='3*s*2+4*p*3+1*d*8:3*s*2+4*p*5+1*d*8' zaryad='41' raspad='ß—' ></nuc>
+42Rb85
+<nuc mass='85'  formula='4*s*1+4*p*3+1*d*8:4*s*1+4*p*4+1*d*8' zaryad='42' raspad='стаб' ></nuc>
+42Rb86
+<nuc mass='86'  formula='4*s*1+4*p*3+1*d*8:4*s*1+4*p*5+1*d*8' zaryad='42' raspad='ß—' ></nuc>
+42Rb87
+<nuc mass='87'  formula='4*s*1+4*p*3+1*d*8:4*s*1+4*p*6+1*d*8' zaryad='42' raspad='ß—' ></nuc>
+43Rb88
+<nuc mass='88'  formula='4*s*2+4*p*3+1*d*8:4*s*2+4*p*5+1*d*8' zaryad='43' raspad='ß—' ></nuc>
+42Sr82
+<nuc mass='82'  formula='3*s*2+4*p*4+1*d*8:2*s*2+4*p*4+1*d*8' zaryad='42' raspad='ß┼' ></nuc>
+42Sr83
+<nuc mass='83'  formula='3*s*2+4*p*4+1*d*8:3*s*1+4*p*4+1*d*8' zaryad='42' raspad='ß┼' ></nuc>
+42Sr84
+<nuc mass='84'  formula='3*s*2+4*p*4+1*d*8:3*s*2+4*p*4+1*d*8' zaryad='42' raspad='стаб' ></nuc>
+43Sr85
+<nuc mass='85'  formula='4*s*1+4*p*4+1*d*8:3*s*2+4*p*4+1*d*8' zaryad='43' raspad='ß┼' ></nuc>
+43Sr86
+<nuc mass='86'  formula='4*s*1+4*p*4+1*d*8:4*s*1+4*p*4+1*d*8' zaryad='43' raspad='стаб' ></nuc>
+43Sr87
+<nuc mass='87'  formula='4*s*1+4*p*4+1*d*8:4*s*1+4*p*5+1*d*8' zaryad='43' raspad='стаб' ></nuc>
+44Sr88
+<nuc mass='88'  formula='4*s*2+4*p*4+1*d*8:4*s*2+4*p*4+1*d*8' zaryad='44' raspad='стаб' ></nuc>
+43Sr89
+<nuc mass='89'  formula='4*s*1+4*p*4+1*d*8:4*s*1+4*p*5+1*d*10' zaryad='43' raspad='ß—' ></nuc>
+44Sr90
+<nuc mass='90'  formula='4*s*2+4*p*4+1*d*8:4*s*2+4*p*4+1*d*10' zaryad='44' raspad='ß—' ></nuc>
+41Y80
+<nuc mass='80'  formula='2*s*2+4*p*4+1*d*9:1*s*2+4*p*4+1*d*9' zaryad='41' raspad='ß┼' ></nuc>
+41Y81
+<nuc mass='81'  formula='2*s*2+4*p*4+1*d*9:1*s*2+4*p*4+1*d*10' zaryad='41' raspad='ß┼' ></nuc>
+42Y82
+<nuc mass='82'  formula='3*s*1+4*p*4+1*d*9:2*s*1+4*p*4+1*d*9' zaryad='42' raspad='ß┼' ></nuc>
+42Y83
+<nuc mass='83'  formula='3*s*1+4*p*4+1*d*9:2*s*1+4*p*4+1*d*10' zaryad='42' raspad='ß┼' ></nuc>
+43Y84
+<nuc mass='84'  formula='3*s*2+4*p*4+1*d*9:2*s*2+4*p*4+1*d*9' zaryad='43' raspad='ß┼' ></nuc>
+43Y85
+<nuc mass='85'  formula='3*s*2+4*p*4+1*d*9:2*s*2+4*p*4+1*d*10' zaryad='43' raspad='ß┼' ></nuc>
+44Y86
+<nuc mass='86'  formula='4*s*1+4*p*4+1*d*9:3*s*1+4*p*4+1*d*9' zaryad='44' raspad='ß┼' ></nuc>
+44Y87
+<nuc mass='87'  formula='4*s*1+4*p*4+1*d*9:3*s*1+4*p*4+1*d*10' zaryad='44' raspad='ß┼' ></nuc>
+45Y88
+<nuc mass='88'  formula='4*s*2+4*p*4+1*d*9:3*s*2+4*p*4+1*d*9' zaryad='45' raspad='ß┼' ></nuc>
+44Y89
+<nuc mass='89'  formula='4*s*1+4*p*4+1*d*9:4*s*1+4*p*4+1*d*10' zaryad='44' raspad='стаб' ></nuc>
+44Y90
+<nuc mass='90'  formula='4*s*1+4*p*4+1*d*9:4*s*1+4*p*5+1*d*10' zaryad='44' raspad='ß—' ></nuc>
+44Y91
+<nuc mass='91'  formula='4*s*1+4*p*4+1*d*9:4*s*1+4*p*6+1*d*10' zaryad='44' raspad='ß—' ></nuc>
+45Y92
+<nuc mass='92'  formula='4*s*2+4*p*4+1*d*9:4*s*2+4*p*5+1*d*10' zaryad='45' raspad='ß—' ></nuc>
+45Y93
+<nuc mass='93'  formula='4*s*2+4*p*4+1*d*9:4*s*2+4*p*6+1*d*10' zaryad='45' raspad='ß—' ></nuc>
+46Y94
+<nuc mass='94'  formula='5*s*1+4*p*4+1*d*9:5*s*1+4*p*5+1*d*10' zaryad='46' raspad='ß—' ></nuc>
+46Y95
+<nuc mass='95'  formula='5*s*1+4*p*4+1*d*9:5*s*1+4*p*6+1*d*10' zaryad='46' raspad='ß—' ></nuc>
+47Y96
+<nuc mass='96'  formula='5*s*2+4*p*4+1*d*9:5*s*2+4*p*5+1*d*10' zaryad='47' raspad='ß—' ></nuc>
+47Y97
+<nuc mass='97'  formula='5*s*2+4*p*4+1*d*9:5*s*2+4*p*6+1*d*10' zaryad='47' raspad='ß—' ></nuc>
+48Y98
+<nuc mass='98'  formula='6*s*1+4*p*4+1*d*9:6*s*1+4*p*5+1*d*10' zaryad='48' raspad='ß—' ></nuc>
+48Y99
+<nuc mass='99'  formula='6*s*1+4*p*4+1*d*9:6*s*1+4*p*6+1*d*10' zaryad='48' raspad='ß—' ></nuc>
+49Y100
+<nuc mass='100'  formula='6*s*2+4*p*4+1*d*9:6*s*2+4*p*5+1*d*10' zaryad='49' raspad='ß—' ></nuc>
+45Zr89
+<nuc mass='89'  formula='4*s*1+4*p*4+1*d*10:3*s*2+4*p*4+1*d*10' zaryad='45' raspad='ß┼' ></nuc>
+45Zr90
+<nuc mass='90'  formula='4*s*1+4*p*4+1*d*10:4*s*1+4*p*4+1*d*10' zaryad='45' raspad='стаб' ></nuc>
+45Zr91
+<nuc mass='91'  formula='4*s*1+4*p*4+1*d*10:4*s*1+4*p*5+1*d*10' zaryad='45' raspad='стаб' ></nuc>
+46Zr92
+<nuc mass='92'  formula='4*s*2+4*p*4+1*d*10:4*s*2+4*p*4+1*d*10' zaryad='46' raspad='стаб' ></nuc>
+45Zr93
+<nuc mass='93'  formula='4*s*1+4*p*4+1*d*10:4*s*1+4*p*5+1*d*12' zaryad='45' raspad='ß—' ></nuc>
+47Zr94
+<nuc mass='94'  formula='5*s*1+4*p*4+1*d*10:5*s*1+4*p*4+1*d*10' zaryad='47' raspad='стаб' ></nuc>
+46Zr95
+<nuc mass='95'  formula='4*s*2+4*p*4+1*d*10:4*s*2+4*p*5+1*d*12' zaryad='46' raspad='ß—' ></nuc>
+48Zr96
+<nuc mass='96'  formula='5*s*2+4*p*4+1*d*10:5*s*2+4*p*4+1*d*10' zaryad='48' raspad='стаб' ></nuc>
+47Zr97
+<nuc mass='97'  formula='5*s*1+4*p*4+1*d*10:5*s*1+4*p*5+1*d*12' zaryad='47' raspad='ß—' ></nuc>
+46Nb91
+<nuc mass='91'  formula='4*s*1+4*p*4+1*d*11:3*s*1+4*p*4+1*d*12' zaryad='46' raspad='ß┼' ></nuc>
+47Nb92
+<nuc mass='92'  formula='4*s*2+4*p*4+1*d*11:3*s*2+4*p*4+1*d*11' zaryad='47' raspad='ß┼' ></nuc>
+46Nb93
+<nuc mass='93'  formula='4*s*1+4*p*4+1*d*11:4*s*1+4*p*4+1*d*12' zaryad='46' raspad='стаб' ></nuc>
+46Nb94
+<nuc mass='94'  formula='4*s*1+4*p*4+1*d*11:4*s*1+4*p*5+1*d*12' zaryad='46' raspad='ß—' ></nuc>
+46Nb95
+<nuc mass='95'  formula='4*s*1+4*p*4+1*d*11:4*s*1+4*p*6+1*d*12' zaryad='46' raspad='ß—' ></nuc>
+46Mo91
+<nuc mass='91'  formula='3*s*2+4*p*4+1*d*12:3*s*1+4*p*4+1*d*12' zaryad='46' raspad='ß┼' ></nuc>
+46Mo92
+<nuc mass='92'  formula='3*s*2+4*p*4+1*d*12:3*s*2+4*p*4+1*d*12' zaryad='46' raspad='стаб' ></nuc>
+47Mo93
+<nuc mass='93'  formula='4*s*1+4*p*4+1*d*12:3*s*2+4*p*4+1*d*12' zaryad='47' raspad='ß┼' ></nuc>
+47Mo94
+<nuc mass='94'  formula='4*s*1+4*p*4+1*d*12:4*s*1+4*p*4+1*d*12' zaryad='47' raspad='стаб' ></nuc>
+47Mo95
+<nuc mass='95'  formula='4*s*1+4*p*4+1*d*12:4*s*1+4*p*5+1*d*12' zaryad='47' raspad='стаб' ></nuc>
+48Mo96
+<nuc mass='96'  formula='4*s*2+4*p*4+1*d*12:4*s*2+4*p*4+1*d*12' zaryad='48' raspad='стаб' ></nuc>
+48Mo97
+<nuc mass='97'  formula='4*s*2+4*p*4+1*d*12:4*s*2+4*p*5+1*d*12' zaryad='48' raspad='стаб' ></nuc>
+49Mo98
+<nuc mass='98'  formula='5*s*1+4*p*4+1*d*12:5*s*1+4*p*4+1*d*12' zaryad='49' raspad='стаб' ></nuc>
+48Mo99
+<nuc mass='99'  formula='4*s*2+4*p*4+1*d*12:4*s*2+4*p*5+1*d*14' zaryad='48' raspad='ß—' ></nuc>
+50Mo100
+<nuc mass='100'  formula='5*s*2+4*p*4+1*d*12:5*s*2+4*p*4+1*d*12' zaryad='50' raspad='стаб' ></nuc>
+49Mo101
+<nuc mass='101'  formula='5*s*1+4*p*4+1*d*12:5*s*1+4*p*5+1*d*14' zaryad='49' raspad='ß—' ></nuc>
+48Ru95
+<nuc mass='95'  formula='3*s*2+4*p*4+1*d*14:3*s*1+4*p*4+1*d*14' zaryad='48' raspad='ß┼' ></nuc>
+48Ru96
+<nuc mass='96'  formula='3*s*2+4*p*4+1*d*14:3*s*2+4*p*4+1*d*14' zaryad='48' raspad='стаб' ></nuc>
+49Ru97
+<nuc mass='97'  formula='4*s*1+4*p*4+1*d*14:3*s*2+4*p*4+1*d*14' zaryad='49' raspad='ß┼' ></nuc>
+49Ru98
+<nuc mass='98'  formula='4*s*1+4*p*4+1*d*14:4*s*1+4*p*4+1*d*14' zaryad='49' raspad='стаб' ></nuc>
+49Ru99
+<nuc mass='99'  formula='4*s*1+4*p*4+1*d*14:4*s*1+4*p*5+1*d*14' zaryad='49' raspad='стаб' ></nuc>
+50Ru100
+<nuc mass='100'  formula='4*s*2+4*p*4+1*d*14:4*s*2+4*p*4+1*d*14' zaryad='50' raspad='стаб' ></nuc>
+50Ru101
+<nuc mass='101'  formula='4*s*2+4*p*4+1*d*14:4*s*2+4*p*5+1*d*14' zaryad='50' raspad='стаб' ></nuc>
+51Ru102
+<nuc mass='102'  formula='5*s*1+4*p*4+1*d*14:5*s*1+4*p*4+1*d*14' zaryad='51' raspad='стаб' ></nuc>
+50Ru103
+<nuc mass='103'  formula='4*s*2+4*p*4+1*d*14:4*s*2+4*p*5+1*d*16' zaryad='50' raspad='ß—' ></nuc>
+52Ru104
+<nuc mass='104'  formula='5*s*2+4*p*4+1*d*14:5*s*2+4*p*4+1*d*14' zaryad='52' raspad='стаб' ></nuc>
+51Ru105
+<nuc mass='105'  formula='5*s*1+4*p*4+1*d*14:5*s*1+4*p*5+1*d*16' zaryad='51' raspad='ß—' ></nuc>
+51Rh101
+<nuc mass='101'  formula='4*s*2+4*p*4+1*d*15:3*s*2+4*p*4+1*d*16' zaryad='51' raspad='ß┼' ></nuc>
+52Rh102 (1)
+<nuc mass='102'  formula='5*s*1+4*p*4+1*d*15:4*s*1+4*p*4+1*d*15' zaryad='52' raspad='ß┼ nd16вверх' prefix='(1)'></nuc>
+50Rh102 (2)
+<nuc mass='102'  formula='4*s*1+4*p*4+1*d*15:4*s*1+4*p*5+1*d*16' zaryad='50' raspad='ß—' prefix='(2)'></nuc>
+52Rh102m
+<nuc mass='102'  formula='5*s*1+4*p*4+1*d*15:4*s*1+4*p*4+1*d*15' zaryad='52' raspad='ß┼  nd16 вниз' prefix='m'></nuc>
+51Rh103
+<nuc mass='103'  formula='4*s*2+4*p*4+1*d*15:4*s*2+4*p*4+1*d*16' zaryad='51' raspad='стаб' ></nuc>
+51Rh104
+<nuc mass='104'  formula='4*s*2+4*p*4+1*d*15:4*s*2+4*p*5+1*d*16' zaryad='51' raspad='ß—' ></nuc>
+51Rh105
+<nuc mass='105'  formula='4*s*2+4*p*4+1*d*15:4*s*2+4*p*6+1*d*16' zaryad='51' raspad='ß—' ></nuc>
+51Pd101
+<nuc mass='101'  formula='4*s*1+4*p*4+1*d*16:3*s*2+4*p*4+1*d*16' zaryad='51' raspad='ß┼' ></nuc>
+51Pd102
+<nuc mass='102'  formula='4*s*1+4*p*4+1*d*16:4*s*1+4*p*4+1*d*16' zaryad='51' raspad='стаб' ></nuc>
+52Pd103
+<nuc mass='103'  formula='4*s*2+4*p*4+1*d*16:4*s*1+4*p*4+1*d*16' zaryad='52' raspad='ß┼' ></nuc>
+52Pd104
+<nuc mass='104'  formula='4*s*2+4*p*4+1*d*16:4*s*2+4*p*4+1*d*16' zaryad='52' raspad='стаб' ></nuc>
+52Pd105
+<nuc mass='105'  formula='4*s*2+4*p*4+1*d*16:4*s*2+4*p*5+1*d*16' zaryad='52' raspad='стаб' ></nuc>
+53Pd106
+<nuc mass='106'  formula='5*s*1+4*p*4+1*d*16:5*s*1+4*p*4+1*d*16' zaryad='53' raspad='стаб' ></nuc>
+52Pd107
+<nuc mass='107'  formula='4*s*2+4*p*4+1*d*16:4*s*2+4*p*5+5*p*2+1*d*16' zaryad='52' raspad='ß—' ></nuc>
+54Pd108
+<nuc mass='108'  formula='5*s*2+4*p*4+1*d*16:5*s*2+4*p*4+1*d*16' zaryad='54' raspad='стаб' ></nuc>
+53Pd109
+<nuc mass='109'  formula='5*s*1+4*p*4+1*d*16:5*s*1+4*p*5+5*p*2+1*d*16' zaryad='53' raspad='ß—' ></nuc>
+55Pd110
+<nuc mass='110'  formula='6*s*1+4*p*4+1*d*16:6*s*1+4*p*4+1*d*16' zaryad='55' raspad='стаб' ></nuc>
+54Pd111
+<nuc mass='111'  formula='5*s*2+4*p*4+1*d*16:5*s*2+4*p*5+5*p*2+1*d*16' zaryad='54' raspad='ß—' ></nuc>
+54Ag106 (1)
+<nuc mass='106'  formula='5*s*1+4*p*4+5*p*1+1*d*16:4*s*1+4*p*4+5*p*1+1*d*16' zaryad='54' raspad='ß┼' prefix='(1)'></nuc>
+52Ag106 (2)
+<nuc mass='106'  formula='4*s*1+4*p*4+5*p*1+1*d*16:4*s*1+4*p*5+5*p*2+1*d*16' zaryad='52' raspad='ß—' prefix='(2)'></nuc>
+54Ag106m
+<nuc mass='106'  formula='5*s*1+4*p*5+4*p*8+1*d*16:4*s*1+4*p*5+4*p*8+1*d*1+6   ?' zaryad='54' raspad='ß┼' prefix='m'></nuc>
+53Ag107
+<nuc mass='107'  formula='4*s*2+4*p*4+5*p*1+1*d*16:4*s*2+4*p*4+5*p*2+1*d*16' zaryad='53' raspad='стаб' ></nuc>
+53Ag107m
+<nuc mass='107'  formula='4*s*2+4*p*4+5*p*1+1*d*16:4*s*2+4*p*5+5*p*1+1*d*16' zaryad='53' raspad='IT' prefix='m'></nuc>
+53Ag108 (1)
+<nuc mass='108'  formula='4*s*2+4*p*4+5*p*1+1*d*16:4*s*2+4*p*5+5*p*2+1*d*16' zaryad='53' raspad='ß—' prefix='(1)'></nuc>
+55Ag108 (2)
+<nuc mass='108'  formula='5*s*2+4*p*4+5*p*1+1*d*16:4*s*2+4*p*4+5*p*1+1*d*16' zaryad='55' raspad='ß┼' prefix='(2)'></nuc>
+55Ag108m
+<nuc mass='108'  formula='5*s*2+4*p*5+4*p*8+1*d*16:4*s*2+4*p*5+4*p*8+1*d*16' zaryad='55' raspad='ß┼         91,3%' prefix='m'></nuc>
+54Ag109
+<nuc mass='109'  formula='5*s*1+4*p*4+5*p*1+1*d*16:5*s*1+4*p*4+5*p*2+1*d*16' zaryad='54' raspad='стаб' ></nuc>
+54Ag109m
+<nuc mass='109'  formula='5*s*1+4*p*4+5*p*1+1*d*16:5*s*1+4*p*5+5*p*1+1*d*16' zaryad='54' raspad='IT' prefix='m'></nuc>
+54Ag110 (1)
+<nuc mass='110'  formula='5*s*1+4*p*4+5*p*1+1*d*16:5*s*1+4*p*6+5*p*1+1*d*16' zaryad='54' raspad='ß—' prefix='(1)'></nuc>
+56Ag110 (2)
+<nuc mass='110'  formula='6*s*1+4*p*4+5*p*1+1*d*16:5*s*1+4*p*4+5*p*1+1*d*16' zaryad='56' raspad='ß┼' prefix='(2)'></nuc>
+54Ag110m
+<nuc mass='110'  formula='5*s*1+4*p*4+5*p*1+1*d*16:5*s*1+4*p*5+5*p*2+1*d*16' zaryad='54' raspad='ß—' prefix='m'></nuc>
+54Ag111
+<nuc mass='111'  formula='5*s*1+4*p*4+5*p*1+1*d*16:5*s*1+4*p*6+5*p*2+1*d*16' zaryad='54' raspad='ß—' ></nuc>
+53Cd105
+<nuc mass='105'  formula='4*s*1+4*p*4+5*p*2+1*d*16:3*s*2+4*p*4+5*p*2+1*d*16' zaryad='53' raspad='ß┼' ></nuc>
+53Cd106
+<nuc mass='106'  formula='4*s*1+4*p*4+5*p*2+1*d*16:4*s*1+4*p*4+5*p*2+1*d*16' zaryad='53' raspad='стаб' ></nuc>
+54Cd107
+<nuc mass='107'  formula='4*s*2+4*p*4+5*p*2+1*d*16:4*s*1+4*p*4+5*p*2+1*d*16' zaryad='54' raspad='ß┼' ></nuc>
+54Cd108
+<nuc mass='108'  formula='4*s*2+4*p*4+5*p*2+1*d*16:4*s*2+4*p*4+5*p*2+1*d*16' zaryad='54' raspad='стаб' ></nuc>
+55Cd109
+<nuc mass='109'  formula='5*s*1+4*p*4+5*p*2+1*d*16:4*s*2+4*p*4+5*p*2+1*d*16' zaryad='55' raspad='ß┼' ></nuc>
+55Cd110
+<nuc mass='110'  formula='5*s*1+4*p*4+5*p*2+1*d*16:5*s*1+4*p*4+5*p*2+1*d*16' zaryad='55' raspad='стаб' ></nuc>
+55Cd111
+<nuc mass='111'  formula='5*s*1+4*p*4+5*p*2+1*d*16:5*s*1+4*p*5+5*p*2+1*d*16' zaryad='55' raspad='стаб' ></nuc>
+55Cd111m
+<nuc mass='111'  formula='5*s*1+4*p*4+5*p*2+1*d*16:5*s*1+4*p*4+5*p*3+1*d*16' zaryad='55' raspad='IT' prefix='m'></nuc>
+56Cd112
+<nuc mass='112'  formula='5*s*2+4*p*4+5*p*2+1*d*16:5*s*2+4*p*4+5*p*2+1*d*16' zaryad='56' raspad='стаб' ></nuc>
+55Cd113
+<nuc mass='113'  formula='5*s*1+4*p*4+5*p*2+1*d*16:5*s*1+4*p*7+5*p*2+1*d*16' zaryad='55' raspad='ß—' ></nuc>
+55Cd113m
+<nuc mass='113'  formula='5*s*1+4*p*4+5*p*2+1*d*16:5*s*1+4*p*5+p31*d*16' zaryad='55' raspad='ß—' prefix='m'></nuc>
+57Cd114
+<nuc mass='114'  formula='6*s*1+4*p*4+5*p*2+1*d*16:6*s*1+4*p*4+5*p*2+1*d*16' zaryad='57' raspad='стаб' ></nuc>
+56Cd115
+<nuc mass='115'  formula='5*s*2+4*p*4+5*p*2+1*d*16:5*s*2+4*p*6+5*p*3+1*d*16' zaryad='56' raspad='ß—' ></nuc>
+56Cd115m
+<nuc mass='115'  formula='5*s*2+4*p*4+5*p*2+1*d*16:5*s*2+4*p*7+5*p*2+1*d*16' zaryad='56' raspad='ß—' prefix='m'></nuc>
+58Cd116
+<nuc mass='116'  formula='6*s*2+4*p*4+5*p*2+1*d*16:6*s*2+4*p*4+5*p*2+1*d*16' zaryad='58' raspad='стаб' ></nuc>
+57Cd117
+<nuc mass='117'  formula='6*s*1+4*p*4+5*p*2+1*d*16:6*s*1+4*p*6+5*p*3+1*d*16' zaryad='57' raspad='ß—' ></nuc>
+57Cd117m
+<nuc mass='117'  formula='6*s*1+4*p*4+5*p*2+1*d*16:6*s*1+4*p*7+5*p*2+1*d*16' zaryad='57' raspad='ß—' prefix='m'></nuc>
+58Cd118
+<nuc mass='118'  formula='6*s*2+4*p*4+5*p*2+1*d*16:6*s*2+4*p*6+5*p*2+1*d*16' zaryad='58' raspad='ß—' ></nuc>
+57In112 (1)
+<nuc mass='112'  formula='5*s*2+4*p*4+5*p*3+1*d*16:4*s*2+4*p*4+5*p*3+1*d*16' zaryad='57' raspad='ß┼' prefix='(1)'></nuc>
+55In112 (2)
+<nuc mass='112'  formula='4*s*2+4*p*4+5*p*3+1*d*16:4*s*2+4*p*5+5*p*4+1*d*16' zaryad='55' raspad='ß—' prefix='(2)'></nuc>
+55In112m
+<nuc mass='112'  formula='4*s*2+4*p*4+5*p*3+1*d*16:4*s*2+4*p*6+5*p*3+1*d*16' zaryad='55' raspad='IT' prefix='m'></nuc>
+56In113
+<nuc mass='113'  formula='5*s*1+4*p*4+5*p*3+1*d*16:5*s*1+4*p*4+5*p*4+1*d*16' zaryad='56' raspad='стаб' ></nuc>
+56In113m
+<nuc mass='113'  formula='5*s*1+4*p*4+5*p*3+1*d*16:5*s*1+4*p*5+5*p*3+1*d*16' zaryad='56' raspad='IT' prefix='m'></nuc>
+56In114 (1)
+<nuc mass='114'  formula='5*s*1+4*p*4+5*p*3+1*d*16:5*s*1+4*p*5+5*p*4+1*d*16' zaryad='56' raspad='ß—' prefix='(1)'></nuc>
+58In114 (2)
+<nuc mass='114'  formula='6*s*1+4*p*4+5*p*3+1*d*16:5*s*1+4*p*4+5*p*3+1*d*16' zaryad='58' raspad='ß┼' prefix='(2)'></nuc>
+56In114m
+<nuc mass='114'  formula='5*s*1+4*p*4+5*p*3+1*d*16:5*s*1+4*p*6+5*p*3+1*d*16' zaryad='56' raspad='IT' prefix='m'></nuc>
+56In115
+<nuc mass='115'  formula='5*s*1+4*p*4+5*p*3+1*d*16:5*s*1+4*p*6+5*p*4+1*d*16' zaryad='56' raspad='ß—' ></nuc>
+56In115m
+<nuc mass='115'  formula='5*s*1+4*p*4+5*p*3+1*d*16:5*s*1+4*p*5+5*p*5+1*d*16' zaryad='56' raspad='IT' prefix='m'></nuc>
+57In116
+<nuc mass='116'  formula='5*s*2+4*p*4+5*p*3+1*d*16:5*s*2+4*p*6+5*p*4+1*d*16' zaryad='57' raspad='ß—' ></nuc>
+56Sn111
+<nuc mass='111'  formula='4*s*2+4*p*4+5*p*4+1*d*16:4*s*1+4*p*4+5*p*4+1*d*16' zaryad='56' raspad='ß┼' ></nuc>
+56Sn112
+<nuc mass='112'  formula='4*s*2+4*p*4+5*p*4+1*d*16:4*s*2+4*p*4+5*p*4+1*d*16' zaryad='56' raspad='стаб' ></nuc>
+57Sn113
+<nuc mass='113'  formula='5*s*1+4*p*4+5*p*4+1*d*16:4*s*2+4*p*4+5*p*4+1*d*16' zaryad='57' raspad='ß┼' ></nuc>
+57Sn114
+<nuc mass='114'  formula='5*s*1+4*p*4+5*p*4+1*d*16:5*s*1+4*p*4+5*p*4+1*d*16' zaryad='57' raspad='стаб' ></nuc>
+57Sn115
+<nuc mass='115'  formula='5*s*1+4*p*4+5*p*4+1*d*16:5*s*1+4*p*5+5*p*4+1*d*16' zaryad='57' raspad='стаб' ></nuc>
+58Sn116
+<nuc mass='116'  formula='5*s*2+4*p*4+5*p*4+1*d*16:5*s*2+4*p*4+5*p*4+1*d*16' zaryad='58' raspad='стаб' ></nuc>
+58Sn117
+<nuc mass='117'  formula='5*s*2+4*p*4+5*p*4+1*d*16:5*s*2+4*p*5+5*p*4+1*d*16' zaryad='58' raspad='стаб' ></nuc>
+59Sn118
+<nuc mass='118'  formula='6*s*1+4*p*4+5*p*4+1*d*16:6*s*1+4*p*4+5*p*4+1*d*16' zaryad='59' raspad='стаб' ></nuc>
+59Sn119
+<nuc mass='119'  formula='6*s*1+4*p*4+5*p*4+1*d*16:6*s*1+4*p*5+5*p*4+1*d*16' zaryad='59' raspad='стаб' ></nuc>
+60Sn120
+<nuc mass='120'  formula='6*s*2+4*p*4+5*p*4+1*d*16:6*s*2+4*p*4+5*p*4+1*d*16' zaryad='60' raspad='стаб' ></nuc>
+59Sn121
+<nuc mass='121'  formula='6*s*1+4*p*4+5*p*4+1*d*16:6*s*1+4*p*7+5*p*4+1*d*16' zaryad='59' raspad='ß—' ></nuc>
+61Sn122
+<nuc mass='122'  formula='7*s*1+4*p*4+5*p*4+1*d*16:7*s*1+4*p*4+5*p*4+1*d*16' zaryad='61' raspad='стаб' ></nuc>
+60Sn123
+<nuc mass='123'  formula='6*s*2+4*p*4+5*p*4+1*d*16:6*s*2+4*p*7+5*p*4+1*d*16' zaryad='60' raspad='ß—' ></nuc>
+62Sn124
+<nuc mass='124'  formula='7*s*2+4*p*4+5*p*4+1*d*16:7*s*2+4*p*4+5*p*4+1*d*16' zaryad='62' raspad='стаб' ></nuc>
+61Sn125
+<nuc mass='125'  formula='7*s*1+4*p*4+5*p*4+1*d*16:7*s*1+4*p*7+5*p*4+1*d*16' zaryad='61' raspad='ß—' ></nuc>
+61Sb120
+<nuc mass='120'  formula='6*s*2+4*p*5+5*p*4+1*d*16:5*s*2+4*p*5+5*p*4+1*d*16' zaryad='61' raspad='ß┼' ></nuc>
+61Sb120m
+<nuc mass='120'  formula='6*s*2+4*p*6+5*p*3+1*d*16:5*s*2+4*p*6+5*p*3+1*d*16' zaryad='61' raspad='ß┼' prefix='m'></nuc>
+60Sb121
+<nuc mass='121'  formula='6*s*1+4*p*5+5*p*4+1*d*16:6*s*1+4*p*6+5*p*4+1*d*16' zaryad='60' raspad='стаб' ></nuc>
+60Sb122
+<nuc mass='122'  formula='6*s*1+4*p*5+5*p*4+1*d*16:6*s*1+4*p*7+5*p*4+1*d*16' zaryad='60' raspad='ß—' ></nuc>
+62Sb122
+<nuc mass='122'  formula='7*s*1+4*p*5+5*p*4+1*d*16:6*s*1+4*p*5+5*p*4+1*d*16' zaryad='62' raspad='ß┼' ></nuc>
+61Sb123
+<nuc mass='123'  formula='6*s*2+4*p*5+5*p*4+1*d*16:6*s*2+4*p*6+5*p*4+1*d*16' zaryad='61' raspad='стаб' ></nuc>
+61Sb124
+<nuc mass='124'  formula='6*s*2+4*p*5+5*p*4+1*d*16:6*s*2+4*p*7+5*p*4+1*d*16' zaryad='61' raspad='ß—' ></nuc>
+60Te119
+<nuc mass='119'  formula='5*s*2+4*p*6+5*p*4+1*d*16:5*s*1+4*p*6+5*p*4+1*d*16' zaryad='60' raspad='ß┼' ></nuc>
+60Te120
+<nuc mass='120'  formula='5*s*2+4*p*6+5*p*4+1*d*16:5*s*2+4*p*6+5*p*4+1*d*16' zaryad='60' raspad='стаб' ></nuc>
+61Te121
+<nuc mass='121'  formula='6*s*1+4*p*6+5*p*4+1*d*16:5*s*2+4*p*6+5*p*4+1*d*16' zaryad='61' raspad='ß┼' ></nuc>
+61Te122
+<nuc mass='122'  formula='6*s*1+4*p*6+5*p*4+1*d*16:6*s*1+4*p*6+5*p*4+1*d*16' zaryad='61' raspad='стаб' ></nuc>
+62Te123
+<nuc mass='123'  formula='6*s*2+4*p*6+5*p*4+1*d*16:6*s*1+4*p*6+5*p*4+1*d*16' zaryad='62' raspad='ß┼' ></nuc>
+62Te124
+<nuc mass='124'  formula='6*s*2+4*p*6+5*p*4+1*d*16:6*s*2+4*p*6+5*p*4+1*d*16' zaryad='62' raspad='стаб' ></nuc>
+62Te125
+<nuc mass='125'  formula='6*s*2+4*p*6+5*p*4+1*d*16:6*s*2+4*p*7+5*p*4+1*d*16' zaryad='62' raspad='стаб' ></nuc>
+63Te126
+<nuc mass='126'  formula='7*s*1+4*p*6+5*p*4+1*d*16:7*s*1+4*p*6+5*p*4+1*d*16' zaryad='63' raspad='стаб' ></nuc>
+62Te127
+<nuc mass='127'  formula='6*s*2+4*p*6+5*p*4+1*d*16:6*s*2+4*p*8+5*p*5+1*d*16' zaryad='62' raspad='ß—' ></nuc>
+63Te128
+<nuc mass='128'  formula='7*s*1+4*p*6+5*p*4+1*d*16:7*s*1+4*p*8+5*p*4+1*d*16' zaryad='63' raspad='ß—' ></nuc>
+63Te129
+<nuc mass='129'  formula='7*s*1+4*p*6+5*p*4+1*d*16:7*s*1+4*p*6+5*p*5+1*d*16' zaryad='63' raspad='ß—' ></nuc>
+64Te130
+<nuc mass='130'  formula='7*s*2+4*p*6+5*p*4+1*d*16:7*s*2+4*p*8+5*p*4+1*d*16' zaryad='64' raspad='2ß—' ></nuc>
+64Te131
+<nuc mass='131'  formula='7*s*2+4*p*6+5*p*4+1*d*16:7*s*2+4*p*8+5*p*5+1*d*16' zaryad='64' raspad='ß—' ></nuc>
+63I125
+<nuc mass='125'  formula='6*s*2+4*p*7+5*p*4+1*d*16:5*s*2+4*p*8+5*p*4+1*d*16' zaryad='63' raspad='ß┼' ></nuc>
+64I126 (1)
+<nuc mass='126'  formula='7*s*1+4*p*7+5*p*4+1*d*16:6*s*1+4*p*7+5*p*4+1*d*16' zaryad='64' raspad='ß┼' prefix='(1)'></nuc>
+62I126 (2)
+<nuc mass='126'  formula='6*s*1+4*p*7+5*p*4+1*d*16:6*s*1+4*p*8+5*p*5+1*d*16' zaryad='62' raspad='ß—' prefix='(2)'></nuc>
+63I127
+<nuc mass='127'  formula='6*s*2+4*p*7+5*p*4+1*d*16:6*s*2+4*p*8+5*p*4+1*d*16' zaryad='63' raspad='стаб' ></nuc>
+63I128 (1)
+<nuc mass='128'  formula='6*s*2+4*p*7+5*p*4+1*d*16:6*s*2+4*p*8+5*p*5+1*d*16' zaryad='63' raspad='ß—' prefix='(1)'></nuc>
+65I128 (2)
+<nuc mass='128'  formula='7*s*2+4*p*7+5*p*4+1*d*16:6*s*2+4*p*7+5*p*4+1*d*16' zaryad='65' raspad='ß┼' prefix='(2)'></nuc>
+63I129
+<nuc mass='129'  formula='6*s*2+4*p*7+5*p*4+1*d*16:6*s*2+4*p*8+5*p*5+1*d*16' zaryad='63' raspad='ß—' ></nuc>
+62Xe123
+<nuc mass='123'  formula='5*s*2+4*p*8+5*p*4+1*d*16:5*s*1+4*p*8+5*p*4+1*d*16' zaryad='62' raspad='ß┼' ></nuc>
+62Xe124
+<nuc mass='124'  formula='5*s*2+5*p*4+1*d*16:5*s*2+5*p*4+1*d*16' zaryad='62' raspad='стаб' ></nuc>
+63Xe125
+<nuc mass='125'  formula='6*s*1+5*p*4+1*d*16:5*s*2+5*p*4+1*d*16' zaryad='63' raspad='ß┼' ></nuc>
+63Xe126
+<nuc mass='126'  formula='6*s*1+5*p*4+1*d*16:6*s*1+5*p*4+1*d*16' zaryad='63' raspad='стаб' ></nuc>
+64Xe127
+<nuc mass='127'  formula='6*s*2+5*p*4+1*d*16:6*s*1+5*p*4+1*d*16' zaryad='64' raspad='ß┼' ></nuc>
+64Xe128
+<nuc mass='128'  formula='6*s*2+5*p*4+1*d*16:6*s*2+5*p*4+1*d*16' zaryad='64' raspad='стаб' ></nuc>
+64Xe129
+<nuc mass='129'  formula='6*s*2+5*p*4+1*d*16:6*s*2+5*p*5+1*d*16' zaryad='64' raspad='стаб' ></nuc>
+65Xe130
+<nuc mass='130'  formula='7*s*1+5*p*4+1*d*16:7*s*1+5*p*4+1*d*16' zaryad='65' raspad='стаб' ></nuc>
+65Xe131
+<nuc mass='131'  formula='7*s*1+5*p*4+1*d*16:7*s*1+5*p*5+1*d*16' zaryad='65' raspad='стаб' ></nuc>
+66Xe132
+<nuc mass='132'  formula='7*s*2+5*p*4+1*d*16:7*s*2+5*p*4+1*d*16' zaryad='66' raspad='стаб' ></nuc>
+65Xe133
+<nuc mass='133'  formula='7*s*1+5*p*4+1*d*16:7*s*1+5*p*5+6*p*2+1*d*16' zaryad='65' raspad='ß—' ></nuc>
+67Xe134
+<nuc mass='134'  formula='8*s*1+5*p*4+1*d*16:8*s*1+5*p*4+1*d*16' zaryad='67' raspad='стаб' ></nuc>
+66Xe135
+<nuc mass='135'  formula='7*s*2+5*p*4+1*d*16:7*s*2+5*p*5+6*p*2+1*d*16' zaryad='66' raspad='ß—' ></nuc>
+68Xe136
+<nuc mass='136'  formula='8*s*2+5*p*4+1*d*16:8*s*2+5*p*4+1*d*16' zaryad='68' raspad='стаб' ></nuc>
+67Xe137
+<nuc mass='137'  formula='8*s*1+5*p*4+1*d*16:8*s*1+5*p*5+6*p*2+1*d*16' zaryad='67' raspad='ß—' ></nuc>
+66Cs131
+<nuc mass='131'  formula='7*s*1+5*p*4+6*p*1+1*d*16:6*s*1+5*p*4+6*p*2+1*d*16' zaryad='66' raspad='ß┼' ></nuc>
+67Cs132 (1)
+<nuc mass='132'  formula='7*s*2+5*p*4+6*p*1+1*d*16:6*s*2+5*p*4+6*p*1+1*d*16' zaryad='67' raspad='ß┼' prefix='(1)'></nuc>
+65Cs132 (2)
+<nuc mass='132'  formula='6*s*2+5*p*4+6*p*1+1*d*16:6*s*2+5*p*5+6*p*2+1*d*16' zaryad='65' raspad='ß—' prefix='(2)'></nuc>
+66Cs133
+<nuc mass='133'  formula='7*s*1+5*p*4+6*p*1+1*d*16:7*s*1+5*p*4+6*p*2+1*d*16' zaryad='66' raspad='стаб' ></nuc>
+66Cs134
+<nuc mass='134'  formula='7*s*1+5*p*4+6*p*1+1*d*16:7*s*1+5*p*5+6*p*2+1*d*16' zaryad='66' raspad='ß—' ></nuc>
+66Cs134m
+<nuc mass='134'  formula='7*s*1+5*p*4+6*p*1+1*d*16:7*s*1+5*p*4+6*p*3+1*d*16' zaryad='66' raspad='IT' prefix='m'></nuc>
+66Cs135
+<nuc mass='135'  formula='7*s*1+5*p*4+6*p*1+1*d*16:7*s*1+5*p*6+6*p*2+1*d*16' zaryad='66' raspad='ß—' ></nuc>
+66Cs135m
+<nuc mass='135'  formula='7*s*1+5*p*4+6*p*1+1*d*16:7*s*1+5*p*5+6*p*3+1*d*16' zaryad='66' raspad='IT' prefix='m'></nuc>
+67Cs136
+<nuc mass='136'  formula='7*s*2+5*p*4+6*p*1+1*d*16:7*s*2+5*p*5+6*p*2+1*d*16' zaryad='67' raspad='ß—' ></nuc>
+67Cs136m
+<nuc mass='136'  formula='7*s*2+5*p*4+6*p*1+1*d*16:7*s*2+5*p*4+6*p*3+1*d*16' zaryad='67' raspad='IT' prefix='m'></nuc>
+67Cs137
+<nuc mass='137'  formula='7*s*2+5*p*4+6*p*1+1*d*16:7*s*2+5*p*6+6*p*2+1*d*16' zaryad='67' raspad='ß—' ></nuc>
+65Ba129
+<nuc mass='129'  formula='6*s*1+5*p*4+6*p*2+1*d*16:5*s*2+5*p*4+6*p*2+1*d*16' zaryad='65' raspad='ß┼' ></nuc>
+65Ba130
+<nuc mass='130'  formula='6*s*1+5*p*4+6*p*2+1*d*16:6*s*1+5*p*4+6*p*2+1*d*16' zaryad='65' raspad='стаб' ></nuc>
+66Ba131
+<nuc mass='131'  formula='6*s*2+5*p*4+6*p*2+1*d*16:6*s*1+5*p*4+6*p*2+1*d*16' zaryad='66' raspad='ß┼' ></nuc>
+66Ba132
+<nuc mass='132'  formula='6*s*2+5*p*4+6*p*2+1*d*16:6*s*2+5*p*4+6*p*2+1*d*16' zaryad='66' raspad='стаб' ></nuc>
+67Ba133
+<nuc mass='133'  formula='7*s*1+5*p*4+6*p*2+1*d*16:6*s*2+5*p*4+6*p*2+1*d*16' zaryad='67' raspad='ß┼' ></nuc>
+67Ba134
+<nuc mass='134'  formula='7*s*1+5*p*4+6*p*2+1*d*16:7*s*1+5*p*4+6*p*2+1*d*16' zaryad='67' raspad='стаб' ></nuc>
+67Ba135
+<nuc mass='135'  formula='7*s*1+5*p*4+6*p*2+1*d*16:7*s*1+5*p*5+6*p*2+1*d*16' zaryad='67' raspad='стаб' ></nuc>
+68Ba136
+<nuc mass='136'  formula='7*s*2+5*p*4+6*p*2+1*d*16:7*s*2+5*p*4+6*p*2+1*d*16' zaryad='68' raspad='стаб' ></nuc>
+68Ba137
+<nuc mass='137'  formula='7*s*2+5*p*4+6*p*2+1*d*16:7*s*2+5*p*5+6*p*2+1*d*16' zaryad='68' raspad='стаб' ></nuc>
+69Ba138
+<nuc mass='138'  formula='8*s*1+5*p*4+6*p*2+1*d*16:8*s*1+5*p*4+6*p*2+1*d*16' zaryad='69' raspad='стаб' ></nuc>
+68Ba139
+<nuc mass='139'  formula='7*s*2+5*p*4+6*p*2+1*d*16:7*s*2+5*p*7+6*p*2+1*d*16' zaryad='68' raspad='ß—' ></nuc>
+69La137
+<nuc mass='137'  formula='7*s*2+5*p*5+6*p*2+1*d*16:6*s*2+5*p*6+6*p*2+1*d*16' zaryad='69' raspad='ß┼' ></nuc>
+70La138 (1)
+<nuc mass='138'  formula='8*s*1+5*p*5+6*p*2+1*d*16:7*s*1+5*p*5+6*p*2+1*d*16' zaryad='70' raspad='ß┼              66,4%' prefix='(1)'></nuc>
+68La138 (2)
+<nuc mass='138'  formula='7*s*1+5*p*5+6*p*2+1*d*16:7*s*1+5*p*7+6*p*2+1*d*16' zaryad='68' raspad='ß—        33,6%' prefix='(2)'></nuc>
+69La139
+<nuc mass='139'  formula='7*s*2+5*p*5+6*p*2+1*d*16:7*s*2+5*p*6+6*p*2+1*d*16' zaryad='69' raspad='стаб' ></nuc>
+69La140
+<nuc mass='140'  formula='7*s*2+5*p*5+6*p*2+1*d*16:7*s*2+5*p*7+6*p*2+1*d*16' zaryad='69' raspad='ß—' ></nuc>
+69La141
+<nuc mass='141'  formula='7*s*2+5*p*5+6*p*2+1*d*16:7*s*2+5*p*8+6*p*2+1*d*16' zaryad='69' raspad='ß—' ></nuc>
+68Ce135
+<nuc mass='135'  formula='6*s*2+5*p*6+6*p*2+1*d*16:6*s*1+5*p*6+6*p*2+1*d*16' zaryad='68' raspad='ß┼' ></nuc>
+68Ce136
+<nuc mass='136'  formula='6*s*2+5*p*6+6*p*2+1*d*16:6*s*2+5*p*6+6*p*2+1*d*16' zaryad='68' raspad='стаб' ></nuc>
+69Ce137
+<nuc mass='137'  formula='7*s*1+5*p*6+6*p*2+1*d*16:6*s*2+5*p*6+6*p*2+1*d*16' zaryad='69' raspad='ß┼' ></nuc>
+69Ce138
+<nuc mass='138'  formula='7*s*1+5*p*6+6*p*2+1*d*16:7*s*1+5*p*6+6*p*2+1*d*16' zaryad='69' raspad='стаб' ></nuc>
+70Ce139
+<nuc mass='139'  formula='7*s*2+5*p*6+6*p*2+1*d*16:7*s*1+5*p*6+6*p*2+1*d*16' zaryad='70' raspad='ß┼' ></nuc>
+70Ce140
+<nuc mass='140'  formula='7*s*2+5*p*6+6*p*2+1*d*16:7*s*2+5*p*6+6*p*2+1*d*16' zaryad='70' raspad='стаб' ></nuc>
+69Ce141
+<nuc mass='141'  formula='7*s*1+5*p*6+6*p*2+1*d*16:7*s*1+5*p*7+6*p*2+1*d*1+62*d*2' zaryad='69' raspad='ß—' ></nuc>
+71Ce142
+<nuc mass='142'  formula='8*s*1+5*p*6+6*p*2+1*d*16:8*s*1+5*p*6+6*p*2+1*d*16' zaryad='71' raspad='стаб' ></nuc>
+70Ce143
+<nuc mass='143'  formula='7*s*2+5*p*6+6*p*2+1*d*16:7*s*2+5*p*7+6*p*2+1*d*1+62*d*2' zaryad='70' raspad='ß—' ></nuc>
+71Pr140
+<nuc mass='140'  formula='7*s*2+5*p*6+6*p*2+1*d*1+62*d*1:6*s*2+5*p*6+6*p*2+1*d*1+62*d*1' zaryad='71' raspad='ß┼' ></nuc>
+70Pr141
+<nuc mass='141'  formula='7*s*1+5*p*6+6*p*2+2*d*1:7*s*1+5*p*6+6*p*2+2*d*2' zaryad='70' raspad='стаб' ></nuc>
+70Pr142 (1)
+<nuc mass='142'  formula='7*s*1+5*p*6+6*p*2+2*d*1:7*s*1+5*p*7+6*p*2+2*d*2' zaryad='70' raspad='ß—' prefix='(1)'></nuc>
+72Pr142 (2)
+<nuc mass='142'  formula='8*s*1+5*p*6+6*p*2+2*d*1:7*s*1+5*p*6+6*p*2+2*d*1' zaryad='72' raspad='ß┼' prefix='(2)'></nuc>
+70Pr142m
+<nuc mass='142'  formula='7*s*1+5*p*6+6*p*2+2*d*1:7*s*1+5*p*8+6*p*2+2*d*1' zaryad='70' raspad='IT' prefix='m'></nuc>
+70Pr143
+<nuc mass='143'  formula='7*s*1+5*p*6+6*p*2+2*d*1:7*s*1+5*p*8+6*p*2+2*d*2' zaryad='70' raspad='ß—' ></nuc>
+71Nd140
+<nuc mass='140'  formula='7*s*1+5*p*6+6*p*2+2*d*2:6*s*1+5*p*6+6*p*2+2*d*2' zaryad='71' raspad='ß┼' ></nuc>
+71Nd141
+<nuc mass='141'  formula='7*s*1+5*p*6+6*p*2+2*d*2:6*s*2+5*p*6+6*p*2+2*d*2' zaryad='71' raspad='ß┼' ></nuc>
+71Nd142
+<nuc mass='142'  formula='7*s*1+5*p*6+6*p*2+2*d*2:7*s*1+5*p*6+6*p*2+2*d*2' zaryad='71' raspad='стаб' ></nuc>
+71Nd143
+<nuc mass='143'  formula='7*s*1+5*p*6+6*p*2+2*d*2:7*s*1+5*p*7+6*p*2+2*d*2' zaryad='71' raspad='стаб' ></nuc>
+72Nd144
+<nuc mass='144'  formula='7*s*2+5*p*6+6*p*2+2*d*2:6*s*2+5*p*8+6*p*2+2*d*2' zaryad='72' raspad='альфа' ></nuc>
+72Nd145
+<nuc mass='145'  formula='7*s*2+5*p*6+6*p*2+2*d*2:7*s*2+5*p*7+6*p*2+2*d*2' zaryad='72' raspad='стаб' ></nuc>
+73Nd146
+<nuc mass='146'  formula='8*s*1+5*p*6+6*p*2+2*d*2:8*s*1+5*p*6+6*p*2+2*d*2' zaryad='73' raspad='стаб' ></nuc>
+72Nd147
+<nuc mass='147'  formula='7*s*2+5*p*6+6*p*2+2*d*2:7*s*2+5*p*7+6*p*2+2*d*4' zaryad='72' raspad='ß—' ></nuc>
+74Nd148
+<nuc mass='148'  formula='8*s*2+5*p*6+6*p*2+2*d*2:8*s*2+5*p*6+6*p*2+2*d*2' zaryad='74' raspad='стаб' ></nuc>
+73Nd149
+<nuc mass='149'  formula='8*s*1+5*p*6+6*p*2+2*d*2:8*s*1+5*p*7+6*p*2+2*d*4' zaryad='73' raspad='ß—' ></nuc>
+75Nd150
+<nuc mass='150'  formula='9*s*1+5*p*6+6*p*2+2*d*2:9*s*1+5*p*6+6*p*2+2*d*2' zaryad='75' raspad='стаб' ></nuc>
+74Nd151
+<nuc mass='151'  formula='8*s*2+5*p*6+6*p*2+2*d*2:8*s*2+5*p*7+6*p*2+2*d*4' zaryad='74' raspad='ß—' ></nuc>
+72Pm143
+<nuc mass='143'  formula='7*s*1+5*p*6+6*p*2+2*d*3:6*s*1+5*p*6+6*p*2+2*d*4' zaryad='72' raspad='ß┼' ></nuc>
+73Pm144
+<nuc mass='144'  formula='7*s*2+5*p*6+6*p*2+2*d*3:6*s*2+5*p*6+6*p*2+2*d*3' zaryad='73' raspad='ß┼' ></nuc>
+73Pm145
+<nuc mass='145'  formula='7*s*2+5*p*6+6*p*2+2*d*3:6*s*2+5*p*6+6*p*2+2*d*4' zaryad='73' raspad='ß┼' ></nuc>
+74Pm146 (1)
+<nuc mass='146'  formula='8*s*1+5*p*6+6*p*2+2*d*3:7*s*1+5*p*6+6*p*2+2*d*3' zaryad='74' raspad='ß┼' prefix='(1)'></nuc>
+72Pm146 (2)
+<nuc mass='146'  formula='7*s*1+5*p*6+6*p*2+2*d*3:7*s*1+5*p*7+6*p*2+2*d*4' zaryad='72' raspad='ß—' prefix='(2)'></nuc>
+72Pm147
+<nuc mass='147'  formula='7*s*1+5*p*6+6*p*2+2*d*3:7*s*1+5*p*8+6*p*2+2*d*4' zaryad='72' raspad='ß—' ></nuc>
+73Pm148
+<nuc mass='148'  formula='7*s*2+5*p*6+6*p*2+2*d*3:7*s*2+5*p*7+6*p*2+2*d*4' zaryad='73' raspad='ß—' ></nuc>
+73Pm149
+<nuc mass='149'  formula='7*s*2+5*p*6+6*p*2+2*d*3:7*s*2+5*p*8+6*p*2+2*d*4' zaryad='73' raspad='ß—' ></nuc>
+72Sm143
+<nuc mass='143'  formula='6*s*2+5*p*6+6*p*2+2*d*4:6*s*1+5*p*6+6*p*2+2*d*4' zaryad='72' raspad='ß┼' ></nuc>
+72Sm144
+<nuc mass='144'  formula='6*s*2+5*p*6+6*p*2+2*d*4:6*s*2+5*p*6+6*p*2+2*d*4' zaryad='72' raspad='стаб' ></nuc>
+73Sm145
+<nuc mass='145'  formula='7*s*1+5*p*6+6*p*2+2*d*4:6*s*2+5*p*6+6*p*2+2*d*4' zaryad='73' raspad='ß┼' ></nuc>
+73Sm146
+<nuc mass='146'  formula='7*s*1+5*p*6+6*p*2+2*d*4:6*s*1+5*p*8+6*p*2+2*d*4' zaryad='73' raspad='альфа' ></nuc>
+73Sm147
+<nuc mass='147'  formula='7*s*1+5*p*6+6*p*2+2*d*4:6*s*1+5*p*8+6*p*3+2*d*4' zaryad='73' raspad='альфа' ></nuc>
+74Sm148
+<nuc mass='148'  formula='7*s*2+5*p*6+6*p*2+2*d*4:6*s*2+5*p*8+6*p*2+2*d*4' zaryad='74' raspad='альфа' ></nuc>
+74Sm149
+<nuc mass='149'  formula='7*s*2+5*p*6+6*p*2+2*d*4:7*s*2+5*p*7+6*p*2+2*d*4' zaryad='74' raspad='стаб' ></nuc>
+75Sm150
+<nuc mass='150'  formula='8*s*1+5*p*6+6*p*2+2*d*4:8*s*1+5*p*6+6*p*2+2*d*4' zaryad='75' raspad='стаб' ></nuc>
+74Sm151
+<nuc mass='151'  formula='7*s*2+5*p*6+6*p*2+2*d*4:7*s*2+5*p*8+6*p*3+2*d*4' zaryad='74' raspad='ß—' ></nuc>
+76Sm152
+<nuc mass='152'  formula='8*s*2+5*p*6+6*p*2+2*d*4:8*s*2+5*p*6+6*p*2+2*d*4' zaryad='76' raspad='стаб' ></nuc>
+75Sm153
+<nuc mass='153'  formula='8*s*1+5*p*6+6*p*2+2*d*4:8*s*1+5*p*8+6*p*3+2*d*4' zaryad='75' raspad='ß—' ></nuc>
+77Sm154
+<nuc mass='154'  formula='9*s*1+5*p*6+6*p*2+2*d*4:9*s*1+5*p*6+6*p*2+2*d*4' zaryad='77' raspad='стаб' ></nuc>
+76Sm155
+<nuc mass='155'  formula='8*s*2+5*p*6+6*p*2+2*d*4:8*s*2+5*p*8+6*p*3+2*d*4' zaryad='76' raspad='ß—' ></nuc>
+76Eu150
+<nuc mass='150'  formula='8*s*1+5*p*7+6*p*2+2*d*4:7*s*1+5*p*7+6*p*2+2*d*4' zaryad='76' raspad='ß┼' ></nuc>
+75Eu151
+<nuc mass='151'  formula='7*s*2+5*p*7+6*p*2+2*d*4:7*s*2+5*p*8+6*p*2+2*d*4' zaryad='75' raspad='стаб' ></nuc>
+77Eu152 (1)
+<nuc mass='152'  formula='8*s*2+5*p*7+6*p*2+2*d*4:7*s*2+5*p*7+6*p*2+2*d*4' zaryad='77' raspad='ß┼' prefix='(1)'></nuc>
+75Eu152 (2)
+<nuc mass='152'  formula='7*s*2+5*p*7+6*p*2+2*d*4:7*s*2+5*p*8+6*p*3+2*d*4' zaryad='75' raspad='ß—' prefix='(2)'></nuc>
+76Eu153
+<nuc mass='153'  formula='8*s*1+5*p*7+6*p*2+2*d*4:8*s*1+5*p*8+6*p*2+2*d*4' zaryad='76' raspad='стаб' ></nuc>
+76Eu154 (1)
+<nuc mass='154'  formula='8*s*1+5*p*7+6*p*2+2*d*4:8*s*1+5*p*8+6*p*3+2*d*4' zaryad='76' raspad='ß—' prefix='(1)'></nuc>
+78Eu154 (2)
+<nuc mass='154'  formula='9*s*1+5*p*7+6*p*2+2*d*4:8*s*1+5*p*7+6*p*2+2*d*4' zaryad='78' raspad='ß┼' prefix='(2)'></nuc>
+76Eu155
+<nuc mass='155'  formula='8*s*1+5*p*7+6*p*2+2*d*4:8*s*1+5*p*8+6*p*4+2*d*4' zaryad='76' raspad='ß—' ></nuc>
+75Gd150
+<nuc mass='150'  formula='7*s*1+5*p*8+6*p*2+2*d*4:6*s*1+5*p*8+6*p*4+2*d*4' zaryad='75' raspad='альфа' ></nuc>
+76Gd151
+<nuc mass='151'  formula='7*s*2+6*p*2+2*d*4:7*s*1+6*p*2+2*d*4' zaryad='76' raspad='ß┼' ></nuc>
+76Gd152
+<nuc mass='152'  formula='7*s*2+6*p*2+2*d*4:6*s*2+6*p*4+2*d*4' zaryad='76' raspad='альфа' ></nuc>
+77Gd153
+<nuc mass='153'  formula='8*s*1+6*p*2+2*d*4:7*s*2+6*p*2+2*d*4' zaryad='77' raspad='ß┼' ></nuc>
+77Gd154
+<nuc mass='154'  formula='8*s*1+6*p*2+2*d*4:8*s*1+6*p*2+2*d*4' zaryad='77' raspad='стаб' ></nuc>
+77Gd155
+<nuc mass='155'  formula='8*s*1+6*p*2+2*d*4:8*s*1+6*p*2+2*d*5' zaryad='77' raspad='стаб' ></nuc>
+78Gd156
+<nuc mass='156'  formula='8*s*2+6*p*2+2*d*4:8*s*2+6*p*2+2*d*4' zaryad='78' raspad='стаб' ></nuc>
+78Gd157
+<nuc mass='157'  formula='8*s*2+6*p*2+2*d*4:8*s*2+6*p*2+2*d*5' zaryad='78' raspad='стаб' ></nuc>
+79Gd158
+<nuc mass='158'  formula='9*s*1+6*p*2+2*d*4:9*s*1+6*p*2+2*d*4' zaryad='79' raspad='стаб' ></nuc>
+78Gd159
+<nuc mass='159'  formula='8*s*2+6*p*2+2*d*4:8*s*2+6*p*3+2*d*6' zaryad='78' raspad='ß—' ></nuc>
+80Gd160
+<nuc mass='160'  formula='9*s*2+6*p*2+2*d*4:9*s*2+6*p*2+2*d*4' zaryad='80' raspad='стаб' ></nuc>
+79Gd161
+<nuc mass='161'  formula='9*s*1+6*p*2+2*d*4:9*s*1+6*p*3+2*d*6' zaryad='79' raspad='ß—' ></nuc>
+79Tb157
+<nuc mass='157'  formula='8*s*2+6*p*2+2*d*5:8*s*1+6*p*2+2*d*5' zaryad='79' raspad='ß┼' ></nuc>
+80Tb158 (1)
+<nuc mass='158'  formula='9*s*1+6*p*2+2*d*5:8*s*1+6*p*2+2*d*5' zaryad='80' raspad='ß┼' prefix='(1)'></nuc>
+78Tb158 (2)
+<nuc mass='158'  formula='8*s*1+6*p*2+2*d*5:8*s*1+6*p*3+2*d*6' zaryad='78' raspad='ß—' prefix='(2)'></nuc>
+78Tb158m
+<nuc mass='158'  formula='8*s*1+6*p*2+2*d*5:8*s*1+6*p*4+2*d*5' zaryad='78' raspad='IT' prefix='m'></nuc>
+79Tb159
+<nuc mass='159'  formula='8*s*2+6*p*2+2*d*5:8*s*2+6*p*2+2*d*6' zaryad='79' raspad='стаб' ></nuc>
+79Tb160
+<nuc mass='160'  formula='8*s*2+6*p*2+2*d*5:8*s*2+6*p*3+2*d*6' zaryad='79' raspad='ß—' ></nuc>
+79Tb161
+<nuc mass='161'  formula='8*s*2+6*p*2+2*d*5:8*s*2+6*p*4+2*d*6' zaryad='79' raspad='ß—' ></nuc>
+78Dy155
+<nuc mass='155'  formula='7*s*2+6*p*2+2*d*6:7*s*1+6*p*2+2*d*6' zaryad='78' raspad='ß┼' ></nuc>
+78Dy156
+<nuc mass='156'  formula='7*s*2+6*p*2+2*d*6:7*s*2+6*p*2+2*d*6' zaryad='78' raspad='стаб' ></nuc>
+79Dy157
+<nuc mass='157'  formula='8*s*1+6*p*2+2*d*6:7*s*2+6*p*2+2*d*6' zaryad='79' raspad='ß┼' ></nuc>
+79Dy158
+<nuc mass='158'  formula='8*s*1+6*p*2+2*d*6:8*s*1+6*p*2+2*d*6' zaryad='79' raspad='стаб' ></nuc>
+80Dy159
+<nuc mass='159'  formula='8*s*2+6*p*2+2*d*6:8*s*1+6*p*2+2*d*6' zaryad='80' raspad='ß┼' ></nuc>
+80Dy160
+<nuc mass='160'  formula='8*s*2+6*p*2+2*d*6:8*s*2+6*p*2+2*d*6' zaryad='80' raspad='стаб' ></nuc>
+80Dy161
+<nuc mass='161'  formula='8*s*2+6*p*2+2*d*6:8*s*2+6*p*3+2*d*6' zaryad='80' raspad='стаб' ></nuc>
+81Dy162
+<nuc mass='162'  formula='9*s*1+6*p*2+2*d*6:9*s*1+6*p*2+2*d*6' zaryad='81' raspad='стаб' ></nuc>
+81Dy163
+<nuc mass='163'  formula='9*s*1+6*p*2+2*d*6:9*s*1+6*p*3+2*d*6' zaryad='81' raspad='стаб' ></nuc>
+82Dy164
+<nuc mass='164'  formula='9*s*2+6*p*2+2*d*6:9*s*2+6*p*2+2*d*6' zaryad='82' raspad='стаб' ></nuc>
+81Dy165
+<nuc mass='165'  formula='9*s*1+6*p*2+2*d*6:9*s*1+6*p*3+2*d*8' zaryad='81' raspad='ß—' ></nuc>
+82Ho163
+<nuc mass='163'  formula='9*s*1+6*p*2+2*d*7:8*s*2+6*p*2+2*d*7' zaryad='82' raspad='ß┼' ></nuc>
+83Ho164
+<nuc mass='164'  formula='9*s*2+6*p*2+2*d*7:8*s*2+6*p*2+2*d*7' zaryad='83' raspad='ß┼' ></nuc>
+81Ho164
+<nuc mass='164'  formula='8*s*2+6*p*2+2*d*7:8*s*2+6*p*3+2*d*8' zaryad='81' raspad='ß—' ></nuc>
+82Ho165
+<nuc mass='165'  formula='9*s*1+6*p*2+2*d*7:9*s*1+6*p*2+2*d*8' zaryad='82' raspad='стаб' ></nuc>
+82Ho166
+<nuc mass='166'  formula='9*s*1+6*p*2+2*d*7:9*s*1+6*p*3+2*d*8' zaryad='82' raspad='ß—' ></nuc>
+81Er161
+<nuc mass='161'  formula='8*s*1+6*p*2+2*d*8:7*s*2+6*p*2+2*d*8' zaryad='81' raspad='ß┼' ></nuc>
+81Er162
+<nuc mass='162'  formula='8*s*1+6*p*2+2*d*8:8*s*1+6*p*2+2*d*8' zaryad='81' raspad='стаб' ></nuc>
+82Er163
+<nuc mass='163'  formula='8*s*2+6*p*2+2*d*8:8*s*1+6*p*2+2*d*8' zaryad='82' raspad='ß┼' ></nuc>
+82Er164
+<nuc mass='164'  formula='8*s*2+6*p*2+2*d*8:8*s*2+6*p*2+2*d*8' zaryad='82' raspad='стаб' ></nuc>
+83Er165
+<nuc mass='165'  formula='9*s*1+6*p*2+2*d*8:8*s*2+6*p*2+2*d*8' zaryad='83' raspad='ß┼' ></nuc>
+83Er166
+<nuc mass='166'  formula='9*s*1+6*p*2+2*d*8:9*s*1+6*p*2+2*d*8' zaryad='83' raspad='стаб' ></nuc>
+83Er167
+<nuc mass='167'  formula='9*s*1+6*p*2+2*d*8:9*s*1+6*p*3+2*d*8' zaryad='83' raspad='стаб' ></nuc>
+84Er168
+<nuc mass='168'  formula='9*s*2+6*p*2+2*d*8:9*s*2+6*p*2+2*d*8' zaryad='84' raspad='стаб' ></nuc>
+83Er169
+<nuc mass='169'  formula='9*s*1+6*p*2+2*d*8:9*s*1+6*p*5+2*d*8' zaryad='83' raspad='ß—' ></nuc>
+85Er170
+<nuc mass='170'  formula='10*s*1+6*p*2+2*d*8:10*s*1+6*p*2+2*d*8' zaryad='85' raspad='стаб' ></nuc>
+84Er171
+<nuc mass='171'  formula='9*s*2+6*p*2+2*d*8:9*s*2+6*p*5+2*d*8' zaryad='84' raspad='ß—' ></nuc>
+84Tm167
+<nuc mass='167'  formula='9*s*1+6*p*3+2*d*8:8*s*2+6*p*3+2*d*8' zaryad='84' raspad='ß┼' ></nuc>
+85Tm168 (1)
+<nuc mass='168'  formula='9*s*2+6*p*3+2*d*8:8*s*2+6*p*3+2*d*8' zaryad='85' raspad='ß┼' prefix='(1)'></nuc>
+83Tm168 (2)
+<nuc mass='168'  formula='8*s*2+6*p*3+2*d*8:8*s*2+6*p*5+2*d*8' zaryad='83' raspad='ß—' prefix='(2)'></nuc>
+84Tm169
+<nuc mass='169'  formula='9*s*1+6*p*3+2*d*8:9*s*1+6*p*4+2*d*8' zaryad='84' raspad='стаб' ></nuc>
+84Tm170 (1)
+<nuc mass='170'  formula='9*s*1+6*p*3+2*d*8:9*s*1+6*p*5+2*d*8' zaryad='84' raspad='ß—' prefix='(1)'></nuc>
+86Tm170 (2)
+<nuc mass='170'  formula='10*s*1+6*p*3+2*d*8:9*s*1+6*p*3+2*d*8' zaryad='86' raspad='ß┼' prefix='(2)'></nuc>
+84Tm171
+<nuc mass='171'  formula='9*s*1+6*p*3+2*d*8:9*s*1+6*p*6+2*d*8' zaryad='84' raspad='ß—' ></nuc>
+84Yb167
+<nuc mass='167'  formula='8*s*2+6*p*4+2*d*8:8*s*1+6*p*4+2*d*8' zaryad='84' raspad='ß┼' ></nuc>
+84Yb168
+<nuc mass='168'  formula='8*s*2+6*p*4+2*d*8:8*s*2+6*p*4+2*d*8' zaryad='84' raspad='стаб' ></nuc>
+85Yb169
+<nuc mass='169'  formula='9*s*1+6*p*4+2*d*8:8*s*2+6*p*4+2*d*8' zaryad='85' raspad='ß┼' ></nuc>
+85Yb170
+<nuc mass='170'  formula='9*s*1+6*p*4+2*d*8:9*s*1+6*p*4+2*d*8' zaryad='85' raspad='стаб' ></nuc>
+85Yb171
+<nuc mass='171'  formula='9*s*1+6*p*4+2*d*8:9*s*1+6*p*4+2*d*9' zaryad='85' raspad='стаб' ></nuc>
+86Yb172
+<nuc mass='172'  formula='9*s*2+6*p*4+2*d*8:9*s*2+6*p*4+2*d*8' zaryad='86' raspad='стаб' ></nuc>
+86Yb173
+<nuc mass='173'  formula='9*s*2+6*p*4+2*d*8:9*s*2+6*p*4+2*d*9' zaryad='86' raspad='стаб' ></nuc>
+87Yb174
+<nuc mass='174'  formula='10*s*1+6*p*4+2*d*8:10*s*1+6*p*4+2*d*8' zaryad='87' raspad='стаб' ></nuc>
+86Yb175
+<nuc mass='175'  formula='9*s*2+6*p*4+2*d*8:9*s*2+6*p*5+2*d*10' zaryad='86' raspad='ß—' ></nuc>
+88Yb176
+<nuc mass='176'  formula='10*s*2+6*p*4+2*d*8:10*s*2+6*p*4+2*d*8' zaryad='88' raspad='стаб' ></nuc>
+87Yb177
+<nuc mass='177'  formula='10*s*1+6*p*4+2*d*8:10*s*1+6*p*5+2*d*10' zaryad='87' raspad='ß—' ></nuc>
+88Lu174
+<nuc mass='174'  formula='10*s*1+6*p*4+2*d*9:9*s*1+6*p*4+2*d*9' zaryad='88' raspad='ß┼' ></nuc>
+87Lu175
+<nuc mass='175'  formula='9*s*2+6*p*4+2*d*9:9*s*2+6*p*4+2*d*10' zaryad='87' raspad='стаб' ></nuc>
+87Lu177
+<nuc mass='177'  formula='9*s*2+6*p*4+2*d*9:9*s*2+6*p*6+2*d*10' zaryad='87' raspad='ß—' ></nuc>
+87Hf173
+<nuc mass='173'  formula='9*s*1+6*p*4+2*d*10:8*s*2+6*p*4+2*d*10' zaryad='87' raspad='ß┼' ></nuc>
+87Hf174
+<nuc mass='174'  formula='9*s*1+6*p*4+2*d*10:8*s*1+6*p*4+2*d*12' zaryad='87' raspad='альфа' ></nuc>
+88Hf175
+<nuc mass='175'  formula='9*s*2+6*p*4+2*d*10:9*s*1+6*p*4+2*d*10' zaryad='88' raspad='ß┼' ></nuc>
+88Hf176
+<nuc mass='176'  formula='9*s*2+6*p*4+2*d*10:9*s*2+6*p*4+2*d*10' zaryad='88' raspad='стаб' ></nuc>
+88Hf177
+<nuc mass='177'  formula='9*s*2+6*p*4+2*d*10:9*s*2+6*p*5+2*d*10' zaryad='88' raspad='стаб' ></nuc>
+89Hf178
+<nuc mass='178'  formula='10*s*1+6*p*4+2*d*10:10*s*1+6*p*4+2*d*10' zaryad='89' raspad='стаб' ></nuc>
+89Hf179
+<nuc mass='179'  formula='10*s*1+6*p*4+2*d*10:10*s*1+6*p*5+2*d*10' zaryad='89' raspad='стаб' ></nuc>
+90Hf180
+<nuc mass='180'  formula='10*s*2+6*p*4+2*d*10:10*s*2+6*p*4+2*d*10' zaryad='90' raspad='стаб' ></nuc>
+89Hf181
+<nuc mass='181'  formula='10*s*1+6*p*4+2*d*10:10*s*1+6*p*5+2*d*12' zaryad='89' raspad='ß—' ></nuc>
+90Ta179
+<nuc mass='179'  formula='10*s*1+6*p*4+2*d*11:9*s*2+6*p*4+2*d*11' zaryad='90' raspad='ß┼' ></nuc>
+91Ta180 (1)
+<nuc mass='180'  formula='10*s*2+6*p*4+2*d*11:9*s*2+6*p*4+2*d*11' zaryad='91' raspad='ß┼' prefix='(1)'></nuc>
+89Ta180 (2)
+<nuc mass='180'  formula='9*s*2+6*p*4+2*d*11:9*s*2+6*p*5+2*d*12' zaryad='89' raspad='ß—' prefix='(2)'></nuc>
+89Ta180 m
+<nuc mass='180'  formula='9*s*2+6*p*4+2*d*11:9*s*2+6*p*6+2*d*11' zaryad='89' raspad='IT' prefix='m'></nuc>
+90Ta181
+<nuc mass='181'  formula='10*s*1+6*p*4+2*d*11:10*s*1+6*p*4+2*d*12' zaryad='90' raspad='стаб' ></nuc>
+90Ta182
+<nuc mass='182'  formula='10*s*1+6*p*4+2*d*11:10*s*1+6*p*5+2*d*12' zaryad='90' raspad='ß—' ></nuc>
+90Ta183
+<nuc mass='183'  formula='10*s*1+6*p*4+2*d*11:10*s*1+6*p*6+2*d*12' zaryad='90' raspad='ß—' ></nuc>
+90W179
+<nuc mass='179'  formula='9*s*2+6*p*4+2*d*12:9*s*1+6*p*4+2*d*12' zaryad='90' raspad='ß┼' ></nuc>
+90W180
+<nuc mass='180'  formula='9*s*2+6*p*4+2*d*12:9*s*2+6*p*4+2*d*12' zaryad='90' raspad='стаб' ></nuc>
+91W181
+<nuc mass='181'  formula='10*s*1+6*p*4+2*d*12:9*s*2+6*p*4+2*d*12' zaryad='91' raspad='ß┼' ></nuc>
+91W182
+<nuc mass='182'  formula='10*s*1+6*p*4+2*d*12:10*s*1+6*p*4+2*d*12' zaryad='91' raspad='стаб' ></nuc>
+91W183
+<nuc mass='183'  formula='10*s*1+6*p*4+2*d*12:9*s*2+6*p*6+2*d*12' zaryad='91' raspad='альфа' ></nuc>
+91W183 m
+<nuc mass='183'  formula='10*s*1+6*p*4+2*d*12:9*s*2+6*p*4+2*d*14' zaryad='91' raspad='IT' prefix='m'></nuc>
+92W184
+<nuc mass='184'  formula='10*s*2+6*p*4+2*d*12:10*s*2+6*p*4+2*d*12' zaryad='92' raspad='стаб' ></nuc>
+91W185
+<nuc mass='185'  formula='10*s*1+6*p*4+2*d*12:10*s*1+6*p*5+2*d*14' zaryad='91' raspad='ß—' ></nuc>
+91W185 m
+<nuc mass='185'  formula='10*s*1+6*p*4+2*d*12:10*s*1+6*p*7+2*d*12' zaryad='91' raspad='IT' prefix='m'></nuc>
+93W186
+<nuc mass='186'  formula='11*s*1+6*p*4+2*d*12:11*s*1+6*p*4+2*d*12' zaryad='93' raspad='стаб' ></nuc>
+92W187
+<nuc mass='187'  formula='10*s*2+6*p*4+2*d*12:10*s*2+6*p*5+2*d*14' zaryad='92' raspad='ß—' ></nuc>
+93Re184
+<nuc mass='184'  formula='10*s*2+6*p*4+2*d*13:9*s*2+6*p*4+2*d*13' zaryad='93' raspad='ß┼' ></nuc>
+92Re185
+<nuc mass='185'  formula='10*s*1+6*p*4+2*d*13:10*s*1+6*p*4+2*d*14' zaryad='92' raspad='стаб' ></nuc>
+92Re186 (1)
+<nuc mass='186'  formula='10*s*1+6*p*4+2*d*13:10*s*1+6*p*5+2*d*14' zaryad='92' raspad='ß—' prefix='(1)'></nuc>
+94Re186 (2)
+<nuc mass='186'  formula='11*s*1+6*p*4+2*d*13:10*s*1+6*p*4+2*d*13' zaryad='94' raspad='ß┼' prefix='(2)'></nuc>
+92Re186 m
+<nuc mass='186'  formula='10*s*1+6*p*4+2*d*13:10*s*1+6*p*6+2*d*13' zaryad='92' raspad='IT, ß—' prefix='m'></nuc>
+92Re187
+<nuc mass='187'  formula='10*s*1+6*p*4+2*d*13:10*s*1+6*p*6+2*d*14' zaryad='92' raspad='ß—' ></nuc>
+93Re188
+<nuc mass='188'  formula='10*s*2+6*p*4+2*d*13:10*s*2+6*p*5+2*d*14' zaryad='93' raspad='ß—' ></nuc>
+93Re188 m
+<nuc mass='188'  formula='10*s*2+6*p*4+2*d*13:10*s*2+6*p*6+2*d*13' zaryad='93' raspad='IT' prefix='m'></nuc>
+92Os183
+<nuc mass='183'  formula='9*s*2+6*p*4+2*d*14:9*s*1+6*p*4+2*d*14' zaryad='92' raspad='ß┼' ></nuc>
+92Os184
+<nuc mass='184'  formula='9*s*2+6*p*4+2*d*14:9*s*2+6*p*4+2*d*14' zaryad='92' raspad='стаб' ></nuc>
+93Os185
+<nuc mass='185'  formula='10*s*1+6*p*4+2*d*14:9*s*2+6*p*4+2*d*14' zaryad='93' raspad='ß┼' ></nuc>
+93Os186
+<nuc mass='186'  formula='10*s*1+6*p*4+2*d*14:9*s*1+6*p*6+2*d*14' zaryad='93' raspad='альфа' ></nuc>
+93Os187
+<nuc mass='187'  formula='10*s*1+6*p*4+2*d*14:10*s*1+6*p*5+2*d*14' zaryad='93' raspad='стаб' ></nuc>
+94Os188
+<nuc mass='188'  formula='10*s*2+6*p*4+2*d*14:10*s*2+6*p*4+2*d*14' zaryad='94' raspad='стаб' ></nuc>
+94Os189
+<nuc mass='189'  formula='10*s*2+6*p*4+2*d*14:10*s*2+6*p*5+2*d*14' zaryad='94' raspad='стаб' ></nuc>
+94Os189 m
+<nuc mass='189'  formula='10*s*2+6*p*4+2*d*14:10*s*2+6*p*4+2*d*15' zaryad='94' raspad='IT' prefix='m'></nuc>
+95Os190
+<nuc mass='190'  formula='11*s*1+6*p*4+2*d*14:11*s*1+6*p*4+2*d*14' zaryad='95' raspad='стаб' ></nuc>
+94Os191
+<nuc mass='191'  formula='10*s*2+6*p*4+2*d*14:10*s*2+6*p*5+2*d*16' zaryad='94' raspad='ß—' ></nuc>
+94Os191 m
+<nuc mass='191'  formula='10*s*2+6*p*4+2*d*14:10*s*2+6*p*6+2*d*15' zaryad='94' raspad='IT' prefix='m'></nuc>
+96Os192
+<nuc mass='192'  formula='11*s*2+6*p*4+2*d*14:11*s*2+6*p*4+2*d*14' zaryad='96' raspad='стаб' ></nuc>
+95Os193
+<nuc mass='193'  formula='11*s*1+6*p*4+2*d*14:11*s*1+6*p*5+2*d*16' zaryad='95' raspad='ß—' ></nuc>
+96Ir190
+<nuc mass='190'  formula='11*s*1+6*p*4+2*d*15:10*s*1+6*p*4+2*d*15' zaryad='96' raspad='ß┼' ></nuc>
+95Ir191
+<nuc mass='191'  formula='10*s*2+6*p*4+2*d*15:10*s*2+6*p*4+2*d*16' zaryad='95' raspad='стаб' ></nuc>
+95Ir192 (1)
+<nuc mass='192'  formula='10*s*2+6*p*4+2*d*15:10*s*2+6*p*5+2*d*16' zaryad='95' raspad='ß—' prefix='(1)'></nuc>
+97Ir192 (2)
+<nuc mass='192'  formula='11*s*2+6*p*4+2*d*15:10*s*2+6*p*4+2*d*15' zaryad='97' raspad='ß┼' prefix='(2)'></nuc>
+96Ir193
+<nuc mass='193'  formula='11*s*1+6*p*4+2*d*15:11*s*1+6*p*4+2*d*16' zaryad='96' raspad='стаб' ></nuc>
+96Ir193 m
+<nuc mass='193'  formula='11*s*1+6*p*4+2*d*15:11*s*1+6*p*5+2*d*15' zaryad='96' raspad='IT' prefix='m'></nuc>
+96Ir194
+<nuc mass='194'  formula='11*s*1+6*p*4+2*d*15:11*s*1+6*p*5+2*d*16' zaryad='96' raspad='ß—' ></nuc>
+96Ir195
+<nuc mass='195'  formula='11*s*1+6*p*4+2*d*15:11*s*1+6*p*6+2*d*16' zaryad='96' raspad='ß—' ></nuc>
+95Pt189
+<nuc mass='189'  formula='10*s*1+6*p*4+2*d*16' zaryad='95' raspad='ß┼' ></nuc>
+95Pt190
+<nuc mass='190'  formula='10*s*1+6*p*4+2*d*16' zaryad='95' raspad='альфа' ></nuc>
+96Pt191
+<nuc mass='191'  formula='10*s*2+6*p*4+2*d*16' zaryad='96' raspad='ß┼' ></nuc>
+96Pt192
+<nuc mass='192'  formula='10*s*2+6*p*4+2*d*16:10*s*2+6*p*4+2*d*16' zaryad='96' raspad='стаб' ></nuc>
+97Pt193
+<nuc mass='193'  formula='11*s*1+6*p*4+2*d*16' zaryad='97' raspad='ß┼' ></nuc>
+97Pt194
+<nuc mass='194'  formula='11*s*1+6*p*4+2*d*16:11*s*1+6*p*4+2*d*16' zaryad='97' raspad='стаб' ></nuc>
+97Pt195
+<nuc mass='195'  formula='11*s*1+6*p*4+2*d*16:11*s*1+6*p*5+2*d*16' zaryad='97' raspad='стаб' ></nuc>
+97Pt195 m
+<nuc mass='195'  formula='11*s*1+6*p*4+2*d*16:11*s*1+6*p*4+7*p*1+2*d*16' zaryad='97' raspad='IT' prefix='m'></nuc>
+98Pt196
+<nuc mass='196'  formula='11*s*2+6*p*4+2*d*16:11*s*2+6*p*4+2*d*16' zaryad='98' raspad='стаб' ></nuc>
+97Pt197
+<nuc mass='197'  formula='11*s*1+6*p*4+2*d*16:11*s*1+6*p*5+7*p*2+2*d*16' zaryad='97' raspad='ß—' ></nuc>
+97Pt197 m
+<nuc mass='197'  formula='11*s*1+6*p*4+2*d*16:11*s*1+6*p*6+7*p*1+2*d*16' zaryad='97' raspad='IT' prefix='m'></nuc>
+99Pt198
+<nuc mass='198'  formula='12*s*1+6*p*4+2*d*16:12*s*1+6*p*4+2*d*16' zaryad='99' raspad='стаб' ></nuc>
+98Pt199
+<nuc mass='199'  formula='11*s*2+6*p*4+2*d*16:11*s*2+6*p*5+7*p*2+2*d*16' zaryad='98' raspad='ß—' ></nuc>
+98Pt199 m
+<nuc mass='199'  formula='11*s*2+6*p*4+2*d*16:11*s*2+6*p*6+7*p*1+2*d*16' zaryad='98' raspad='IT' prefix='m'></nuc>
+98Au195
+<nuc mass='195'  formula='11*s*1+6*p*4+7*p*1+2*d*16:10*s*2+6*p*4+7*p*1+2*d*16' zaryad='98' raspad='ß┼' ></nuc>
+99Au196
+<nuc mass='196'  formula='11*s*2+6*p*4+7*p*1+2*d*16:10*s*2+6*p*4+7*p*1+2*d*16' zaryad='99' raspad='ß┼' ></nuc>
+98Au197
+<nuc mass='197'  formula='11*s*1+6*p*4+7*p*1+2*d*16:11*s*1+6*p*4+7*p*2+2*d*16' zaryad='98' raspad='стаб' ></nuc>
+98Au198
+<nuc mass='198'  formula='11*s*1+6*p*4+7*p*1+2*d*16:11*s*1+6*p*5+7*p*2+2*d*16' zaryad='98' raspad='ß—' ></nuc>
+98Au199
+<nuc mass='199'  formula='11*s*1+6*p*4+7*p*1+2*d*16:11*s*1+6*p*6+7*p*2+2*d*16' zaryad='98' raspad='ß—' ></nuc>
+98Hg195
+<nuc mass='195'  formula='10*s*2+6*p*4+7*p*2+2*d*16:10*s*1+6*p*4+7*p*2+2*d*16' zaryad='98' raspad='ß┼' ></nuc>
+98Hg196
+<nuc mass='196'  formula='10*s*2+6*p*4+7*p*2+2*d*16:10*s*2+6*p*4+7*p*2+2*d*16' zaryad='98' raspad='стаб' ></nuc>
+99Hg197
+<nuc mass='197'  formula='11*s*1+6*p*4+7*p*2+2*d*16:10*s*2+6*p*4+7*p*2+2*d*16' zaryad='99' raspad='ß┼' ></nuc>
+99Hg198
+<nuc mass='198'  formula='11*s*1+6*p*4+7*p*2+2*d*16:11*s*1+6*p*4+7*p*2+2*d*16' zaryad='99' raspad='стаб' ></nuc>
+99Hg199
+<nuc mass='199'  formula='11*s*1+6*p*4+7*p*2+2*d*16:11*s*1+6*p*5+7*p*2+2*d*16' zaryad='99' raspad='стаб' ></nuc>
+100Hg200
+<nuc mass='200'  formula='11*s*2+6*p*4+7*p*2+2*d*16:11*s*2+6*p*4+7*p*2+2*d*16' zaryad='100' raspad='стаб' ></nuc>
+100Hg201
+<nuc mass='201'  formula='11*s*2+6*p*4+7*p*2+2*d*16:11*s*2+6*p*5+7*p*2+2*d*16' zaryad='100' raspad='стаб' ></nuc>
+101Hg202
+<nuc mass='202'  formula='12*s*1+6*p*4+7*p*2+2*d*16:12*s*1+6*p*4+7*p*2+2*d*16' zaryad='101' raspad='стаб' ></nuc>
+100Hg203
+<nuc mass='203'  formula='11*s*2+6*p*4+7*p*2+2*d*16:11*s*2+6*p*5+7*p*4+2*d*16' zaryad='100' raspad='ß—' ></nuc>
+102Hg204
+<nuc mass='204'  formula='12*s*2+6*p*4+7*p*2+2*d*16:12*s*2+6*p*4+7*p*2+2*d*16' zaryad='102' raspad='стаб' ></nuc>
+101Hg205
+<nuc mass='205'  formula='11*s*2+6*p*4+7*p*2+2*d*16:11*s*2+6*p*5+7*p*4+2*d*16' zaryad='101' raspad='ß—' ></nuc>
+101Tl201
+<nuc mass='201'  formula='11*s*2+6*p*4+7*p*3+2*d*16:11*s*1+6*p*4+7*p*3+2*d*16' zaryad='101' raspad='ß┼' ></nuc>
+102Tl202
+<nuc mass='202'  formula='12*s*1+6*p*4+7*p*3+2*d*16:11*s*1+6*p*4+7*p*3+2*d*16' zaryad='102' raspad='ß┼' ></nuc>
+101Tl203
+<nuc mass='203'  formula='11*s*2+6*p*4+7*p*3+2*d*16:11*s*2+6*p*4+7*p*4+2*d*16' zaryad='101' raspad='стаб' ></nuc>
+101Tl204 (1)
+<nuc mass='204'  formula='11*s*2+6*p*4+7*p*3+2*d*16:11*s*2+6*p*5+7*p*4+2*d*16' zaryad='101' raspad='ß—' prefix='(1)'></nuc>
+103Tl204 (2)
+<nuc mass='204'  formula='12*s*2+6*p*4+7*p*3+2*d*16:11*s*2+6*p*4+7*p*3+2*d*16' zaryad='103' raspad='ß┼' prefix='(2)'></nuc>
+102Tl205
+<nuc mass='205'  formula='12*s*1+6*p*4+7*p*3+2*d*16:12*s*1+6*p*4+7*p*4+2*d*16' zaryad='102' raspad='стаб' ></nuc>
+102Tl206
+<nuc mass='206'  formula='12*s*1+6*p*4+7*p*3+2*d*16:12*s*1+6*p*5+7*p*4+2*d*16' zaryad='102' raspad='ß—' ></nuc>
+102Tl207
+<nuc mass='207'  formula='12*s*1+6*p*4+7*p*3+2*d*16:12*s*1+6*p*6+7*p*4+2*d*16' zaryad='102' raspad='ß—' ></nuc>
+102Pb203
+<nuc mass='203'  formula='11*s*2+6*p*4+7*p*4+2*d*16:11*s*1+6*p*4+7*p*4+2*d*16' zaryad='102' raspad='ß┼' ></nuc>
+102Pb204
+<nuc mass='204'  formula='11*s*2+6*p*4+7*p*4+2*d*16:11*s*2+6*p*4+7*p*4+2*d*16' zaryad='102' raspad='стаб' ></nuc>
+103Pb205
+<nuc mass='205'  formula='12*s*1+6*p*4+7*p*4+2*d*16:11*s*2+6*p*4+7*p*4+2*d*16' zaryad='103' raspad='ß┼' ></nuc>
+103Pb206
+<nuc mass='206'  formula='12*s*1+6*p*4+7*p*4+2*d*16:12*s*1+6*p*4+7*p*4+2*d*16' zaryad='103' raspad='стаб' ></nuc>
+103Pb207
+<nuc mass='207'  formula='12*s*1+6*p*4+7*p*4+2*d*16:12*s*1+6*p*5+7*p*4+2*d*16' zaryad='103' raspad='стаб' ></nuc>
+103Pb207 m
+<nuc mass='207'  formula='12*s*1+6*p*4+7*p*4+2*d*16:12*s*1+6*p*4+7*p*4+8*p*1+2*d*16' zaryad='103' raspad='IT' prefix='m'></nuc>
+104Pb208
+<nuc mass='208'  formula='12*s*2+6*p*4+7*p*4+2*d*16:12*s*2+6*p*4+7*p*4+2*d*16' zaryad='104' raspad='стаб' ></nuc>
+103Pb209
+<nuc mass='209'  formula='12*s*1+6*p*4+7*p*4+2*d*16:12*s*1+6*p*7+7*p*4+2*d*16' zaryad='103' raspad='ß—' ></nuc>
+105Bi208
+<nuc mass='208'  formula='12*s*2+6*p*5+7*p*4+2*d*16:11*s*2+6*p*5+7*p*4+2*d*16' zaryad='105' raspad='ß┼' ></nuc>
+104Bi209
+<nuc mass='209'  formula='12*s*1+6*p*5+7*p*4+2*d*16:12*s*1+6*p*6+7*p*4+2*d*16' zaryad='104' raspad='стаб' ></nuc>
+104Bi210
+<nuc mass='210'  formula='12*s*1+6*p*5+7*p*4+2*d*16:12*s*1+6*p*7+7*p*4+2*d*16' zaryad='104' raspad='ß—' ></nuc>
+105Bi210 m
+<nuc mass='210'  formula='12*s*2+6*p*5+7*p*4+2*d*16:11*s*2+6*p*7+7*p*4+2*d*16' zaryad='105' raspad='альфа' prefix='m'></nuc>
+105Bi211 (1)
+<nuc mass='211'  formula='12*s*2+6*p*5+7*p*4+2*d*16:11*s*2+6*p*8+7*p*4+2*d*16' zaryad='105' raspad='альфа' prefix='(1)'></nuc>
+104Bi211 (2)
+<nuc mass='211'  formula='12*s*1+6*p*5+7*p*4+2*d*16:12*s*1+6*p*8+7*p*4+2*d*16' zaryad='104' raspad='ß—' prefix='(2)'></nuc>
+105Bi212 (1)
+<nuc mass='212'  formula='12*s*2+6*p*5+7*p*4+2*d*16:12*s*2+6*p*7+7*p*4+2*d*16' zaryad='105' raspad='ß—' prefix='(1)'></nuc>
+106Bi212 (2)
+<nuc mass='212'  formula='13*s*1+6*p*5+7*p*4+2*d*16:12*s*1+6*p*7+7*p*4+2*d*16' zaryad='106' raspad='альфа' prefix='(2)'></nuc>
+104Po208 (1)
+<nuc mass='208'  formula='11*s*2+6*p*6+7*p*4+2*d*16:10*s*2+6*p*8+7*p*4+2*d*16' zaryad='104' raspad='альфа' prefix='(1)'></nuc>
+105Po208 (2)
+<nuc mass='208'  formula='12*s*1+6*p*6+7*p*4+2*d*16:11*s*1+6*p*6+7*p*4+2*d*16' zaryad='105' raspad='ß┼' prefix='(2)'></nuc>
+104Po209 (1)
+<nuc mass='209'  formula='11*s*2+6*p*6+7*p*4+2*d*16:11*s*1+6*p*8+7*p*4+2*d*16' zaryad='104' raspad='альфа' prefix='(1)'></nuc>
+105Po209 (2)
+<nuc mass='209'  formula='12*s*1+6*p*6+7*p*4+2*d*16:11*s*2+6*p*6+7*p*4+2*d*16' zaryad='105' raspad='ß┼' prefix='(2)'></nuc>
+105Po210
+<nuc mass='210'  formula='12*s*1+6*p*6+7*p*4+2*d*16:11*s*1+6*p*8+7*p*4+2*d*16' zaryad='105' raspad='альфа' ></nuc>
+106At210 (1)
+<nuc mass='210'  formula='12*s*1+6*p*7+7*p*4+2*d*16:11*s*1+6*p*7+7*p*4+2*d*16' zaryad='106' raspad='ß┼' prefix='(1)'></nuc>
+105At210 (2)
+<nuc mass='210'  formula='11*s*2+6*p*7+7*p*4+2*d*16:10*s*2+6*p*8+7*p*5+2*d*16' zaryad='105' raspad='альфа' prefix='(2)'></nuc>
+106At211 (1)
+<nuc mass='211'  formula='12*s*1+6*p*7+7*p*4+2*d*16:11*s*2+6*p*7+7*p*4+2*d*16' zaryad='106' raspad='ß┼' prefix='(1)'></nuc>
+105At211 (2)
+<nuc mass='211'  formula='11*s*2+6*p*7+7*p*4+2*d*16:11*s*1+6*p*8+7*p*5+2*d*16' zaryad='105' raspad='альфа' prefix='(2)'></nuc>
+105Rn210 (1)
+<nuc mass='210'  formula='11*s*1+6*p*8+7*p*4+2*d*16:10*s*1+6*p*8+7*p*6+2*d*16' zaryad='105' raspad='альфа' prefix='(1)'></nuc>
+106Rn210 (2)
+<nuc mass='210'  formula='11*s*2+7*p*4+2*d*16:10*s*2+7*p*4+2*d*16' zaryad='106' raspad='ß┼' prefix='(2)'></nuc>
+106Rn211 (1)
+<nuc mass='211'  formula='11*s*2+7*p*4+2*d*16:11*s*1+7*p*4+2*d*16' zaryad='106' raspad='ß┼' prefix='(1)'></nuc>
+105Rn211 (2)
+<nuc mass='211'  formula='11*s*1+7*p*4+2*d*16:10*s*2+7*p*6+2*d*16' zaryad='105' raspad='альфа' prefix='(2)'></nuc>
+109Rn221 (1)
+<nuc mass='221'  formula='13*s*1+7*p*4+2*d*16:13*s*1+7*p*5+8*p*2+2*d*16' zaryad='109' raspad='ß—' prefix='(1)'></nuc>
+110Rn221 (2)
+<nuc mass='221'  formula='13*s*2+7*p*4+2*d*16:13*s*1+7*p*6+2*d*16' zaryad='110' raspad='альфа' prefix='(2)'></nuc>
+111Rn222
+<nuc mass='222'  formula='14*s*1+7*p*4+2*d*16:13*s*1+7*p*6+2*d*16' zaryad='111' raspad='альфа' ></nuc>
+110Rn223
+<nuc mass='223'  formula='13*s*2+7*p*4+2*d*16:13*s*2+7*p*5+8*p*2+2*d*16' zaryad='110' raspad='ß—' ></nuc>
+111Rn224
+<nuc mass='224'  formula='14*s*1+7*p*4+2*d*16:14*s*1+7*p*4+8*p*2+2*d*16' zaryad='111' raspad='ß—' ></nuc>
+105Fr211 (1)
+<nuc mass='211'  formula='10*s*2+7*p*4+8*p*1+2*d*16:10*s*1+7*p*6+8*p*1+2*d*16' zaryad='105' raspad='альфа' prefix='(1)'></nuc>
+106Fr211 (2)
+<nuc mass='211'  formula='11*s*1+7*p*4+8*p*1+2*d*16:10*s*2+7*p*4+8*p*1+2*d*16' zaryad='106' raspad='ß┼' prefix='(2)'></nuc>
+107Fr212 (1)
+<nuc mass='212'  formula='11*s*2+7*p*4+8*p*1+2*d*16:10*s*2+7*p*4+8*p*1+2*d*16' zaryad='107' raspad='ß┼' prefix='(1)'></nuc>
+106Fr212 (2)
+<nuc mass='212'  formula='11*s*1+7*p*4+8*p*1+2*d*16:11*s*1+7*p*6+8*p*1+2*d*16' zaryad='106' raspad='альфа' prefix='(2)'></nuc>
+110Fr222 (1)
+<nuc mass='222'  formula='13*s*1+7*p*4+8*p*1+2*d*16:13*s*1+7*p*5+8*p*2+2*d*16' zaryad='110' raspad='ß—' prefix='(1)'></nuc>
+111Fr222 (2)
+<nuc mass='222'  formula='13*s*2+7*p*4+8*p*1+2*d*16:12*s*2+7*p*6+8*p*1+2*d*16' zaryad='111' raspad='альфа' prefix='(2)'></nuc>
+110Fr223 (1)
+<nuc mass='223'  formula='13*s*1+7*p*4+8*p*1+2*d*16:13*s*1+7*p*6+8*p*2+2*d*16' zaryad='110' raspad='ß—' prefix='(1)'></nuc>
+111Fr223 (2)
+<nuc mass='223'  formula='13*s*2+7*p*4+8*p*1+2*d*16:13*s*1+7*p*6+8*p*1+2*d*16' zaryad='111' raspad='альфа' prefix='(2)'></nuc>
+111Fr224
+<nuc mass='224'  formula='13*s*2+7*p*4+8*p*1+2*d*16:13*s*2+7*p*5+8*p*2+2*d*16' zaryad='111' raspad='ß—' ></nuc>
+106Ra213 (1)
+<nuc mass='213'  formula='10*s*2+7*p*4+8*p*2+2*d*16:10*s*1+7*p*6+8*p*2+2*d*16' zaryad='106' raspad='альфа' prefix='(1)'></nuc>
+107Ra213 (2)
+<nuc mass='213'  formula='11*s*1+7*p*4+8*p*2+2*d*16:10*s*2+7*p*4+8*p*2+2*d*16' zaryad='107' raspad='ß┼' prefix='(2)'></nuc>
+111Ra223
+<nuc mass='223'  formula='13*s*1+7*p*4+8*p*2+2*d*16:10*s*2+7*p*6+8*p*2+2*d*16' zaryad='111' raspad='альфа' ></nuc>
+112Ra224
+<nuc mass='224'  formula='13*s*2+7*p*4+8*p*2+2*d*16:12*s*2+7*p*6+8*p*2+2*d*16' zaryad='112' raspad='альфа' ></nuc>
+111Ra225
+<nuc mass='225'  formula='13*s*1+7*p*4+8*p*2+2*d*16:13*s*1+7*p*5+8*p*2+2*d*16+3*d*2' zaryad='111' raspad='ß—' ></nuc>
+113Ra226
+<nuc mass='226'  formula='14*s*1+7*p*4+8*p*2+2*d*16:13*s*1+7*p*6+8*p*2+2*d*16' zaryad='113' raspad='альфа' ></nuc>
+112Ra227
+<nuc mass='227'  formula='13*s*2+7*p*4+8*p*2+2*d*16:13*s*2+7*p*5+8*p*2+2*d*16+3*d*2' zaryad='112' raspad='ß—' ></nuc>
+113Ra228
+<nuc mass='228'  formula='14*s*1+7*p*4+8*p*2+2*d*16:14*s*1+7*p*4+8*p*2+2*d*16+3*d*2' zaryad='113' raspad='ß—' ></nuc>
+112Ac225
+<nuc mass='225'  formula='13*s*1+7*p*4+8*p*2+2*d*16+3*d*1:12*s*2+7*p*5+8*p*2+2*d*16+3*d*2' zaryad='112' raspad='альфа' ></nuc>
+112Ac226
+<nuc mass='226'  formula='13*s*1+7*p*4+8*p*2+3*d*1:13*s*1+7*p*5+8*p*2+3*d*2' zaryad='112' raspad='ß—' ></nuc>
+114Ac226
+<nuc mass='226'  formula='14*s*1+7*p*4+8*p*2+3*d*1:13*s*1+7*p*4+8*p*2+3*d*1' zaryad='114' raspad='ß┼' ></nuc>
+113Ac226
+<nuc mass='226'  formula='13*s*2+7*p*4+8*p*2+3*d*1:12*s*2+7*p*5+8*p*2+3*d*2' zaryad='113' raspad='альфа' ></nuc>
+112Ac227
+<nuc mass='227'  formula='13*s*1+7*p*4+8*p*2+3*d*1:13*s*1+7*p*6+8*p*2+3*d*2' zaryad='112' raspad='ß—' ></nuc>
+113Ac227
+<nuc mass='227'  formula='13*s*2+7*p*4+8*p*2+3*d*1:13*s*1+7*p*5+8*p*2+3*d*2' zaryad='113' raspad='альфа' ></nuc>
+113Ac228
+<nuc mass='228'  formula='13*s*2+7*p*4+8*p*2+3*d*1:13*s*2+7*p*5+8*p*2+3*d*2' zaryad='113' raspad='ß—' ></nuc>
+114Th228
+<nuc mass='228'  formula='13*s*2+7*p*4+8*p*2+3*d*2:12*s*2+7*p*6+8*p*2+3*d*2' zaryad='114' raspad='альфа' ></nuc>
+114Th229
+<nuc mass='229'  formula='13*s*2+7*p*4+8*p*2+3*d*2:13*s*1+7*p*6+8*p*2+3*d*2' zaryad='114' raspad='альфа' ></nuc>
+115Th230
+<nuc mass='230'  formula='14*s*1+7*p*4+8*p*2+3*d*2:13*s*1+7*p*6+8*p*2+3*d*2' zaryad='115' raspad='альфа' ></nuc>
+114Th231
+<nuc mass='231'  formula='13*s*2+7*p*4+8*p*2+3*d*2:13*s*2+7*p*5+8*p*2+3*d*4' zaryad='114' raspad='ß—' ></nuc>
+116Th232
+<nuc mass='232'  formula='14*s*2+7*p*4+8*p*2+3*d*2:13*s*2+7*p*6+8*p*2+3*d*2' zaryad='116' raspad='альфа' ></nuc>
+115Th233
+<nuc mass='233'  formula='14*s*1+7*p*4+8*p*2+3*d*2:14*s*1+7*p*5+8*p*2+3*d*4' zaryad='115' raspad='ß—' ></nuc>
+116Th234
+<nuc mass='234'  formula='14*s*2+7*p*4+8*p*2+3*d*2:14*s*2+7*p*4+8*p*2+3*d*4' zaryad='116' raspad='ß—' ></nuc>
+116Pa230 (1)
+<nuc mass='230'  formula='14*s*1+7*p*4+8*p*2+3*d*3:13*s*1+7*p*4+8*p*2+3*d*3' zaryad='116' raspad='ß┼' prefix='(1)'></nuc>
+114Pa230 (2)
+<nuc mass='230'  formula='13*s*1+7*p*4+8*p*2+3*d*3:13*s*1+7*p*5+8*p*2+3*d*4' zaryad='114' raspad='ß—' prefix='(2)'></nuc>
+115Pa231
+<nuc mass='231'  formula='13*s*2+7*p*4+8*p*2+3*d*3:13*s*1+7*p*5+8*p*2+3*d*4' zaryad='115' raspad='альфа' ></nuc>
+115Pa232 (1)
+<nuc mass='232'  formula='13*s*2+7*p*4+8*p*2+3*d*3:13*s*2+7*p*5+8*p*2+3*d*4' zaryad='115' raspad='ß—' prefix='(1)'></nuc>
+117Pa232 (2)
+<nuc mass='232'  formula='14*s*2+7*p*4+8*p*2+3*d*3:13*s*2+7*p*4+8*p*2+3*d*3' zaryad='117' raspad='ß┼' prefix='(2)'></nuc>
+115Pa233
+<nuc mass='233'  formula='13*s*2+7*p*4+8*p*2+3*d*3:13*s*2+7*p*6+8*p*2+3*d*4' zaryad='115' raspad='ß—' ></nuc>
+116U232
+<nuc mass='232'  formula='13*s*2+7*p*4+8*p*2+3*d*4:12*s*2+7*p*4+8*p*2+3*d*6' zaryad='116' raspad='альфа' ></nuc>
+116U233
+<nuc mass='233'  formula='13*s*2+7*p*4+8*p*2+3*d*4:13*s*1+7*p*4+8*p*2+3*d*6' zaryad='116' raspad='альфа' ></nuc>
+117U234
+<nuc mass='234'  formula='14*s*1+7*p*4+8*p*2+3*d*4:13*s*1+7*p*4+8*p*2+3*d*6' zaryad='117' raspad='альфа' ></nuc>
+117U235
+<nuc mass='235'  formula='14*s*1+7*p*4+8*p*2+3*d*4:13*s*2+7*p*4+8*p*2+3*d*6' zaryad='117' raspad='альфа' ></nuc>
+118U236
+<nuc mass='236'  formula='14*s*2+7*p*4+8*p*2+3*d*4:13*s*2+7*p*4+8*p*2+3*d*6' zaryad='118' raspad='альфа' ></nuc>
+117U237
+<nuc mass='237'  formula='14*s*1+7*p*4+8*p*2+3*d*4:14*s*1+7*p*5+8*p*2+3*d*6' zaryad='117' raspad='ß—' ></nuc>
+119U238
+<nuc mass='238'  formula='15*s*1+7*p*4+8*p*2+3*d*4:14*s*1+7*p*4+8*p*2+3*d*6' zaryad='119' raspad='альфа' ></nuc>
+118U239
+<nuc mass='239'  formula='14*s*2+7*p*4+8*p*2+3*d*4:14*s*2+7*p*5+8*p*2+3*d*6' zaryad='118' raspad='ß—' ></nuc>
+118Np234
+<nuc mass='234'  formula='14*s*1+7*p*4+8*p*2+3*d*5:13*s*1+7*p*4+8*p*2+3*d*5' zaryad='118' raspad='ß┼' ></nuc>
+118Np235 (1)
+<nuc mass='235'  formula='14*s*1+7*p*4+8*p*2+3*d*5:13*s*2+7*p*4+8*p*2+3*d*5' zaryad='118' raspad='ß┼' prefix='(1)'></nuc>
+117Np235 (2)
+<nuc mass='235'  formula='13*s*2+7*p*4+8*p*2+3*d*5:13*s*1+7*p*5+8*p*2+3*d*6' zaryad='117' raspad='альфа' prefix='(2)'></nuc>
+119Np236 (1)
+<nuc mass='236'  formula='14*s*2+7*p*4+8*p*2+3*d*5:13*s*2+7*p*4+8*p*2+3*d*5' zaryad='119' raspad='ß┼' prefix='(1)'></nuc>
+117Np236 (2)
+<nuc mass='236'  formula='13*s*2+7*p*4+8*p*2+3*d*5:13*s*2+7*p*5+8*p*2+3*d*6' zaryad='117' raspad='ß—' prefix='(2)'></nuc>
+118Np236 (3)
+<nuc mass='236'  formula='14*s*1+7*p*4+8*p*2+3*d*5:13*s*1+7*p*5+8*p*2+3*d*6' zaryad='118' raspad='альфа' prefix='(3)'></nuc>
+118Np237
+<nuc mass='237'  formula='14*s*1+7*p*4+8*p*2+3*d*5:13*s*2+7*p*5+8*p*2+3*d*6' zaryad='118' raspad='альфа' ></nuc>
+118Np238
+<nuc mass='238'  formula='14*s*1+7*p*4+8*p*2+3*d*5:14*s*1+7*p*5+8*p*2+3*d*6' zaryad='118' raspad='ß—' ></nuc>
+119Pu238
+<nuc mass='238'  formula='14*s*1+7*p*4+8*p*2+3*d*6:13*s*1+7*p*4+8*p*2+3*d*8' zaryad='119' raspad='альфа' ></nuc>
+119Pu239
+<nuc mass='239'  formula='14*s*1+7*p*4+8*p*2+3*d*6:14*s*2+7*p*4+8*p*2+3*d*8' zaryad='119' raspad='альфа' ></nuc>
+120Pu240
+<nuc mass='240'  formula='14*s*2+7*p*4+8*p*2+3*d*6:13*s*2+7*p*4+8*p*2+3*d*8' zaryad='120' raspad='альфа' ></nuc>
+119Pu241
+<nuc mass='241'  formula='14*s*1+7*p*4+8*p*2+3*d*6:14*s*1+7*p*5+8*p*2+3*d*8' zaryad='119' raspad='ß—' ></nuc>
+121Pu242
+<nuc mass='242'  formula='15*s*1+7*p*4+8*p*2+3*d*6:14*s*1+7*p*4+8*p*2+3*d*8' zaryad='121' raspad='альфа' ></nuc>
+120Pu243
+<nuc mass='243'  formula='14*s*2+7*p*4+8*p*2+3*d*6:14*s*2+7*p*5+8*p*2+3*d*8' zaryad='120' raspad='ß—' ></nuc>
+122Pu244 (1)
+<nuc mass='244'  formula='15*s*2+7*p*4+8*p*2+3*d*6:14*s*2+7*p*4+8*p*2+3*d*8' zaryad='122' raspad='альфа' prefix='(1)'></nuc>
+121Pu244 (2)
+<nuc mass='244'  formula='15*s*1+7*p*4+8*p*2+3*d*6:14*s*2+7*p*5+8*p*2+3*d*8' zaryad='121' raspad='деление' prefix='(2)'></nuc>
+120Am241
+<nuc mass='241'  formula='14*s*1+7*p*4+8*p*2+3*d*7:13*s*2+7*p*5+8*p*2+3*d*8' zaryad='120' raspad='альфа' ></nuc>
+120Am242 (1)
+<nuc mass='242'  formula='14*s*1+7*p*4+8*p*2+3*d*7:14*s*1+7*p*5+8*p*2+3*d*8' zaryad='120' raspad='ß—' prefix='(1)'></nuc>
+122Am242 (2)
+<nuc mass='242'  formula='15*s*1+7*p*4+8*p*2+3*d*7:14*s*1+7*p*4+8*p*2+3*d*7' zaryad='122' raspad='ß┼' prefix='(2)'></nuc>
+121Am243
+<nuc mass='243'  formula='14*s*2+7*p*4+8*p*2+3*d*7:14*s*1+7*p*5+8*p*2+3*d*8' zaryad='121' raspad='альфа' ></nuc>
+122Cm245
+<nuc mass='245'  formula='14*s*2+7*p*4+8*p*2+3*d*8:14*s*1+7*p*4+8*p*4+3*d*8' zaryad='122' raspad='альфа' ></nuc>
+123Cm246
+<nuc mass='246'  formula='15*s*1+7*p*4+8*p*2+3*d*8:14*s*1+7*p*4+8*p*4+3*d*8' zaryad='123' raspad='альфа' ></nuc>
+123Cm247
+<nuc mass='247'  formula='15*s*1+7*p*4+8*p*2+3*d*8:14*s*2+7*p*4+8*p*4+3*d*8' zaryad='123' raspad='альфа' ></nuc>
+124Cm248 (1)
+<nuc mass='248'  formula='15*s*2+7*p*4+8*p*2+3*d*8:14*s*2+7*p*4+8*p*4+3*d*8' zaryad='124' raspad='альфа' prefix='(1)'></nuc>
+123Cm248 (2)
+<nuc mass='248'  formula='15*s*1+7*p*4+8*p*2+3*d*8:14*s*2+7*p*5+8*p*4+3*d*8' zaryad='123' raspad='деление' prefix='(2)'></nuc>
+123Cm249
+<nuc mass='249'  formula='15*s*1+7*p*4+8*p*2+3*d*8:15*s*1+7*p*5+8*p*4+3*d*8' zaryad='123' raspad='ß—' ></nuc>
+124Cm250 (1)
+<nuc mass='250'  formula='15*s*2+7*p*4+8*p*2+3*d*8:14*s*2+7*p*6+8*p*4+3*d*8' zaryad='124' raspad='деление' prefix='(1)'></nuc>
+125Cm250 (2)
+<nuc mass='250'  formula='16*s*1+7*p*4+8*p*2+3*d*8:15*s*1+7*p*4+8*p*4+3*d*8' zaryad='125' raspad='альфа' prefix='(2)'></nuc>
+124Cm250 (3)

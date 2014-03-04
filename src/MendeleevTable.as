@@ -97,12 +97,12 @@ package
 		
 		private function onFc(e:MouseEvent = null):void {
 			
-			
+			/*
 			if (Main.stage.displayState == StageDisplayState.NORMAL){
 				Main.stage.displayState = StageDisplayState.FULL_SCREEN
 			} else {
 				Main.stage.displayState = StageDisplayState.NORMAL
-			}
+			}*/
 		}
 		private function onClose(e:MouseEvent = null):void {
 			fscommand("quit");

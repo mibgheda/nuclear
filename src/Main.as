@@ -35,7 +35,7 @@ package
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			
 			Main.stage = this.stage
-			//Main.stage.align=StageAlign.TOP_LEFT
+			Main.stage.align=StageAlign.TOP_LEFT
 			//Main.stage.scaleMode=StageScaleMode.NO_SCALE;
 			
 			Main.data = new XML
