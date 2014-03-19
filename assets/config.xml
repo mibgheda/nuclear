@@ -2,7 +2,7 @@
 	<elem id="1" glyph='H' name="водород" pos="0,0" color="red" formula=''>
 	  <nuc index='1' name='1s&1&' formula='1*s*1*:null'></nuc>
 	  <nuc index='2' name='1s&1&' formula='1*s*1:1*s*1'></nuc>
-	  <nuc index='2' name='1s&1&' formula='1*s*2:1*p*1*nonstandard'></nuc>
+	  <nuc index='2' name='1s&2&' formula='1*s*2:1*p*1*nonstandard'></nuc>
 	</elem>
 	<elem id="2" glyph='He' name="гелий" pos="0,1" color="red" formula=''>
 	  <nuc index='' formula=''></nuc>

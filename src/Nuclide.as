@@ -16,9 +16,9 @@ package
 		private var red:Number = 0xFF2222
 		private var green:Number = 0x00FF22
 		private var white:Number = 0xFFFFFF
-		private var grey:Number = 0x666666
+		private var grey:Number =  0x666666
 		private var black:Number = 0x000000
-		private var blue:Number = 0x00ffff
+		private var blue:Number = 0x666666//0x00ffff// 
 		
 		private var color:Number
 		
@@ -430,7 +430,53 @@ package
 				//45 градусов
 				
 				osEx2Temptation[6] = { x:1, y:0, rotationZ: 270 * Math.PI / 180, mod: -1, color:green }
-				osEx2Temptation[7] = { x:-1, y:0, rotationZ:270 * Math.PI / 180, mod:1}
+				osEx2Temptation[7] = { x: -1, y:0, rotationZ:270 * Math.PI / 180, mod:1 }
+				
+				
+				//для фтора20 искл 3
+				var osEx3Temptation:Array = []
+				
+				//противоположные
+				osEx3Temptation[0] = { x:1, y:0, rotationZ: 270 * Math.PI / 180, mod: -1, color:green }
+				osEx3Temptation[1] = { x:0, y: 1, rotationZ:0,  mod:-1 }
+				
+				//под углом 90 противоположные
+				osEx3Temptation[2] = { x:Math.cos(45 * Math.PI / 180), y: -Math.cos(45 * Math.PI / 180), rotationZ: 45 * Math.PI / 180 , mod:1 }
+				osEx3Temptation[3] = { x:-Math.cos(45 * Math.PI / 180), y:Math.cos(45 * Math.PI / 180), rotationZ: 45 * Math.PI / 180 , mod:-1}
+				
+				
+				//-45 градусов
+				osEx3Temptation[4] = { x:Math.cos(45 * Math.PI / 180), y:Math.cos(45 * Math.PI / 180), rotationZ: -45 * Math.PI / 180, mod:-1 }
+				osEx3Temptation[5] = { x:-Math.cos(45 * Math.PI / 180), y:-Math.cos(45 * Math.PI / 180), rotationZ: -45 * Math.PI / 180, mod:1  }
+				
+				//45 градусов
+				
+				osEx3Temptation[6] = { x:0, y: -1, rotationZ:0, color:red, mod:1 }
+				osEx3Temptation[7] = { x: -1, y:0, rotationZ:270 * Math.PI / 180, mod:1 }
+				
+				
+				//для натрия24 искл 4
+				var osEx4Temptation:Array = []
+				
+				//противоположные
+				osEx4Temptation[0] = { x:0, y: 1, rotationZ:0,  mod:-1 }
+				osEx4Temptation[1] = { x:Math.cos(45 * Math.PI / 180), y: -Math.cos(45 * Math.PI / 180), rotationZ: 45 * Math.PI / 180 , mod:1 }
+				
+				
+				//под углом 90 противоположные
+				
+				osEx4Temptation[2] = { x: -Math.cos(45 * Math.PI / 180), y: -Math.cos(45 * Math.PI / 180), rotationZ: -45 * Math.PI / 180, mod:1  }
+				osEx4Temptation[3] = { x:-Math.cos(45 * Math.PI / 180), y:Math.cos(45 * Math.PI / 180), rotationZ: 45 * Math.PI / 180 , mod:-1}
+				
+				
+				//-45 градусов
+				osEx4Temptation[4] = { x:Math.cos(45 * Math.PI / 180), y:Math.cos(45 * Math.PI / 180), rotationZ: -45 * Math.PI / 180, mod:-1 }
+				osEx4Temptation[5] = { x:0, y: -1, rotationZ:0, color:red, mod:1 }
+				
+				//45 градусов
+				
+				osEx4Temptation[6] = { x:1, y:0, rotationZ: 270 * Math.PI / 180, mod: -1, color:green }
+				osEx4Temptation[7] = { x: -1, y:0, rotationZ:270 * Math.PI / 180, mod:1,   color:blue }
 				
 				
 				osDynamicHeightP = baseHeight * Math.max(pflour_p,  pflour_p2)*2.5 +baseHeight*electroIndex
@@ -455,10 +501,17 @@ package
 							osTemptation = os3Temptation
 						} else if (exceptionP != null) {
 							
-							if (exceptionP=="exception1")
+							if (exceptionP=="exception1"){
 								osTemptation = osEx1Temptation
+							}
 							else if (exceptionP == "exception2") {
 								osTemptation = osEx2Temptation
+							}
+							else if (exceptionP == "exception3") {
+								osTemptation = osEx3Temptation
+							}
+							else if (exceptionP == "exception4") {
+								osTemptation = osEx4Temptation
 							}
 						}
 					for (i = 0; i < osPquant; i++ ) {
@@ -501,21 +554,32 @@ package
 								
 								//не все оси получат, только те, на которых есть pindex_n
 								if (i < Math.max(pindex_p, pindex_n)) {
+									trace('полуэлектрон1')
 									he = addElectron(true, baseHeight/2)
 									he.x = (r2+l*baseHeight*2.5-baseHeight/4+baseHeight*2)*osTemptation[i].x
 									he.y = (r2+l*baseHeight*2.5-baseHeight/4+baseHeight*2)*osTemptation[i].y
 									he.rotationZ = o.rotationZ
 								} else {
 									//по идее завершим ряд электроном. вроде правильно
-								
-									e = addElectron(true)
-									e.x = (r2+pflour_p*baseHeight*2.5-baseHeight*electroIndex/2-baseHeight/2)*osTemptation[i].x
-									e.y = (r2+pflour_p*baseHeight*2.5-baseHeight*electroIndex/2-baseHeight/2)*osTemptation[i].y
-									e.rotationZ = osTemptation[i].rotationZ
+									
+									//и опять же, если цепанули лишний нейтрон
+									if ((l < j)&&(pflour_n>pflour_p)) {
+										trace(pflour_p+'не завершать ряд электроном, половинка'+pflour_n)
+										he = addElectron(true, baseHeight/2)
+										he.x = (r2+(pflour_p-1)*baseHeight*2.5-baseHeight/4-baseHeight/2)*osTemptation[i].x
+										he.y = (r2+(pflour_p-1)*baseHeight*2.5-baseHeight/4-baseHeight/2)*osTemptation[i].y
+										he.rotationZ = osTemptation[i].rotationZ
+									} else {
+										trace('завершить ряд электроном')
+										e = addElectron(true)
+										e.x = (r2+pflour_p*baseHeight*2.5-baseHeight*electroIndex/2-baseHeight/2)*osTemptation[i].x
+										e.y = (r2+pflour_p*baseHeight*2.5-baseHeight*electroIndex/2-baseHeight/2)*osTemptation[i].y
+										e.rotationZ = osTemptation[i].rotationZ
+									}
 								}
 								
 							} else {
-								
+								trace('полуэлектрон2')
 								he = addElectron(true, baseHeight/2)
 								he.x = (r2+l*baseHeight*2.5-baseHeight/4+baseHeight*2)*osTemptation[i].x
 								he.y = (r2+l*baseHeight*2.5-baseHeight/4+baseHeight*2)*osTemptation[i].y
@@ -534,6 +598,7 @@ package
 						n = addNeutron(true, blue)
 						n.x = (r2+(pflour_n-1)*baseHeight*2.5)*osTemptation[j].x
 						n.y = (r2+(pflour_n-1)*baseHeight*2.5)*osTemptation[j].y
+						
 						n.rotationZ = osTemptation[j].rotationZ
 					}
 					
@@ -554,12 +619,14 @@ package
 						for (i = pflour_n; i < pflour_n2; i++ ) {
 								for (j = 0; j < pindex_n2; j++ ) {
 									//добавим нейтрон
+									
 									n = addNeutron(true)
 									n.x = (r2+(i)*baseHeight*2.5)*osTemptation[j].x
 									n.y = (r2+(i)*baseHeight*2.5)*osTemptation[j].y
 									n.rotationZ = osTemptation[j].rotationZ
 									
 									//а если есть нейтрон, перед ним электрнчиком закроется протон
+									trace('полуэлектрон3')
 									he = addElectron(true, baseHeight/2)
 									he.x = (r2+(i)*baseHeight*2.5-baseHeight/4-baseHeight/2)*osTemptation[j].x
 									he.y = (r2+(i)*baseHeight*2.5-baseHeight/4-baseHeight/2)*osTemptation[j].y
@@ -581,6 +648,7 @@ package
 						}
 						//закроем электроны у 2х этажей
 						for (i = 0; i < pindex_p2; i++ ) {
+							trace('электрон2')
 							e = addElectron(true)
 							e.x = (r2+pflour_p*baseHeight*2.5+baseHeight*1.5+baseHeight*electroIndex/2)*osTemptation[i].x
 							e.y = (r2+pflour_p*baseHeight*2.5+baseHeight*1.5+baseHeight*electroIndex/2)*osTemptation[i].y
@@ -590,7 +658,7 @@ package
 						for (l = pindex_n2; l < pindex_p ; l++ ) {
 							
 							//косяк здесь. электрона просто не должно быть
-							
+							trace('электрон3')
 							e = addElectron(true)
 							e.x = (r2+pflour_p*baseHeight*2.5+baseHeight*electroIndex/2-baseHeight)*osTemptation[l].x
 							e.y = (r2+pflour_p*baseHeight*2.5+baseHeight*electroIndex/2-baseHeight)*osTemptation[l].y
@@ -602,6 +670,7 @@ package
 						//закроем электроны у этажей 1х доп этажей, потому что 2х нет
 						if (pflour_n<=pflour_p){
 							for (i = 0; i < pindex_p; i++ ) {
+								trace('электрон4')
 								e = addElectron(true)
 								e.x = (r2+pflour_p*baseHeight*2.5-baseHeight*electroIndex/2+baseHeight*2)*osTemptation[i].x
 								e.y = (r2+pflour_p*baseHeight*2.5-baseHeight*electroIndex/2+baseHeight*2)*osTemptation[i].y
@@ -610,17 +679,33 @@ package
 						} else {
 							
 							for (i = 1; i < pindex_p; i++ ) {
-								e = addElectron(true)
-								e.x = (r2+pflour_p*baseHeight*2.5-baseHeight*electroIndex/2+baseHeight*2)*osTemptation[i].x
-								e.y = (r2+pflour_p*baseHeight*2.5-baseHeight*electroIndex/2+baseHeight*2)*osTemptation[i].y
-								e.rotationZ = osTemptation[i].rotationZ
+								
+								//в этом месте может быть нейтрон
+								
+								//trace('номер оси'+ i)
+								//trace('нейтроны'+ j)
+								
+								if (i < j) {
+									trace('на этой оси был нейтрон. половинка')
+									he = addElectron(true, baseHeight/2)
+									he.x = (r2+pflour_p*baseHeight*2.5-baseHeight/4-baseHeight/2)*osTemptation[i].x
+									he.y = (r2+pflour_p*baseHeight*2.5-baseHeight/4-baseHeight/2)*osTemptation[i].y
+									he.rotationZ = osTemptation[i].rotationZ
+								} else {
+									trace('добавляем полный электрон')
+									e = addElectron(true)
+									e.x = (r2+pflour_p*baseHeight*2.5-baseHeight*electroIndex/2+baseHeight*2)*osTemptation[i].x
+									e.y = (r2+pflour_p*baseHeight*2.5-baseHeight*electroIndex/2+baseHeight*2)*osTemptation[i].y
+									e.rotationZ = osTemptation[i].rotationZ
+								}
 							}
 							
-							if (pflour_n>1){
-							he = addElectron(true, baseHeight/2)
-							he.x = (r2+pflour_p*baseHeight*2.5-baseHeight/4-baseHeight/2)*osTemptation[0].x
-							he.y = (r2+pflour_p*baseHeight*2.5-baseHeight/4-baseHeight/2)*osTemptation[0].y
-							he.rotationZ = osTemptation[0].rotationZ
+							if (pflour_n > 1) {
+								trace('половинка электрона')
+								he = addElectron(true, baseHeight/2)
+								he.x = (r2+pflour_p*baseHeight*2.5-baseHeight/4-baseHeight/2)*osTemptation[0].x
+								he.y = (r2+pflour_p*baseHeight*2.5-baseHeight/4-baseHeight/2)*osTemptation[0].y
+								he.rotationZ = osTemptation[0].rotationZ
 							}
 							
 						}
@@ -651,12 +736,12 @@ package
 				
 				//заполняем полноценные этажи
 				//если количество этажей 1, то отстраиваем n осей для нейтронов, иначе отстраиваем все 8 осей
-				dflour_n>1 ? osDquant = 8 : osDquant = int(dindex_n/2)
+				dflour_n>1 ? osDquant = 8 : osDquant = Math.ceil(dindex_n/2)
 				
 				
 				//
 				
-				//trace("начинаем строить ось D количеством "+osDquant)
+				trace("начинаем строить ось D количеством "+osDquant)
 				
 				//
 				
@@ -666,30 +751,29 @@ package
 					i % 2 == 0 ? mod = 1 : mod = -1
 					
 					
-					
 					//построили оси
 					//вверх
 					
 					o = addOs(false, osDynamicHeightD);
 					o.z = (osDynamicHeightD/2+delta) * mod 
 					o.x = r3 * Math.cos((67.5*(range[i]*2-1))*Math.PI/180)
-					o.y = r3 * Math.sin((67.5*(range[i]*2-1)) * Math.PI / 180)
-					//вниз
-					o = addOs(false, osDynamicHeightD);
-					o.z = -(osDynamicHeightD/2+delta) * mod 			
-					o.x = r3 * Math.cos((67.5*(range[i]*2-1))*Math.PI/180)
 					o.y = r3 * Math.sin((67.5 * (range[i] * 2 - 1)) * Math.PI / 180)
-					
 					con = addCone(false, 1);
 					con.z = osDynamicHeightD + delta
 					con.x = r3 * Math.cos((67.5*(range[i]*2-1))*Math.PI/180)
-					con.y = r3 * Math.sin((67.5*(range[i]*2-1)) * Math.PI / 180)
-					
-					con = addCone(false, -1);
-					con.z = -(osDynamicHeightD + delta)
-					con.x = r3 * Math.cos((67.5*(range[i]*2-1))*Math.PI/180)
-					con.y = r3 * Math.sin((67.5*(range[i]*2-1)) * Math.PI / 180)
-				
+					con.y = r3 * Math.sin((67.5 * (range[i] * 2 - 1)) * Math.PI / 180)
+					//не строим, если осей нечетное количество
+					if ((i+1)*2<dindex_n){
+						//вниз
+						o = addOs(false, osDynamicHeightD);
+						o.z = -(osDynamicHeightD/2+delta) * mod 			
+						o.x = r3 * Math.cos((67.5*(range[i]*2-1))*Math.PI/180)
+						o.y = r3 * Math.sin((67.5 * (range[i] * 2 - 1)) * Math.PI / 180)
+						con = addCone(false, -1);
+						con.z = -(osDynamicHeightD + delta)
+						con.x = r3 * Math.cos((67.5*(range[i]*2-1))*Math.PI/180)
+						con.y = r3 * Math.sin((67.5*(range[i]*2-1)) * Math.PI / 180)
+					}
 					
 					//цепляем нейтрон.
 					//на каждую ось.
@@ -833,7 +917,7 @@ package
 			}
 		}
 		private function addOs(isZ:Boolean, h:Object = null, col:Object = null):Cylinder  {
-			if (col == null) { color = black } else { color = black}//Number(col) }////
+			if (col == null) { color = black } else { color = black}///Number(col) }////
 			
 			if (h == null) { osHeight = baseHeight*osIndex } else { osHeight = Number(h) }
 			
