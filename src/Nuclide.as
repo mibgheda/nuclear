@@ -109,6 +109,8 @@ package
 
 			if (formula != "") {
 				
+				revert = false
+				
 				///////////централь
 				os = new Cylinder(1, 1, 10, 30, 1, true, true, true, false)
 				os.setMaterialToAllSurfaces(new VertexLightMaterial(black))
@@ -171,32 +173,34 @@ package
 				} 
 				///то же для нейтрона
 				if (neutronFormula != null) {
-					if(neutronFormula.toString() != "revert"){
-					//буква S
-					var neutronOrbS:Array = String(neutronFormula[0]).split("*")
-					sflour_n = neutronOrbS[0]
-					sindex_n = neutronOrbS[2]
 					
-					if (neutronFormula[1]) {
-						//буква P
-						var neutronOrbP:Array = String(neutronFormula[1]).split("*")
-						pflour_n = neutronOrbP[0]
-						pindex_n = neutronOrbP[2]
+						//буква S
+						var neutronOrbS:Array = String(neutronFormula[0]).split("*")
+						sflour_n = neutronOrbS[0]
+						sindex_n = neutronOrbS[2]
+					
+						if (neutronFormula[1]) {
+							//буква P
+							var neutronOrbP:Array = String(neutronFormula[1]).split("*")
+							pflour_n = neutronOrbP[0]
+							pindex_n = neutronOrbP[2]
 						
-						if (neutronOrbP.length > 3) {
-							pflour_n2 = neutronOrbP[3]
-							pindex_n2 = neutronOrbP[5]
+							if (neutronOrbP.length > 3) {
+								pflour_n2 = neutronOrbP[3]
+								pindex_n2 = neutronOrbP[5]
+							}
+						} 
+						if (neutronFormula.length > 1) {
+							//буква D
+							var neutronOrbD:Array = String(neutronFormula[2]).split("*")
+							dflour_n = neutronOrbD[0]
+							dindex_n = neutronOrbD[2]
 						}
-					} 
-					if (neutronFormula.length > 1) {
-						//буква D
-						var neutronOrbD:Array = String(neutronFormula[2]).split("*")
-						dflour_n = neutronOrbD[0]
-						dindex_n = neutronOrbD[2]
-					}
-				} else {
+					if (exceptionP != "revert") {
+						revert = false
+					} else {
 						revert = true
-				}
+					}
 				} 
 				
 				///////////////////////////////
@@ -205,7 +209,7 @@ package
 				
 				
 				////настройки. для S орбитали
-			if (neutronFormula[0].toString() == "null" || revert) {
+				if (neutronFormula[0].toString() == "null" || revert) {
 					//в формуле нейтрона вообще пусто
 					electroend = true
 				} else {
@@ -223,6 +227,13 @@ package
 				} else {
 					oneos = false
 				}
+				
+				if (sflour_n == 1 && sindex_n == 2 && revert) {
+					oneos = false;
+				}
+				
+				
+				
 				if (oneos) {
 					osDynamicHeightS = baseHeight * 14
 				} else {
@@ -244,7 +255,7 @@ package
 				con.z = osDynamicHeightS + delta
 				
 				//ось вниз. z true. нет для водорода, нет, когда 1s1
-				if (!oneos){
+				if (!oneos) {
 					o = addOs(false, osDynamicHeightS);
 					o.z = -(osDynamicHeightS / 2 + delta)
 					
@@ -305,6 +316,10 @@ package
 				///////////////////////////////
 				//расставляем нейтроны. нейтронов нет? электрон.
 				//////////////////////////////
+				
+				
+				
+				
 				if (electroend) {
 					//электрон вверх
 					e = addElectron(false)
@@ -316,22 +331,27 @@ package
 					
 					if (!oneos) {
 						//электрон вниз
-						e = addElectron(false)
-						e.z = -delta -  (baseHeight * electroIndex + baseHeight) / 2-baseHeight/2
+						if (!revert){
+							e = addElectron(false)
+							e.z = -delta -  (baseHeight * electroIndex + baseHeight) / 2 - baseHeight / 2
+						}
 					}
+					
 				} else {
+					
 					//нейтроны
 					for (i = 0; i < sflour_n; i++) {
+						
 						//нейтрон вверх
 						n = addNeutron(false)
 						n.z = delta + baseHeight * 2.5 * i + baseHeight * 1.5 + baseHeight / 2
-						//trace("нейтрон вверх")
+						trace("нейтрон вверх")
 						//перед каждым нейтроном добавим электрон
 						he = addElectron(false, baseHeight/2)
 						he.z = delta + baseHeight * 2.5 * i + baseHeight + baseHeight / 4
 						
 						if (!oneos){
-							//нейтрон вниз
+							trace("нейтрон вниз")
 							//на скольки осях нейтроны? TODO:
 							if (!(sindex_n == 1 && i == (sflour_n - 1))) {
 								//trace("нейтрон вниз")
@@ -347,10 +367,16 @@ package
 						}
 					}
 				}
-				
+				//исключение для водорода
 				if (revert) {
+					//добавили в начало 1 нейтрон
 					n = addNeutron(false)
 					n.z = delta
+					//добавили в начало 2 нейтрона
+					if (sindex_n == 2) {
+						n = addNeutron(false)
+						n.z = -delta
+					}
 				}
 				///////////////////////////////
 				
