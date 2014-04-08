@@ -505,6 +505,31 @@ package
 				osEx4Temptation[7] = { x: -1, y:0, rotationZ:270 * Math.PI / 180, mod:1,   color:blue }
 				
 				
+				
+				//для азота16 искл 5
+				var osEx5Temptation:Array = []
+				
+				//противоположные
+				osEx5Temptation[0] = { x:0, y: 1, rotationZ:0,  mod:-1 }
+				osEx5Temptation[1] = { x:Math.cos(45 * Math.PI / 180), y: -Math.cos(45 * Math.PI / 180), rotationZ: 45 * Math.PI / 180 , mod:1 }
+				
+				
+				//под углом 90 противоположные
+				
+				osEx5Temptation[2] = { x: -Math.cos(45 * Math.PI / 180), y: -Math.cos(45 * Math.PI / 180), rotationZ: -45 * Math.PI / 180, mod:1  }
+				osEx5Temptation[3] = { x:-Math.cos(45 * Math.PI / 180), y:Math.cos(45 * Math.PI / 180), rotationZ: 45 * Math.PI / 180 , mod:-1}
+				
+				
+				//-45 градусов
+				osEx5Temptation[4] = { x:Math.cos(45 * Math.PI / 180), y:Math.cos(45 * Math.PI / 180), rotationZ: -45 * Math.PI / 180, mod:-1 }
+				osEx5Temptation[7] = { x:0, y: -1, rotationZ:0, color:red, mod:1 }
+				
+				//45 градусов
+				
+				osEx5Temptation[6] = { x:1, y:0, rotationZ: 270 * Math.PI / 180, mod: -1, color:green }
+				osEx5Temptation[5] = { x: -1, y:0, rotationZ:270 * Math.PI / 180, mod:1,   color:blue }
+				
+				
 				osDynamicHeightP = baseHeight * Math.max(pflour_p,  pflour_p2)*2.5 +baseHeight*electroIndex
 				osDynamicHeightD =  baseHeight * dflour_p +baseHeight * 10
 				var r2:Number = delta + baseHeight*3
@@ -538,6 +563,9 @@ package
 							}
 							else if (exceptionP == "exception4") {
 								osTemptation = osEx4Temptation
+							}
+							else if (exceptionP == "exception5") {
+								osTemptation = osEx5Temptation
 							}
 						}
 					for (i = 0; i < osPquant; i++ ) {
@@ -943,7 +971,7 @@ package
 			}
 		}
 		private function addOs(isZ:Boolean, h:Object = null, col:Object = null):Cylinder  {
-			if (col == null) { color = black } else { color = black}///Number(col) }////
+			if (col == null) { color = black } else { color = black}///color = Number(col) }////
 			
 			if (h == null) { osHeight = baseHeight*osIndex } else { osHeight = Number(h) }
 			

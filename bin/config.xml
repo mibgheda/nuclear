@@ -22,10 +22,10 @@
 		<nuc mass='10' formula='1*s*2+1*p*2:1*s*2+1*p*4' zaryad="4" raspad='бета-минус" '></nuc>
 	</elem>
 	<elem id="5" glyph='B' name="бор" pos="4,1" color="yellow" formula='1p&3'>
-		<nuc mass='9'  formula='2*s*2+1*p*2:1*s*2+1*p*2'	zaryad="5" raspad='p, альфа'></nuc>
+		<nuc mass='9'  formula='1*s*2+1*p*3:1*s*1+1*p*3'		zaryad="5" raspad='p, альфа'></nuc>
 		<nuc mass='10' formula='1*s*2+1*p*3:1*s*2+1*p*3'		zaryad="5" raspad='стабильный'></nuc>
 		<nuc mass='11' formula='1*s*2+1*p*3:1*s*2+1*p*4'		zaryad="5" raspad='стабильный'></nuc>
-		<nuc mass='12' formula='1*s*2+1*p*3:1*s*2+1*p*5'		zaryad="5" raspad='бета-минус'></nuc>
+		<nuc mass='12' formula='1*s*2+1*p*3:1*s*2+1*p*5'		zaryad="5" raspad='бета-минус' pPosition="exception4"></nuc>
 	</elem>
 	<elem id="6" glyph='C' name="углерод" pos="5,1" color="yellow" formula='1p&4'>
 		<nuc mass='11' formula='1*s*2+1*p*4:1*s*1+1*p*4' zaryad="6" raspad='бета-плюс'></nuc>
@@ -38,7 +38,7 @@
 		<nuc mass='13' formula='1*s*2+1*p*5:1*s*1+1*p*5' zaryad="7" raspad='бета-плюс'></nuc>
 		<nuc mass='14' formula='1*s*2+1*p*5:1*s*2+1*p*5' zaryad="7" raspad='стабильный'></nuc>
 		<nuc mass='15' formula='1*s*2+1*p*5:1*s*2+1*p*6' zaryad="7" raspad='стабильный'></nuc>
-		<nuc mass='16' formula='1*s*2+1*p*5:1*s*2+1*p*7' zaryad="7" raspad='бета-минус'></nuc>
+		<nuc mass='16' formula='1*s*2+1*p*5:1*s*2+1*p*7' zaryad="7" raspad='бета-минус' pPosition="exception5"></nuc>
 		
 	</elem>
 	<elem id="8" glyph='O' name="кислород" pos="7,1" color="yellow" formula='1p&6'>
@@ -49,7 +49,7 @@
 		<nuc mass='19' formula='1*s*2+1*p*6:1*s*2+2*p*1' zaryad="8" raspad='бета-минус' pPosition="exception2"></nuc>
 	</elem>
 	<elem id="9" glyph='F' name="фтор" pos="8,1" color="yellow" formula='1p&7'>
-		<nuc mass='18' formula='2*s*1+1*p*7:1*s*2+1*p*7'	zaryad="10" raspad='бета-плюс'></nuc>
+		<nuc mass='18' formula='2*s*1+1*p*7:1*s*1+1*p*7'	zaryad="10" raspad='бета-плюс'></nuc>
 		<nuc mass='19' formula='1*s*2+1*p*7:1*s*2+1*p*8'	zaryad="9" raspad='стабильный'></nuc>
 		<nuc mass='20' formula='1*s*2+1*p*7:1*s*2+2*p*1'	zaryad="9" raspad='бета-минус' pPosition="exception3"></nuc>
 	</elem>
@@ -98,18 +98,18 @@
 		<nuc mass='32' formula='1*s*2+2*p*6:1*s*2+2*p*6'		zaryad="16" raspad='стабильный'></nuc>
 		<nuc mass='33' formula='1*s*2+2*p*6:1*s*2+2*p*7'		zaryad="16" raspad='стабильный'></nuc>
 		<nuc mass='34' formula='2*s*1+2*p*6:2*s*1+2*p*6'		zaryad="17" raspad='стабильный'></nuc>
-		<nuc mass='35' formula='1*s*2+2*p*6:1*s*2+3*p*1'		zaryad="16" raspad='бета-минус'></nuc>
+		<nuc mass='35' formula='1*s*2+2*p*6:1*s*2+3*p*1'		zaryad="16" raspad='бета-минус' pPosition="exception4"></nuc>
 		<nuc mass='36' formula='2*s*2+2*p*6:2*s*2+2*p*6'		zaryad="18" raspad='стабильный'></nuc>
-		<nuc mass='37' formula='2*s*1+2*p*6:2*s*1+3*p*1'		zaryad="17" raspad='бета-минус'></nuc>
+		<nuc mass='37' formula='2*s*1+2*p*6:2*s*1+3*p*1'		zaryad="17" raspad='бета-минус' pPosition="exception4"></nuc>
 		
 	</elem>
 	<elem id="17" glyph='Cl' name="хлор" pos="8,2" color="yellow" formula='2p&7'>
 		<nuc mass='34' formula='2*s*1+2*p*7:1*s*1+2*p*7' zaryad="18" raspad='бета-плюс'></nuc>
 		<nuc mass='35' formula='1*s*2+2*p*7:1*s*2+2*p*8' zaryad="17" raspad='стабильный'></nuc>
-		<nuc mass='36' formula='1*s*2+2*p*7:1*s*2+3*p*1' zaryad="17" raspad='бета-минус' prefix="(1)"></nuc>
+		<nuc mass='36' formula='1*s*2+2*p*7:1*s*2+3*p*1' zaryad="17" raspad='бета-минус' prefix="(1)" pPosition="exception5"></nuc>
 		<nuc mass='36' formula='2*s*2+2*p*7:1*s*2+2*p*7' zaryad="19" raspad='бета-плюс' prefix="(2)"></nuc>
-		<nuc mass='37' formula='2*s*1+2*p*7:2*s*1+2*p*8' zaryad="18" raspad='стабильный'></nuc>
-		<nuc mass='38' formula='2*s*1+2*p*7:2*s*1+3*p*1' zaryad="18" raspad='бета-минус'></nuc>
+		<nuc mass='37' formula='2*s*1+2*p*7:2*s*1+2*p*8' zaryad="18" raspad='стабильный' ></nuc>
+		<nuc mass='38' formula='2*s*1+2*p*7:2*s*1+3*p*1' zaryad="18" raspad='бета-минус' pPosition="exception5"></nuc>
 	</elem>
 	
 	<elem id="18" glyph='Ar' name="аргон" pos="12,2" color="yellow" formula='2p&8'>
