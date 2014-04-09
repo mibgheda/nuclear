@@ -530,6 +530,24 @@ package
 				osEx5Temptation[5] = { x: -1, y:0, rotationZ:270 * Math.PI / 180, mod:1,   color:blue }
 				
 				
+				
+				//для брома, искл 6
+				var osEx6Temptation:Array = []
+				//противоположные
+				osEx6Temptation[0] = { x:0, y: -1, rotationZ:0,  mod:1 }
+				osEx6Temptation[1] = { x:0, y: 1, rotationZ:0, mod: -1 }
+				
+				osEx6Temptation[5] = { x:Math.cos(45 * Math.PI / 180), y:-Math.cos(45 * Math.PI / 180), rotationZ: 45 * Math.PI / 180 , mod:1 }
+				osEx6Temptation[7] = { x: -1, y:0, rotationZ:270 * Math.PI / 180, color:green, mod:1 }
+				
+				osEx6Temptation[4] = { x:Math.cos(45 * Math.PI / 180), y:Math.cos(45 * Math.PI / 180), rotationZ: -45 * Math.PI / 180, mod:-1 }
+				
+				osEx6Temptation[2] = { x:1, y:0, rotationZ: 270 * Math.PI / 180,  mod: -1 }
+				
+				osEx6Temptation[6] = { x: -Math.cos(45 * Math.PI / 180), y: -Math.cos(45 * Math.PI / 180), rotationZ: -45 * Math.PI / 180,  mod:1  }
+				
+				osEx6Temptation[3] = { x: -Math.cos(45 * Math.PI / 180), y:Math.cos(45 * Math.PI / 180), rotationZ: 45 * Math.PI / 180 , color:red,  mod: -1 }
+				
 				osDynamicHeightP = baseHeight * Math.max(pflour_p,  pflour_p2)*2.5 +baseHeight*electroIndex
 				osDynamicHeightD =  baseHeight * dflour_p +baseHeight * 10
 				var r2:Number = delta + baseHeight*3
@@ -566,6 +584,9 @@ package
 							}
 							else if (exceptionP == "exception5") {
 								osTemptation = osEx5Temptation
+							}
+							else if (exceptionP == "exception6") {
+								osTemptation = osEx6Temptation
 							}
 						}
 					for (i = 0; i < osPquant; i++ ) {
@@ -791,8 +812,7 @@ package
 				//заполняем полноценные этажи
 				//если количество этажей 1, то отстраиваем n осей для нейтронов, иначе отстраиваем все 8 осей
 				dflour_n>1 ? osDquant = 8 : osDquant = Math.ceil(dindex_n/2)
-				
-				
+								
 				//
 				
 				trace("начинаем строить ось D количеством "+osDquant)
@@ -816,8 +836,10 @@ package
 					con.z = osDynamicHeightD + delta
 					con.x = r3 * Math.cos((67.5*(range[i]*2-1))*Math.PI/180)
 					con.y = r3 * Math.sin((67.5 * (range[i] * 2 - 1)) * Math.PI / 180)
-					//не строим, если осей нечетное количество
-					if ((i+1)*2<dindex_n){
+					
+					//не строим, если осей нечетное количество ??
+					//не строим, если нечетные нейтроны
+					if (dindex_n%2 == 0){
 						//вниз
 						o = addOs(false, osDynamicHeightD);
 						o.z = -(osDynamicHeightD/2+delta) * mod 			
@@ -971,7 +993,7 @@ package
 			}
 		}
 		private function addOs(isZ:Boolean, h:Object = null, col:Object = null):Cylinder  {
-			if (col == null) { color = black } else { color = black}///color = Number(col) }////
+			if (col == null) { color = black } else { color = black}///color = Number(col) }
 			
 			if (h == null) { osHeight = baseHeight*osIndex } else { osHeight = Number(h) }
 			
