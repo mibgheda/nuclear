@@ -548,6 +548,43 @@ package
 				
 				osEx6Temptation[3] = { x: -Math.cos(45 * Math.PI / 180), y:Math.cos(45 * Math.PI / 180), rotationZ: 45 * Math.PI / 180 , color:red,  mod: -1 }
 				
+				
+				//для палладия 7
+				var osEx7Temptation:Array = []
+				//противоположные
+				osEx7Temptation[0] = { x:0, y: -1, rotationZ:0,  mod:1  }
+				osEx7Temptation[3] = { x:0, y: 1, rotationZ:0, mod: -1 , color:green }
+				
+				osEx7Temptation[5] = { x:Math.cos(45 * Math.PI / 180), y:-Math.cos(45 * Math.PI / 180), rotationZ: 45 * Math.PI / 180 , mod:1}
+				osEx7Temptation[7] = { x: -1, y:0, rotationZ:270 * Math.PI / 180,  mod:1}
+				
+				osEx7Temptation[4] = { x:Math.cos(45 * Math.PI / 180), y:Math.cos(45 * Math.PI / 180), rotationZ: -45 * Math.PI / 180, mod:-1 }
+				
+				osEx7Temptation[2] = { x:1, y:0, rotationZ: 270 * Math.PI / 180,  mod: -1 }
+				
+				osEx7Temptation[6] = { x: -Math.cos(45 * Math.PI / 180), y: -Math.cos(45 * Math.PI / 180), rotationZ: -45 * Math.PI / 180,  mod:1  }
+				
+				osEx7Temptation[1] = { x: -Math.cos(45 * Math.PI / 180), y:Math.cos(45 * Math.PI / 180), rotationZ: 45 * Math.PI / 180 ,  mod: -1, color:red }
+				
+				
+				//для Кадмия 8
+				var osEx8Temptation:Array = []
+				//противоположные
+				osEx8Temptation[0] = { x:0, y: -1, rotationZ:0,  mod:1 }
+				osEx8Temptation[1] = { x:0, y: 1, rotationZ:0, mod: -1 }
+				
+				osEx8Temptation[5] = { x:Math.cos(45 * Math.PI / 180), y:-Math.cos(45 * Math.PI / 180), rotationZ: 45 * Math.PI / 180 , mod:1 }
+				osEx8Temptation[2] = { x: -1, y:0, rotationZ:270 * Math.PI / 180,  mod:1 , color:green }
+				
+				osEx8Temptation[4] = { x:Math.cos(45 * Math.PI / 180), y:Math.cos(45 * Math.PI / 180), rotationZ: -45 * Math.PI / 180, mod:-1 }
+				
+				osEx8Temptation[3] = { x:1, y:0, rotationZ: 270 * Math.PI / 180,  mod: -1, color:red }
+				
+				osEx8Temptation[6] = { x: -Math.cos(45 * Math.PI / 180), y: -Math.cos(45 * Math.PI / 180), rotationZ: -45 * Math.PI / 180,  mod:1  }
+				
+				osEx8Temptation[7] = { x: -Math.cos(45 * Math.PI / 180), y:Math.cos(45 * Math.PI / 180), rotationZ: 45 * Math.PI / 180 ,  mod: -1 }
+				
+				
 				osDynamicHeightP = baseHeight * Math.max(pflour_p,  pflour_p2)*2.5 +baseHeight*electroIndex
 				osDynamicHeightD =  baseHeight * dflour_p +baseHeight * 10
 				var r2:Number = delta + baseHeight*3
@@ -587,6 +624,12 @@ package
 							}
 							else if (exceptionP == "exception6") {
 								osTemptation = osEx6Temptation
+							}
+							else if (exceptionP == "exception7") {
+								osTemptation = osEx7Temptation
+							}
+							else if (exceptionP == "exception8") {
+								osTemptation = osEx8Temptation
 							}
 						}
 					for (i = 0; i < osPquant; i++ ) {
@@ -822,16 +865,18 @@ package
 				for (i = 0; i < osDquant; i++ ) {
 				
 					var mod:Number
-					i % 2 == 0 ? mod = 1 : mod = -1
-					
+					//i % 2 == 0 ? mod = 1 : mod = -1
+					mod = 1;
 					
 					//построили оси
 					//вверх
-					
+					trace('вверх'+i)
 					o = addOs(false, osDynamicHeightD);
+					
 					o.z = (osDynamicHeightD/2+delta) * mod 
 					o.x = r3 * Math.cos((67.5*(range[i]*2-1))*Math.PI/180)
 					o.y = r3 * Math.sin((67.5 * (range[i] * 2 - 1)) * Math.PI / 180)
+					
 					con = addCone(false, 1);
 					con.z = osDynamicHeightD + delta
 					con.x = r3 * Math.cos((67.5*(range[i]*2-1))*Math.PI/180)
@@ -839,16 +884,20 @@ package
 					
 					//не строим, если осей нечетное количество ??
 					//не строим, если нечетные нейтроны
-					if (dindex_n%2 == 0){
-						//вниз
-						o = addOs(false, osDynamicHeightD);
-						o.z = -(osDynamicHeightD/2+delta) * mod 			
-						o.x = r3 * Math.cos((67.5*(range[i]*2-1))*Math.PI/180)
-						o.y = r3 * Math.sin((67.5 * (range[i] * 2 - 1)) * Math.PI / 180)
-						con = addCone(false, -1);
-						con.z = -(osDynamicHeightD + delta)
-						con.x = r3 * Math.cos((67.5*(range[i]*2-1))*Math.PI/180)
-						con.y = r3 * Math.sin((67.5*(range[i]*2-1)) * Math.PI / 180)
+					//trace(dindex_n +' xx '+(i+1)*2)
+					
+					if (dindex_n >= (i+1)*2) {
+							//mod = 1;
+							trace('вниз'+i)
+							o = addOs(false, osDynamicHeightD);
+							o.z = -(osDynamicHeightD/2+delta) * mod 			
+							o.x = r3 * Math.cos((67.5*(range[i]*2-1))*Math.PI/180)
+							o.y = r3 * Math.sin((67.5 * (range[i] * 2 - 1)) * Math.PI / 180)
+							con = addCone(false, -1);
+							con.z = -(osDynamicHeightD + delta)
+							con.x = r3 * Math.cos((67.5*(range[i]*2-1))*Math.PI/180)
+							con.y = r3 * Math.sin((67.5 * (range[i] * 2 - 1)) * Math.PI / 180)
+						
 					}
 					
 					//цепляем нейтрон.
