@@ -396,7 +396,7 @@
 		<nuc mass='101' formula='4*s*2+4*p*4+1*d*15:3*s*2+4*p*4+1*d*16' zaryad="51" raspad='бета-плюс'></nuc>
 		<nuc mass='102' formula='5*s*1+4*p*4+1*d*15:4*s*1+4*p*4+1*d*15' zaryad="52" raspad='бета-плюс' prefix="(1)" ></nuc><!-- исключение для d? d вверх -->
 		<nuc mass='102' formula='4*s*1+4*p*4+1*d*15:4*s*1+4*p*5+1*d*16' zaryad="50" raspad='бета-минус' prefix="(2)"></nuc>
-		<nuc mass='102' formula='5*s*1+4*p*4+1*d*15:4*s*1+4*p*4+1*d*15' zaryad="52" raspad='бета-плюс' prefix="m" dPosition='exception'></nuc><!-- исключение для d? d вниз -->
+		<nuc mass='102' formula='5*s*1+4*p*4+1*d*15:4*s*1+4*p*4+1*d*15' zaryad="52" raspad='бета-плюс' prefix="m" dPosition='exception2'></nuc><!-- исключение для d? d вниз -->
 		<nuc mass='103' formula='4*s*2+4*p*4+1*d*15:4*s*2+4*p*4+1*d*16' zaryad="51" raspad='стабильный'></nuc>
 		<nuc mass='104' formula='4*s*2+4*p*4+1*d*15:4*s*2+4*p*5+1*d*16' zaryad="51" raspad='бета-минус'></nuc>
 		<nuc mass='105' formula='4*s*2+4*p*4+1*d*15:4*s*2+4*p*6+1*d*16' zaryad="51" raspad='бета-минус'></nuc>
@@ -421,14 +421,14 @@
 		<nuc mass='107' formula='4*s*2+4*p*4*5*p*1+1*d*16:4*s*2+4*p*4*5*p*2+1*d*16' zaryad="53" raspad='стабильный'></nuc>
 		<nuc mass='107' formula='4*s*2+4*p*4*5*p*1+1*d*16:4*s*2+4*p*5*5*p*1+1*d*16' zaryad="53" raspad='изомерный переход' prefix="m"></nuc>
 		<nuc mass='108' formula='4*s*2+4*p*4*5*p*1+1*d*16:4*s*2+4*p*5*5*p*2+1*d*16' zaryad="53" raspad='бета-минус' prefix="(1)"></nuc>
-		<nuc mass='108' formula='5*s*2+4*p*4*5*p*1+1*d*16:4*s*2+4*p*4*5*p*1+1*d*16' zaryad="55" raspad='бета-плюс' prefix="(2)"></nuc>
-		<nuc mass='108' formula='5*s*2+4*p*5*4*p*8+1*d*16:4*s*2+4*p*5*4*p*8+1*d*16' zaryad="55" raspad='бета-плюс' prefix="m"></nuc>
+		<nuc mass='108' formula='5*s*2+4*p*5*5*p*1+1*d*16:4*s*2+4*p*4*5*p*1+1*d*16' zaryad="55" raspad='бета-плюс' prefix="(2)"></nuc>
+		<nuc mass='108' formula='5*s*2+4*p*5+1*d*16:4*s*2+4*p*5+1*d*16' zaryad="55" raspad='бета-плюс' prefix="m"></nuc>
 		<nuc mass='109' formula='5*s*1+4*p*4*5*p*1+1*d*16:5*s*1+4*p*4*5*p*2+1*d*16' zaryad="54" raspad='стабильный'></nuc>
 		<nuc mass='109' formula='5*s*1+4*p*4*5*p*1+1*d*16:5*s*1+4*p*5*5*p*1+1*d*16' zaryad="54" raspad='изомерный переход' prefix="m"></nuc>
 		<nuc mass='110' formula='5*s*1+4*p*4*5*p*1+1*d*16:5*s*1+4*p*6*5*p*1+1*d*16' zaryad="54" raspad='бета-минус' prefix="(1)"></nuc>
 		<nuc mass='110' formula='6*s*1+4*p*4*5*p*1+1*d*16:5*s*1+4*p*4*5*p*1+1*d*16' zaryad="56" raspad='бета-плюс' prefix="(2)"></nuc>
 		<nuc mass='110' formula='5*s*1+4*p*4*5*p*1+1*d*16:5*s*1+4*p*5*5*p*2+1*d*16' zaryad="54" raspad='бета-минус' prefix="m"></nuc>
-		<nuc mass='111' formula='5*s*1+4*p*4*5*p*1+1*d*16:5*s*1+4*p*6*5*p*2+1*d*16' zaryad="54" raspad='бета-минус' pPosition='exception5'></nuc>
+		<nuc mass='111' formula='5*s*1+4*p*4*5*p*1+1*d*16:5*s*1+4*p*6*5*p*2+1*d*16' zaryad="54" raspad='бета-минус'></nuc>
 	</elem>
 	<elem id="48" glyph='Cd' name="кадмий" pos="3,6" color="yellow" formula='5p&2'>
 		<nuc mass='105' formula='4*s*1+4*p*4*5*p*2+1*d*16:3*s*2+4*p*4*5*p*2+1*d*16' zaryad="53" raspad='бета-плюс'></nuc>
@@ -441,7 +441,7 @@
 		<nuc mass='111' formula='5*s*1+4*p*4*5*p*2+1*d*16:5*s*1+4*p*4*5*p*3+1*d*16' zaryad="55" raspad='изомерный переход' prefix="m"></nuc>
 		<nuc mass='112' formula='5*s*2+4*p*4*5*p*2+1*d*16:5*s*2+4*p*4*5*p*2+1*d*16' zaryad="56" raspad='стабильный'></nuc>
 		<nuc mass='113' formula='5*s*1+4*p*4*5*p*2+1*d*16:5*s*1+4*p*7*5*p*2+1*d*16' zaryad="55" raspad='бета-минус'></nuc>
-		<nuc mass='113' formula='5*s*1+4*p*4*5*p*2+1*d*16:5*s*1+4*p*6*5*p*3+1*d*16' zaryad="55" raspad='бета-минус' prefix="m"></nuc> <!-- косяк в формуле-->
+		<nuc mass='113' formula='5*s*1+4*p*4*5*p*2+1*d*16:5*s*1+4*p*6*5*p*3+1*d*16' zaryad="55" raspad='бета-минус' prefix="m" pPosition='exception8'></nuc> <!-- косяк в формуле-->
 		<nuc mass='114' formula='6*s*1+4*p*4*5*p*2+1*d*16:6*s*1+4*p*4*5*p*2+1*d*16' zaryad="57" raspad='стабильный'></nuc>
 		<nuc mass='115' formula='5*s*2+4*p*4*5*p*2+1*d*16:5*s*2+4*p*6*5*p*3+1*d*16' zaryad="56" raspad='бета-минус' pPosition='exception8'></nuc>
 		<nuc mass='115' formula='5*s*2+4*p*4*5*p*2+1*d*16:5*s*2+4*p*7*5*p*2+1*d*16' zaryad="56" raspad='бета-минус' prefix="m"></nuc>
@@ -459,8 +459,8 @@
 		<nuc mass='114' formula='5*s*1+4*p*4*5*p*3+1*d*16:5*s*1+4*p*5*5*p*4+1*d*16' zaryad="56" raspad='бета-минус' prefix="(1)"></nuc>
 		<nuc mass='114' formula='6*s*1+4*p*4*5*p*3+1*d*16:5*s*1+4*p*4*5*p*3+1*d*16' zaryad="58" raspad='бета-плюс' prefix="(2)"></nuc>
 		<nuc mass='114' formula='5*s*1+4*p*4*5*p*3+1*d*16:5*s*1+4*p*6*5*p*3+1*d*16' zaryad="56" raspad='изомерный переход' prefix="m"></nuc>
-		<nuc mass='115' formula='5*s*1+4*p*4*5*p*3+1*d*16:5*s*1+4*p*6*5*p*4+1*d*16' zaryad="56" raspad='бета-минус'></nuc>
-		<nuc mass='115' formula='5*s*1+4*p*4*5*p*3+1*d*16:5*s*1+4*p*5*5*p*5+1*d*16' zaryad="56" raspad='изомерный переход' prefix="m"></nuc>
+		<nuc mass='115' formula='5*s*1+4*p*4*5*p*3+1*d*16:5*s*1+4*p*6*5*p*4+1*d*16' zaryad="56" raspad='бета-минус' pPosition='exception4'></nuc>
+		<nuc mass='115' formula='5*s*1+4*p*4*5*p*3+1*d*16:5*s*1+4*p*7*5*p*3+1*d*16' zaryad="56" raspad='изомерный переход' prefix="m"></nuc>
 		<nuc mass='116' formula='5*s*2+4*p*4*5*p*3+1*d*16:5*s*2+4*p*6*5*p*4+1*d*16' zaryad="57" raspad='бета-минус'></nuc>
 	</elem>
 	<elem id="50" glyph='Sn' name="олово" pos="5,6" color="yellow" formula='5p&4'>
